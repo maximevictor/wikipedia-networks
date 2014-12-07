@@ -41,6 +41,8 @@ class FirstLinkExtractorTest extends FunSuite {
     check("Source Code", Some("science fiction film"))
     check("Schäl Sick", Some("Rheinland"))
     check("Biologie_fr", Some("science"))
+    check("Ricarda Roggan", Some("Hochschule für Grafik und Buchkunst Leipzig"))
+    check("www", Some("World Wide Web"))
   }
 
   private def check(file: String, expectedResult: Option[String]): Unit = {

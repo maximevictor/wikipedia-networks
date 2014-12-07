@@ -1,0 +1,44 @@
+'''Ricarda Roggan''' (* [[1972]] in [[Dresden]]) ist eine deutsche Fotografin.
+
+Ricarda Roggan studierte seit 1993 an der [[Hochschule für Grafik und Buchkunst Leipzig]], 1996 folgte ein Studium der Fotografie bei [[Timm Rautert]]. 2002 machte sie ihr Diplom, dem ein Meisterstudium bei Timm Rautert folgte. 2003 nahm sie am Residency Program „Künstlerhaus [[Schloss Wiepersdorf]]“ teil. Ihren [[Master of Arts]] Dept. Photography. machte sie 2003 am [[Royal College of Art]] in London. Seit 2013 unterrichtet sie als Professorin für Fotografie an der [[Staatliche Akademie der Bildenden Künste Stuttgart|Staatlichen Akademie der Bildenden Künste Stuttgart]].
+
+== Öffentliche Sammlungen ==
+* [[Bundessammlung zeitgenössischer Kunst Bonn]]
+* [[Sammlung des Deutschen Bundestages]]
+* Fotografische Sammlung des [[Museum Folkwang|Museums Folkwang]] Essen
+* Kunstfonds des Freistaates Sachsen, Staatliche Kunstsammlungen Dresden
+
+== Auszeichnungen ==
+* 2008: [[Deutscher Fotobuchpreis]]
+* 2004: [[Kunstpreis der Landesbank Sachsen]] (heute [[Kunstpreis der Sachsen Bank]]) in Kooperation mit dem [[Museum der bildenden Künste]] in [[Leipzig]]
+* 2003:  DAAD-Auslandsstipendium für Großbritannien (London)
+** Stiftung Vordemberge-Gildewart
+** Kulturstiftung Sachsen, Arbeitsstipendium Schloss Wiepersdorf
+* 2002:  Stipendium für zeitgenössische deutsche Fotografie der [[Alfried Krupp von Bohlen und Halbach-Stiftung]]
+* 1999:  „Translation“, 1. Preis der Stadtwerke Halle für die Installation „Stadt N“
+
+== Werkbeispiel ==
+{{Wikiversity| Benutzer:H.-P.Haack/Sammlung/Ricarda Roggan 2003}}
+
+== Weblinks ==
+*{{DNB-Portal|128384646 }}
+* [http://www.eigen-art.com/index.php?article_id=80&clang=0 Ricarda Roggan bei eigen-art.com ]
+* [http://the-artists.org/artist/Ricarda_Roggan.html Ricarda Roggan bei the-artists.org]
+
+{{Normdaten|TYP=p|GND=128384646|LCCN=no/2008/26251|VIAF=51674762}}
+
+{{SORTIERUNG:Roggan, Ricarda}}
+[[Kategorie:Fotograf (Deutschland)]]
+[[Kategorie:Deutscher]]
+[[Kategorie:Geboren 1972]]
+[[Kategorie:Frau]]
+
+{{Personendaten
+|NAME=Roggan, Ricarda
+|ALTERNATIVNAMEN=
+|KURZBESCHREIBUNG=deutsche Fotografin
+|GEBURTSDATUM=1972
+|GEBURTSORT=[[Dresden]]
+|STERBEDATUM=
+|STERBEORT=
+}}
