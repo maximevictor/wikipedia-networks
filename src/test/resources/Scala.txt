@@ -1,0 +1,286 @@
+{{Infobox Programmiersprache
+|Name             = Scala
+|Beschreibung     = objektorientierte und funktionale Sprache
+|Paradigma        = [[Objektorientierte Programmierung|objektorientiert]], [[Funktionale Programmierung|funktional]], [[Imperative Programmierung|imperativ]]
+|Erscheinungsjahr = Seit 2001: interne Arbeiten an der [[École polytechnique fédérale de Lausanne|EPFL]]<br />2003: Version 1<br />2006: Version 2
+|Entwickler       = [[École polytechnique fédérale de Lausanne]] unter Leitung von [[Martin Odersky]]
+|AktuelleVersion  = 2.11
+|AktuelleVersionFreigabeDatum=21. April 2014
+|Typisierung      = [[Statische Typisierung|statisch typisiert]]
+|Betriebssystem   = [[Plattformunabhängigkeit|plattformunabhängig]]
+|Beeinflusst_von  = [[Java (Programmiersprache)|Java]], Pizza,<ref name="Pizza">''[[:en:Pizza (programming language)|Pizza (programming language)]]'' in der englischsprachigen Wikipedia</ref> [[ML (Programmiersprache)|ML]], [[Haskell (Programmiersprache)|Haskell]], [[Smalltalk (Programmiersprache)|Smalltalk]], [[Erlang (Programmiersprache)|Erlang]]
+|Lizenz           = Scala,<ref>[http://www.scala-lang.org/node/146 Lizenz]</ref> [[BSD-Lizenz|BSD]] ähnlich
+|Website          = [http://www.scala-lang.org/ scala-lang.org]
+}}
+
+'''Scala''' ist eine [[Funktionale Programmiersprache|funktionale]] und [[Objektorientierte Programmiersprache|objektorientierte]] [[Programmiersprache]].
+
+Der Name leitet sich von ''‘sca''lable ''la''nguage’ ab und bringt zum Ausdruck, dass der sehr kompakt gehaltene Sprachkern die Möglichkeit bietet, häufig verwendete Sprachelemente wie z.&nbsp;B. Operatoren oder zusätzliche Kontrollstrukturen in Benutzerklassen zu implementieren und dadurch den Sprachumfang zu erweitern und eigene [[Domänenspezifische Sprache|domänenspezifische Sprachen]] ({{enS|''domain-specific language''}}, ''DSL'') zu erstellen.
+
+== Beispiele ==
+Ein [[Hallo-Welt-Programm|Hello, World!]]-Programm in Scala:
+<syntaxhighlight lang="scala">
+object HelloWorld extends App {
+  println("Hello, world!")
+}
+</syntaxhighlight>
+
+Eine Implementierung des [[Quicksort]]-Algorithmus:
+<syntaxhighlight lang="scala">
+def quickSort[A <% Ordered[A]](xs: List[A]): List[A] = xs match {
+  case Nil     => xs
+  case y :: ys => ys partition (_ <= y) match {
+    case (l1, l2) => quickSort(l1) ++ (y :: quickSort(l2)) }
+}
+</syntaxhighlight>
+
+== Geschichte ==
+Scala wird im Labor für Programmiermethoden an der [[École polytechnique fédérale de Lausanne]] in der Schweiz unter der Leitung von [[Martin Odersky]] entwickelt.
+
+Martin Odersky arbeitete unter [[Niklaus Wirth]] an [[Modula&nbsp;2]] und [[Oberon (Programmiersprache)|Oberon]]. Ab 1995 entwickelte er zusammen mit [[Philip Wadler]] die Sprache Pizza,<ref name="Pizza"></ref> die Java um [[Generics]], [[Funktionszeiger]] und [[Pattern Matching]] erweiterte. Später konzentrierten sich Wadler und Odersky mit Generic Java<ref>''[[:en:Generic Java|Generic Java]]'' in der englischsprachigen Wikipedia</ref> (GJ) auf Generics für Java, dieses Projekt führte 2004 zur Einführung von Generics in Java.<ref>[http://jcp.org/en/jsr/detail?id=14 ''Generics in Java'']</ref> Ab 1999 arbeitete Martin Odersky an der [[École polytechnique fédérale de Lausanne]], wo er an der Verbindung funktionaler und objektorientierter Programmierung forschte und die minimalistische Hybridsprache Funnel<ref>[http://lampwww.epfl.ch/funnel/ Funnel Homepage]</ref> entwickelte. Hier begann er 2001 mit der Entwicklung von Scala, die im Gegensatz zu Funnel nicht rein akademischem Interesse dienen sollte, sondern als vollwertige Sprache für reale Anwendungen ausgelegt war. Im Frühjahr 2004 wurde Scala für die Java-Plattform veröffentlicht, im Juni 2004 für .NET.
+
+Seit Anfang 2011 wird die Weiterentwicklung der Sprache vom [[European Research Council]] finanziell gefördert. Damit sollen insbesondere die Möglichkeiten der parallelen Programmierung ausgebaut werden.<ref>[http://www.heise.de/newsticker/meldung/EU-foerdert-Open-Source-Sprache-Scala-1170098.html ''EU fördert Open-Source-Sprache Scala''.] Im [[Heise online|heise newsticker]], 15. Januar 2011, abgerufen am 23. Februar 2011</ref>
+
+Am 12. Mai 2011 gab Martin Odersky den Start von ''Typesafe'' bekannt; ein Unternehmen, das sich dem kommerziellen Support von Scala im Allgemeinen sowie dem Middleware Framework Akka widmet. Zu den Beratern gehören [[James Gosling]] und Doug Lea.<ref>[http://typesafe.com/company/team typesafe.com]</ref>
+
+== Konzepte ==
+=== Integration mit Java ===
+Scala-Programme können Java-JARs ansprechen und umgekehrt.<ref>[http://www.scala-lang.org/node/25 Englischsprachige Vorstellung von Scala] auf deren offizieller Internetseite</ref> Es können also alle bestehenden Java-Bibliotheken und -Frameworks in Scala-Projekte eingebunden und dort genutzt werden. Ähnliches gilt für die meisten Werkzeuge: Entwicklungsumgebungen wie [[Eclipse (IDE)|Eclipse]], [[NetBeans]] oder [[IntelliJ]] unterstützen Scala ebenfalls.
+
+=== Objektorientierung ===
+Scala ist, anders als Java, eine rein [[objektorientierte Programmiersprache]]. Jeder Wert ist ein Objekt. Das gilt auch für primitive Datentypen, ohne dass es zu Performance-Einbußen kommt, denn der vom Compiler erzeugte Bytecode verwendet primitive Datentypen.
+
+Interfaces werden über den Mechanismus der ''[[Trait (Programmierung)|Traits]]'' implementiert. Traits bestehen nicht nur aus Definitionen, sie können bereits konkrete Implementierungen von Methoden enthalten. Klassen können einen oder mehrere Traits erweitern (Schlüsselwort <code>extends</code>).<ref>[http://www.scala-lang.org/node/126 Traits] und [http://www.scala-lang.org/node/117 Mixin Class Composition]  (englische Erläuterung auf der Scala-Internetseite)</ref> Dabei handelt es sich nicht um [[Mehrfachvererbung]], sondern um einen [[Mixin]]-Mechanismus.
+
+Über das Schlüsselwort <code>object</code> (anstelle von <code>class</code>) wird eine Implementierung des [[Entwurfsmuster]]s [[Singleton (Entwurfsmuster)|Singleton]] bereitgestellt.
+
+=== Funktionale Sprache ===
+{{Hauptartikel|Funktionale Programmierung}}
+Funktionen sind [[First-Class-Objekt]]e. Sie können an allen Stellen verwendet werden, an denen Werte erlaubt sind, z.&nbsp;B. Zuweisung an eine Variable (hier ist nicht das Ergebnis der Funktionsauswertung gemeint, sondern die Funktionen selbst) oder bei der Parameterübergabe. Methoden können jederzeit in Funktionen umgewandelt werden, sind selbst aber keine First-Class-Objekte. Auch [[Funktion höherer Ordnung|Funktionen höherer Ordnung]]<ref>[http://www.scala-lang.org/node/134 Funktion höherer Ordnung] (englische Erläuterung auf der Scala-Internetseite)</ref> sind in Scala realisiert, wodurch beispielsweise [[Currying]] ermöglicht wird.
+
+==== Pattern Matching ====
+Ein wichtiger Aspekt zur Unterstützung der funktionalen Programmierung mit Scala ist [[Pattern Matching]]. Im Gegensatz zu der [[Case-Anweisung#Mehrfache Verzweigung|switch]] Anweisung, wie sie zum Beispiel in Java implementiert ist, arbeitet Pattern Matching nicht nur auf der Basis von Werten, sondern auch bezogen auf die Struktur bzw. den Typ eines Objektes. Unter anderem hierfür wurden Case Classes<ref>[http://www.scala-lang.org/node/107 Case Classes] (englische Erläuterung auf der Scala-Internetseite)</ref> in Scala implementiert.
+
+Der folgende Code implementiert die Suche in einem [[Binärer Suchbaum|binären Suchbaum]] mithilfe von Pattern Matching und Case Classes:
+
+<syntaxhighlight lang="scala">
+abstract class Tree
+case class Leaf(key: Int) extends Tree
+case class Fork(key: Int, left: Tree, right: Tree) extends Tree
+
+def contains(tree: Tree, key: Int): Boolean = tree match {
+  case Leaf(i)                      => i == key
+  case Fork(i, _, _) if i == key    => true
+  case Fork(i, left, _) if key < i  => contains(left, key)
+  case Fork(i, _, right) if i < key => contains(right, key)
+  // default case
+  case _                            => sys.error("should not happen!")
+}
+</syntaxhighlight>
+
+==== Closures ====
+{{Hauptartikel|Closure}}
+Funktionen greifen nicht nur auf ihre Parameter und lokalen Variablen zu, sondern auch auf Variablen ihres Kontextes (Scope), welche zum Auswertungszeitpunkt gültig sind. Dadurch werden aus ''open terms'' die namensgebenden ''closed terms''. Falls sich bei mehrfacher Verwendung der Funktion der Wert einer Variablen des Kontextes gegenüber einem früheren Auswertungszeitpunkt ändert, kann sich auch der Rückgabewert und das Verhalten der Funktion ändern.
+
+=== Typsystem ===
+Scala ist [[Statische Typisierung|statisch typisiert]].
+Generische Klassen verwenden [[Generischer Typ|Typen]], die zum Entwicklungszeitpunkt noch nicht festgelegt sind, z.&nbsp;B. <code>List[T]</code>
+Oberklassen können abstrakte Typen<ref>[http://www.scala-lang.org/node/105 Abstrakte Typen] (englische Erläuterung auf der Scala-Internetseite)</ref> vorgeben, die von deren Unterklassen in Form konkreter Typen spezifiziert werden müssen. Gleiches gilt für Variablen (<code>var</code> und <code>val</code>) sowie Methoden.
+==== Kovarianz und Kontravarianz ====
+{{Hauptartikel|Kovarianz und Kontravarianz}}
+Typparameter einer generischen Klasse können mit einer Annotation versehen werden, die bestimmt, wie sich Untertyprelationen von Typargumenten auf die Untertyprelation von generischen Instanziierungen der Klasse auswirken. Invarianz, Syntax: <code>K[T]</code>, bedeutet, dass überhaupt kein Zusammenhang besteht. Kovarianz, Syntax: <code>K[+T]</code>, bedeutet, dass sich die Relation in gleicher Richtung fortsetzt: Wenn <code>T</code> Untertyp von <code>U</code> ist, dann ist <code>K[T]</code> Untertyp von <code>K[U]</code>. Kontravarianz, Syntax: <code>K[-T]</code>, bedeutet, dass die Fortsetzung in der Gegenrichtung erfolgt: Wenn <code>T</code> Untertyp von <code>U</code> ist, dann ist <code>K[U]</code> Untertyp von <code>K[T]</code>. Varianzannotationen beeinflussen, an welcher Stelle innerhalb der generischen Klasse der Typparameter benutzt werden darf: Kovariante Typparameter dürfen beispielsweise nicht als Typ von Methodenargumenten verwendet werden, kontravariante nicht als Rückgabetyp.<ref>[http://www.scala-lang.org/node/129 Rückgabetyp] (englische Erläuterung auf der Scala-Internetseite)</ref>
+
+==== Typinferenz ====
+[[Typinferenz]] ist die Fähigkeit des Compilers, den Typ eines Ausdrucks aus dem Kontext herzuleiten, welche unter [[#Syntax|Syntax]] beispielhaft dargestellt ist.
+
+=== Auswertungsstrategie ===
+Funktionale Ausdrücke werden in Scala [[Auswertung (Informatik)|strikt ausgewertet]]. Allerdings kann durch das Schlüsselwort <code>lazy</code> die [[Lazy Evaluation|verzögerte Auswertung]] (Lazy-Evaluation) von einzelnen Ausdrücken spezifiziert werden. Auch die Collection-Klassen unterstützen mit den Methoden <code>view</code> und <code>force</code> die Möglichkeit der verzögerten Auswertung. Im Gegensatz hierzu werden in [[Haskell (Programmiersprache)|Haskell]] die Programme standardmäßig lazy ausgewertet und es existieren ''Strictness''-Annotationen.
+
+=== XML ===
+In den Standardbibliotheken sind grundlegende XML-Operationen und -Datentypen verfügbar: XML-Literale, -Konstruktoren, -Serialisierung und -Deserialisierung, XPath-ähnliche Extraktion von Elementen und Attributen:
+<syntaxhighlight lang="scala">
+   val liste = <einkaufsliste>
+                 <artikel><name>Brot</name><preis>3.50</preis></artikel>
+                 <artikel><name>Apfel</name><preis>0.29</preis></artikel>
+                 <artikel><name>Eier</name><preis>1.19</preis></artikel>
+               </einkaufsliste>
+   val gesamtpreis = (liste \\ "preis").map(_.text.toDouble).sum
+   // Ergebnis: 4.98
+</syntaxhighlight>
+
+=== Implicits ===
+Methoden können mittels des Modifiers <code>implicit</code> zu sogenannten ''implicit methods'' werden. Wenn der Compiler ein Objekt eines bestimmten Typs&nbsp;A erwartet, aber ein Objekt des inkompatiblen Typs&nbsp;B vorfindet, sucht er im lexikalischen Scope und im ''companion object'' von A nach einer implicit method, mit der er das B-Objekt in ein A-Objekt konvertieren kann. Mit dieser Technik lassen sich die aus C# bekannten ''extension methods'' nachbilden (das sogenannte ''pimp my library''-Pattern) und in Grenzen sogar Vererbung.
+
+Die letzte Parameter-Liste einer Methode kann ebenfalls als ''implicit'' markiert werden. Wenn die Parameterliste beim Aufruf einer Methode fehlt, aber ein als ''implicit'' markierter Wert im lexikalischen Scope zu finden ist, wird er automatisch an die Methode übergeben. Hiermit ist es möglich, die aus Haskell bekannten [[Typklasse (Informatik)|''type classes'']] als Entwurfsmuster nachzubilden.<ref>[http://ropas.snu.ac.kr/~bruno/papers/TypeClasses.pdf ''Type classes''] (PDF)</ref>
+
+Mit impliziten Konversionen wird in Scala auch Verhalten in Bibliotheken implementiert, das viele Sprachen als ''Spezialfall'' im Compiler abdecken. So zum Beispiel besondere Regeln beim Zusammenfügen von Zeichenketten wie <code style="white-space: nowrap">42 + "etwas Text"</code> oder die Konvertierung von Zahltypen mit kleinerem Wertebereich zu Zahltypen mit größerem Wertebereich, in Java ''String concatenation operator +''<ref>[http://docs.oracle.com/javase/specs/jls/se5.0/html/expressions.html#15.18.1 Java Sprach-Spezifikation, Version 3, §15.18.1, String Concatenation Operator +]</ref> bzw. ''widening primitive conversions''<ref>[http://docs.oracle.com/javase/specs/jls/se5.0/html/conversions.html#5.1.2 §5.1.2, ''Widening Primitive Conversion''] in der Spezifikation der Java-Sprache</ref> genannt.
+
+=== Nebenläufigkeit ===
+{{Hauptartikel|Nebenläufigkeit}}
+
+Während Scala [[Thread (Informatik)|Threads]] durch die Java-Klassenbibliothek unterstützt, gibt es in Scalas eigener Bibliothek eine Implementierung von [[Actor Model|Aktoren]]. Diese wurde von der Aktoren-Implementierung, wie sie in [[Erlang (Programmiersprache)|Erlang]] umgesetzt wurde, inspiriert. Ab der Scala Version 2.11 wird die ursprüngliche Aktoren-Implementierung nicht mehr Bestandteil der Standard-Bibliothek sein. Ersetzt wird sie durch die [[Akka (Software)|Akka]]-Implementierung (seit der Version 2.10 verfügbar).<ref>{{Internetquelle | url=http://docs.scala-lang.org/overviews/core/actors-migration-guide.html | titel=The Scala Actors Migration Guide | zugriff=2013-12-03 | sprache=en}}</ref>
+
+== Syntax ==
+Die [[Syntax]] der Sprache ist an [[Java (Programmiersprache)|Java]] und [[ML (Programmiersprache)|ML]] angelehnt. Von Java wurde vor allem eine Reihe von Schlüsselworten sowie die Blocksyntax übernommen, von ML die Syntax für Typannotationen und Deklarationen.
+
+Im Vergleich zur Java-Syntax kann in den meisten Fällen das Semikolon am Ende einer Zeile entfallen. Die Syntax zur Typdefinition von Variablen und Rückgabewerten lehnt sich an der von ML statt von Java an: Man formuliert nicht <code>Typ variable</code>, sondern <code>variable: Typ</code>.
+
+Die Deklaration und Definition von Werten, Variablen und Methoden erfolgt mittels der Schlüsselwörter <code>val</code>, <code>var</code> und <code>def</code>, gefolgt von Typangaben.
+<syntaxhighlight lang="scala">
+   val wert: Int = 42
+   var variable: Double = 3.14
+   def methode(parameter1: String, parameter2: Boolean): Unit
+</syntaxhighlight>
+Der Compiler leitet den Typ einer Variable aus dem Kontext ab ([[Typinferenz]]). Die beiden Zeilen
+<syntaxhighlight lang="scala">
+   var x = "Ein Text"
+</syntaxhighlight>
+und
+<syntaxhighlight lang="scala">
+   var x: String = "Ein Text"
+</syntaxhighlight>
+sind somit gleichwertig.
+
+Klassen- und Methodennamen können einen großen Umfang von Zeichen und Symbolen nutzen. Es sind z.&nbsp;B. Bezeichner wie <code>+</code>, <code>*</code>, <code>::</code>, <code>\\</code> oder <code>isEmpty_?</code> erlaubt.
+
+Methodenaufrufe mit keinem oder einem Parameter können unter Auslassung des Punktes und der öffnenden und schließenden runden Klammern notiert werden (ähnlich wie in [[Smalltalk-80 (Programmiersprache)|Smalltalk]] oder [[Objective-C]]):
+<syntaxhighlight lang="scala">
+    5.0.+(2.0)
+    "Test".startsWith("T")
+    List(1,2,3).isEmpty
+</syntaxhighlight>
+entspricht
+<syntaxhighlight lang="scala">
+    5.0 + 2.0
+    "Test" startsWith "T"
+    List(1,2,3) isEmpty
+</syntaxhighlight>
+
+Mit Scala ist es außerdem möglich, den Quelltext im Vergleich zu Java in vielen Fällen kompakter zu schreiben, zum Beispiel auf Grund von Typinferenz, ''for comprehensions'' oder anonymen Funktionen.
+=== Operatoren ===
+Für Präfix-Operatoren gibt es eine fest vorgegebene Menge, nämlich <code>+</code>,<code>-</code>,<code>~</code> und <code>!</code>. Der Ausdruck <code>-x</code> bedeutet das gleiche wie <code>x.unary_-</code>
+
+Postfix-Operator-Ausdrücke sind ebenfalls möglich. Hier gibt es keine Einschränkungen an den Operator, und das Übersetzungsergebnis ist ein Aufruf der (parameterlosen) Methode auf dem Operanden.
+
+Bei Infix-Operatoren entscheidet das erste Zeichen des Operatornamens über [[Operatorrangfolge|Präzedenz]] und [[Operatorassoziativität|Assoziativität]], das den aus der Mathematik üblichen Konventionen folgt. Das Codefragment
+<syntaxhighlight lang="scala">
+    1 + z*x
+</syntaxhighlight>
+wird übersetzt zu
+<syntaxhighlight lang="scala">
+    (1).+(z.*(x))
+</syntaxhighlight>
+Auf dem Objekt <code>1</code> wird die Methode <code>+</code> aufgerufen und dabei der Parameter <code>z.*(x)</code>, also das Ergebnis eines weiteren Methodenaufrufes, übergeben.
+
+Endet der Methodenname eines Infixoperators mit einem Doppelpunkt, so vertauscht sich die Reihenfolge von Empfänger und Parameter und der Operator ist rechtsassoziativ:
+<syntaxhighlight lang="scala">
+    a :: b
+</syntaxhighlight>
+wird übersetzt zu
+<syntaxhighlight lang="scala">
+    b.::(a)
+</syntaxhighlight>
+
+=== Schleifen ===
+For-Schleifen wurden zu sogenannten ''for comprehensions'' soweit generalisiert, dass sie nicht nur mehrere verschachtelte Schleifen zusammenfassen, sondern analog zu Haskells Do-Notation beliebige [[Monade (Informatik)|Monaden]] nutzen können.
+
+Dieser Code gibt beispielsweise 27 Zeilen für jeden Wert von a, b und c aus.
+<syntaxhighlight lang="scala">
+for {
+  a <- List(1,2,3)
+  b <- List(2,3,4)
+  c <- List(5,6,7)
+} println("a=" + a + ", b=" + b + ", c=" + c)
+</syntaxhighlight>
+
+Eine ''for comprehension'' kann auch genutzt werden, um neue Werte zu berechnen, ähnlich wie mit den von Haskell bekannten ''[[list comprehension]]s''. Dieser Code weist <code>combinations</code> eine Liste von 4 Paaren zu, nämlich (1,3), (1,4), (2,3) und (2,4):
+<syntaxhighlight lang="scala">
+val combinations =
+  for {
+    a <- List(1,2)
+    b <- List(3,4)
+  } yield (a,b)
+</syntaxhighlight>
+
+== Versionen ==
+
+=== Scala 2.8 ===
+Wesentliche Neuerungen im Release 2.8<ref>[http://www.scala-lang.org/node/7009 Release 2.8]</ref> sind:
+* Überarbeitung der Collection-Library ''(scala.collection)''<ref>[http://www.scala-lang.org/sid/3 Collection-Library]</ref>
+* Überarbeitung der Array-Implementierung<ref>[http://www.scala-lang.org/sid/7 Array-Implementierung]</ref>
+* benannte Argumente und Defaultwerte für Argumente<ref>[http://www.scala-lang.org/sid/1 benannte Argumente und Defaultwerte für Argumente]</ref>
+* Delimited Continuations
+* Erweiterungen für Aktoren-[[Nebenläufigkeit]]
+* Package-Objekte, die Methoden und Werte für ein Package zur Verfügung stellen
+
+=== Scala 2.9 ===
+Wesentliche Neuerung der Version 2.9 ist die Erweiterung der Collection-Bibliothek um Methoden und Klassen, die Operationen parallel ausführen können ''(scala.collection.parallel)''.<ref>[http://www.scala-lang.org/node/9483 Release 2.9]</ref>
+Daneben gibt es zahlreiche weitere Verbesserungen:
+* Verbesserungen an der interaktiven Konsole (REPL<ref name="REPL">''[[:en:Read–eval–print loop|Read–eval–print loop]]'' in der englischsprachigen Wikipedia</ref> genannt), die nun u.&nbsp;a. schneller startet, mehr Tastenkürzel und bessere Tastaturnavigation beherrscht und Klassen dekompilieren sowie Typen, Ausnahmebedingungen (Exceptions) und verfügbare implizite Konversionen anzeigen kann.
+* Erweiterung von ''scala.sys'' um Möglichkeiten, Anweisungen auf der [[Betriebssystem-Shell|Shell]] des Betriebssystems auszuführen.
+* Entfernung einiger als veraltet ''(deprecated)'' markierter Klassen und Methoden, wie z.&nbsp;B. in ''scala.Enumeration'' und deutlichere Markierung bereits veralteter aber noch nicht entfernter Funktionalität, wie z.&nbsp;B. <code>case</code>-Klassen, die von anderen <code>case</code>-Klassen erben oder der Datenbank-Schnittstelle ''scala.dbc''.
+
+=== Scala 2.10 ===
+Wesentliche Neuerungen der Version 2.10.0<ref>[http://www.scala-lang.org/download/changelog.html Changelog]</ref>:
+* neue Implementierung für Pattern Matching
+* Akka-Aktoren als Standardimplementierung
+* Value- und Implicit-Klassen
+* String Interpolation
+* Reflection (experimentell)
+* Makros (experimentell)
+
+=== Scala 2.11 ===
+Die Version 2.11.0 ist gegenüber den Vorgängern stärker modularisiert, wodurch die Kern-Standardbibliothek kleiner wird. Zudem wurden Detailverbesserungen im Bereich der Geschwindigkeit gemacht und die nach wie vor experimentellen Bereiche von Makros und Reflection verbessert.
+<ref>[http://docs.scala-lang.org/scala/2.11/ Release 2.11]</ref>
+
+== Bibliotheken und Frameworks ==
+
+Beliebte Frameworks zur Entwicklung von Web-Applikationen sind [[:en:Play Framework|Play]] und [[Lift (Framework)|Lift]]. Daneben gibt es viele weitere, meist eher minimalistische Lösungen wie  [http://finatra.info/ Finatra] oder [http://www.scalatra.org/ Scalatra].
+Frameworks aus der Java-Welt, wie [[Apache Wicket|Wicket]] oder [[Spring (Framework)|Spring]] können ebenfalls genutzt werden.
+
+Die Interaktion mit Datenbanken wird durch eine Vielzahl von Bibliotheken ermöglicht, darunter [http://slick.typesafe.com/ Slick], [http://squeryl.org/ Squeryl] und [http://scalikejdbc.org/ ScalikeJDBC].
+In Java populäre Ansätze, wie die Nutzung von [[JPA]] oder [[JOOQ]], sowie die direkte Verwendung von [[JDBC]], sind ebenfalls möglich.
+
+Zur nebenläufigen Programmierung bietet Scalas Standardbibliothek eine ''Futures & Promises'' API<ref>[http://docs.scala-lang.org/overviews/core/futures.html]</ref>. Implementierungen des [[Actor Model|Aktormodells]] werden u. a. von Akka<ref>[http://akkasource.org/ akkasource.org]</ref> und Scalaz<ref>[http://code.google.com/p/scalaz/ code.google.com]</ref> bereitgestellt.
+Darüber hinaus können auch alle Möglichkeiten der Java-Standardbibliothek genutzt werden, z.&nbsp;B. [[Thread (Informatik)|Threads]] oder <code>java.util.concurrent.*</code>.
+
+Scalaz enthält außerdem viele weitere Konstrukte, welche die funktionale Programmierung in Scala erleichtern.
+
+[http://www.scala-js.org/ Scala.js] ist ein experimentelles Projekt, das Scala-Code zu JavaScript-Code kompilieren und Scala somit im Browser ausführbar machen kann.
+
+== IDE- und Werkzeugunterstützung ==
+Neben dem Compiler <code>scalac</code> steht eine [[Read-Evaluate-Print-Loop]]<ref name="REPL" /> (REPL) namens <code>scala</code> zur Verfügung. Für die IDEs [[Eclipse (IDE)|Eclipse]],<ref>[http://www.scala-ide.org/ scala-ide.org]</ref> [[NetBeans]]<ref>[http://wiki.netbeans.org/Scala wiki.netbeans.org]</ref> und [[IntelliJ]]<ref>[http://plugins.intellij.net/plugin/?id=1347 plugins.intellij.net]</ref> existieren Plugins.
+
+Für den [[Erstellungsprozess]] unterstützt Scala u.&nbsp;a. [[Apache Ant|Ant]] und [[Apache Maven|Maven]], stellt aber auch ein eigenes Werkzeug, ''SBT'' zur Verfügung.<ref>[http://code.google.com/p/simple-build-tool/ code.google.com]</ref>
+
+== Verwendung ==
+Scala hat mittlerweile Anwendung in der Industrie gefunden. Die sozialen Netzwerke [[Twitter#Technologie|Twitter]] und [[LinkedIn]] haben ihre Nachrichten-Warteschlangen in Scala implementiert.<ref>[http://www.artima.com/scalazine/articles/twitter_on_scala.html artima.com]</ref><ref>[http://days2010.scala-lang.org/node/138/159 scala-lang.org]</ref>
+
+Weitere Verwendung findet die Sprache etwa in Unternehmen wie [[Novell]]<ref>[http://vibe.novell.com/ Novell Vibe]</ref>, [[Siemens]], [[Sony]] oder [[Électricité de France|Électricité de France Trading]].<ref>[http://www.scala-lang.org/node/1658 scala-lang.org]</ref>
+
+== Literatur ==
+* {{Literatur| Autor=Martin Odersky, Lex Spoon, Bill Venners| Titel=Programming in Scala| Verlag=Computer Bookshops| Jahr=2008| ISBN=0-9815316-0-1| Kommentar=englisch}}
+* {{Literatur| Autor= Dean Wampler, Alex Payne| Titel=Programming Scala| Verlag=O’Reilly| Jahr=2009 | ISBN=978-0-596-15595-7| Seiten=448| Online=[http://programming-scala.labs.oreilly.com/ HTML-Version]}}
+* {{Literatur| Autor= Lothar Piepmeyer| Titel=Grundkurs funktionale Programmierung mit Scala| Verlag=Hanser| Jahr=2010 | ISBN=978-3-446-42092-2| Seiten=297}}
+* {{Literatur| Autor= Oliver Braun| Titel=Scala: Objektfunktionale Programmierung| Verlag=Hanser| Jahr=2010 | ISBN=978-3-446-42399-2| Seiten=325}}
+* {{Literatur| Autor= Friedrich Esser| Titel=Scala für Umsteiger| Verlag=Oldenbourg Verlag| Jahr=2011 | ISBN=978-3-486-59693-9| Seiten=400}}
+* {{Literatur| Autor= Heiko Seeberger| Titel=Durchstarten mit Scala| Verlag=entwickler.press| Jahr=2011 | ISBN=978-3-86802-064-9| Seiten=250}}
+* {{Literatur| Autor= Thorsten Jolitz| Titel=Objekt-funktionale Programmierung am Beispiel von Scala| Verlag=epubli| Jahr=2013 | ISBN=978-3-84424-515-8| Seiten=244}}
+
+== Weblinks ==
+* [http://www.scala-lang.org/ Scala Website]
+* [http://www.scala-lang.org/docu/files/ScalaReference.pdf The Scala Language Specification] (PDF; 1,3&nbsp;MB)
+* Audiocast-Interviews mit Martin Odersky: [http://www.se-radio.net/2007/07/episode-62-martin-odersky-on-scala/ Umfassende Einführung, Geschichte und Besprechung der Merkmale von Scala (Juli 2007)] [http://www.se-radio.net/2011/02/episode-171-scala-update-with-martin-odersky/ Neuerungen seit 2007, geplante Entwicklungen und Anwendungsbereiche von Scala (Februar 2011)]
+* [http://www.sigs-datacom.de/fileadmin/user_upload/zeitschriften/js/2010/02/blankenhorn_seeberger_JS_02_10.pdf JavaSPEKTRUM, 2010, Einführung in Scala Teil 1] (PDF; 194&nbsp;kB) [http://www.sigs-datacom.de/fileadmin/user_upload/zeitschriften/js/2010/03/blankenhorn_seeberger_JS_03_10.pdf Teil 2] (PDF; 170&nbsp;kB) [http://www.sigs-datacom.de/fileadmin/user_upload/zeitschriften/js/2010/04/blankenhorn_seeberger_JS_04_10.pdf Teil 3] (PDF; 197&nbsp;kB)
+* [http://www.scalatutorial.de/topic144.html Scala Tutorial]
+* [http://scalatutorial.wordpress.com/ Deutsches Scala Tutorial für Umsteiger imperativer Programmiersprachen]
+* [http://www.simplyscala.com/ Interaktiver Onlineinterpreter zum Ausprobieren]
+* [https://days2011.scala-lang.org/sites/days2011/files/ws3-1-Hundt.pdf Google vergleicht C++/Java/Go/Scala] (PDF; 318&nbsp;kB)
+
+== Einzelnachweise ==
+<references />
+
+[[Kategorie:Programmiersprache]]
+[[Kategorie:Funktionale Programmiersprache]]
+[[Kategorie:Objektorientierte Programmiersprache]]
+[[Kategorie:Programmiersprache für die Java Virtual Machine]]

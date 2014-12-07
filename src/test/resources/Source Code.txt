@@ -1,0 +1,187 @@
+{{About|the film|the software concept|Source code|"source coding"|Data compression}}
+{{Infobox film
+| name = Source Code
+| image = Source Code Poster.jpg
+| caption = Theatrical release poster
+| director = [[Duncan Jones]]
+| producer = [[Mark Gordon]]<br/>Jordan Wynn<br/>Philippe Rousselet
+| writer = [[Ben Ripley]]
+| starring = [[Jake Gyllenhaal]]<br/>[[Michelle Monaghan]]<br/>[[Vera Farmiga]]<br/>[[Jeffrey Wright (actor)|Jeffrey Wright]]
+| music = Chris P. Bacon
+| cinematography = [[Don Burgess (cinematographer)|Don Burgess]]
+| editing = [[Paul Hirsch (film editor)|Paul Hirsch]]
+| studio = [[Mark Gordon|The Mark Gordon Company]]<br/>Vendôme Pictures
+| distributor = [[Summit Entertainment]]
+| released = {{Film date|2011|03|11|[[South by Southwest|SXSW]]|2011|04|01|United States|2011|04|20|France<ref>{{cite web|url=http://www.allocine.fr/film/fichefilm_gen_cfilm=175053.html|title=Source Code - released|publisher=AlloCiné|accessdate=October 28, 2011}}</ref>}}
+| runtime = 93 minutes
+| country = France<ref name="BFI">{{cite web|title=Source Code|url=http://explore.bfi.org.uk/4f4b84eae02f8|publisher=[[British Film Institute]]|accessdate=April 29, 2014}}</ref><br>United States<ref name="BFI"/>
+| language = English
+| budget = $32 million<ref name="LABox">{{cite news|url=http://latimesblogs.latimes.com/entertainmentnewsbuzz/2011/03/movie-projector-hop-will-jump-over-rivals-this-weekend.html|title=Movie Projector: "Hop" will jump over rivals this weekend|last=Kaufman |first=Amy |work=Los Angeles Times|publisher=Tribune Company|date=March 31, 2011|accessdate=April 1, 2011}}</ref>
+| gross = $147,332,697<ref name=boxofficemojo>{{cite web|title=Box office|url=http://boxofficemojo.com/movies/?id=sourcecode.htm|accessdate=May 14, 2012}}</ref>
+}}
+'''''Source Code''''' is a 2011 French-American [[science fiction film|science fiction]] film directed by [[Duncan Jones]], written by [[Ben Ripley]], and starring [[Jake Gyllenhaal]], [[Michelle Monaghan]], [[Vera Farmiga]], and [[Jeffrey Wright (actor)|Jeffrey Wright]]. The film had its world premiere on March 11, 2011, at [[South by Southwest]],<ref>{{cite news|first1=Jay A.|last1=Fernandez|date=December 16, 2010|url=http://www.hollywoodreporter.com/blogs/risky-business/moon-director-duncan-jones-returns-59727|publisher=The Hollywood Reporter|title='Moon' Director Duncan Jones Returns to SXSW With 'Source Code'|accessdate=June 6, 2011}}</ref> and was released by [[Summit Entertainment]] on April 1, 2011 in North America and Europe.
+
+''Source Code'' was critically acclaimed by film critics and became a box office success, grossing over $147 million worldwide.<ref name=boxofficemojo/><ref name="RottenTomatoes"/>
+
+==Plot==
+<!-- Plot summaries should be 400-700 words long according to Wikipedia:FILMPLOT. This has been carefully condensed to 491. Please take care adding, preferably adjust and condense existing text. -->
+[[U.S. Army]] Aviation pilot Captain Colter Stevens ([[Jake Gyllenhaal]]), last aware of being on a mission in [[Afghanistan]], wakes up on [[Metra|a commuter train]]<ref>{{cite news|last1=Wronski|first1=Richard|title=Compared to Metra train's movie fate, delays look tame|url=http://articles.chicagotribune.com/2011-03-09/news/ct-talk-metra-movie-0310-20110309_1_metra-rock-island-line-phil-pagano|accessdate=June 5, 2014|work=Chicago Tribune|date=March 9, 2011}}</ref> to [[Chicago]], at 7:40 am. To the world around him – including his traveling partner Christina Warren ([[Michelle Monaghan]]) and the bathroom mirror – he appears to be Sean Fentress, a school teacher. As he comes to grips with this revelation, the train explodes, killing everyone aboard.
+
+Stevens regains consciousness inside a dingy dim cockpit, leaking oil. Communicating through a video screen, [[Air Force]] Captain Colleen Goodwin ([[Vera Farmiga]]) verifies Stevens' identity, and insists he stay "on mission" to find the bomber before another larger "dirty bomb" hits downtown Chicago in six hours. Inside the "Source Code" experimental device designed by scientist Dr. Rutledge ([[Jeffrey Wright (actor)|Jeffrey Wright]]), he experiences the last eight minutes of another compatible person's life within an [[Alternate history|alternative timeline]].<ref group="lower-alpha">It is stated that eight minutes is the length of [[short-term memory]], and that one of the blast victims had neural pathways similar enough to Stevens' to allow Source Code to take advantage of a [[quantum mechanics|quantum]] effect reminiscent of a [[incandescent light bulb|light bulb]] being switched off, allowing this period to be retroactively accessed for some time after the target person's death as a way of gleaning information critical to the prevention of additional, near-future terrorist attacks. It is believed that these alternative time-lines are not "real" and cease to continue after the eight-minute time limit; they can therefore supposedly be employed only to gain information.</ref>
+
+Stevens is unwillingly sent back into the Source Code again and again in frustrating, exhausting attempts to learn the bomber's identity. He tries to warn authorities on the train and flee with Christina, escaping the explosion. Other times he cannot locate or disarm the bomb and dies on the train. But Rutledge insists the alternate timeline is not real. It is revealed that he has been "with them" for two months since being reported killed in action in Afghanistan. He is comatose and missing most of his body, hooked up to neural sensors. The cockpit capsule is in his imagination, his brain's way of making sense of a missing environment. A confused and frustrated Stevens asks, "As one soldier to another, am I dead?" Angry to learn that he is on life support, he asks to be disconnected after the mission. Rutledge agrees.
+
+Stevens catches the bomber Derek Frost ([[Michael Arden]]), who leaves his wallet behind to fake his own death, and gets off at the last stop before Chicago. In one run-through, Frost kills both Fentress and Christina, and flees in a rented white van. Stevens remembers the license number and direction so the authorities can catch the terrorist. But Rutledge reneges, orders Goodwin to wipe Stevens' memory for a future mission. Stevens convinces Goodwin to allow one more try, to save everyone on the train, despite Rutledge's insistence that everyone on the train had already been killed in the explosion.
+
+Stevens is sent back into the Source Code where he disarms the bomb, subdues Frost and handcuffs him to a handrail inside the train. He reports the bomber and the bomb to authorities, composes an email to Captain Goodwin, then calls to reconcile with his estranged father under the guise of a fellow soldier. He asks Christina what she would do if she knew that she only had seconds left to live, and starts to kiss her. At the same time, Goodwin approaches the air-tight chamber with the torso of Steven's comatose mutilated body, and disconnects the life support. Rutledge bangs on the outer door in vain. Surprisingly, Stevens finishes the kiss with Christina, revealing that the alternate timeline of the Source Code was indeed real, contrary to what was proposed by Rutledge. They continue on the train, and then walk around downtown Chicago facing the [[Cloud Gate]].
+
+Later that morning, the alternative-timeline Captain Goodwin arrives for work at [[Nellis Air Force Base]] and receives the email from Stevens. While news breaks about the failed bomber on the Chicago train, he informs Goodwin that, they have changed history, and Goodwin seemingly recalls something. He asks her to reassure this timeline's Stevens that "everything is gonna be okay."
+
+==Cast==
+* [[Jake Gyllenhaal]] as Capt. Colter Stevens
+* [[Michelle Monaghan]] as Christina Warren
+* [[Vera Farmiga]] as Capt. Colleen Goodwin
+* [[Jeffrey Wright (actor)|Jeffrey Wright]] as Dr. Rutledge
+* [[Michael Arden]] as Derek Frost
+* [[Russell Peters]] as Max Denoff
+* [[Scott Bakula]] as Donald Stevens, Colter's father {{small|(Voice cameo)}}
+* Frédérick De Grandpré	as Sean Fentress {{small|(Reflection)}}
+* Cas Anvar as Hazmi
+
+==Production==
+
+===Pre-production===
+[[David Hahn]], the boy depicted in the 2003 made-for-television documentary ''The Nuclear Boy Scout'',<ref>{{cite web|url=http://www.imdb.com/title/tt0378468|title=The Nuclear Boy Scout|publisher=IMDb|accessdate=June 16, 2011}}</ref> was the inspiration for the antagonist Derek Frost.<ref>{{cite web|url=http://ca.io9.com/5788795/duncan-jones-unravels-the-mysteries-behind-source-code|title=Duncan Jones tells us what really happened at the end of ''Source Code''|accessdate=May 8, 2011}}</ref> In an article published by the [[Writers Guild of America]], screenwriter [[Ben Ripley]] is described as providing the original pitch to the studios responsible for producing ''Source Code'':<ref>{{cite web|url=http://www.wga.org/content/default.aspx?id=4583|title=Practice Makes Perfect|publisher=WGA.org|accessdate=June 16, 2011}}</ref>
+
+{{quote|Ripley first came up with the idea for Source Code, in which government operative Colter Stevens repeatedly relives the eight minutes leading up to a terrorist train bombing in hopes of finding the bomber, he had no intention of writing it on spec. Having established himself in Hollywood largely doing "studio rewrites on horror movies," he felt a solid pitch would do the trick. Unfortunately, it didn't. "I sat down with a few producers, and the first couple just looked at me like I was nuts," confesses Ripley. "Ultimately, I had to put it on the page to make my case."}}
+
+After seeing ''[[Moon (film)|Moon]]'', Gyllenhaal lobbied for Jones to direct ''Source Code''; Jones liked the fast-paced script; as he later said: "There were all sorts of challenges and puzzles and I kind of like solving puzzles, so it was kind of fun for me to work out how to achieve all these difficult things that were set up in the script."<ref>{{cite new|first1=Lindsay|last1=Powers|first2=Kim|last2=Messina|date=April 1, 2010|url=http://www.hollywoodreporter.com/news/how-jake-gyllenhaal-wooed-duncan-174004|publisher=The Hollywood Reporter|title=How Jake Gyllenhaal Wooed Duncan Jones to Direct 'Source Code'|accessdate=June 6, 2011}}</ref>
+
+In the ending scene, [[Jake Gyllenhaal]]'s and [[Michelle Monaghan]]'s characters are seen walking through [[Millennium Park]], and make their way to the [[Cloud Gate]]. In a 2011 interview, Gyllenhaal discussed how director [[Duncan Jones]] felt the structure was a metaphor for the movie's subject matter, and aimed for it to feature at the beginning and end of the movie.<ref>{{cite news|url=http://www.chicagotribune.com/features/ct-ae-0403-dean-richards-20110401,0,7344561.column|title=Gyllenhaal says the 'Bean' could be metaphor for 'Source Code'|accessdate=May 20, 2011|date=April 1, 2011|publisher=Chicago Tribune|author=Richards, Dean}}</ref><!-- cites previous two sentences -->
+
+===Filming===
+[[Principal photography]] began on March 1, 2010, in [[Montreal]], [[Canada]], and ended on April 29, 2010.<ref>{{cite web|date=April 29, 2010|url=http://blog.manmademovies.co.uk/2010/04/29/source-code-filming-completes-today|work=ManMadeMovies|title=Source Code Filming Completes Today|accessdate=November 22, 2010}}</ref> Several scenes were shot in [[Chicago, Illinois]], specifically at [[Millennium Park]] and the Main Building at the [[Illinois Institute of Technology]], although the sign showing the name of the latter, in the intersection of 31st Street and S LaSalle Street, was edited out. Initially, some filming was scheduled at the [[Ottawa Train Station]] in [[Ottawa, Ontario]],<ref>{{cite web|url=http://jake-weird.blogspot.ca/2010/01/source-code-filming-in-ottawa-train.html|title=Source Code filming in Ottawa's train station|publisher=Weirdland|date=January 13, 2010}}</ref> but cancelled for lack of an agreement with VIA Rail.<ref>{{cite web|url=http://www.ottawasun.com/entertainment/movies/2010/03/17/13268381.html|title=Entertainment|publisher=Ottowa Sun|date=March 17, 2010}}</ref>
+
+===Post-production===
+Editing took place in [[Los Angeles]]. In July 2010, the film was in the [[visual effects]] stage of post-production.<ref>{{cite web|date=July 28, 2010|url=http://blog.manmademovies.co.uk/2010/07/28/exclusive-duncan-jones-on-moon-source-code-judge-dredd|title=Exclusive: Duncan Jones on MOON, Source Code & Judge Dredd|work=ManMadeMovies|accessdate=November 22, 2010}}</ref> Most of the VFX work was handled by Montreal studios, including [[Modus FX]], Rodeo FX, Oblique FX, and Fly Studio.<ref>{{cite web|url=http://www.imdb.com/title/tt0945513/companycredits|title=Source Code - Company Credits|publisher=IMDb}}</ref> Jones had confirmed that the film's soundtrack would be composed by [[Clint Mansell]], in his second collaboration with the composer.<ref>{{cite web|last=Warmoth|first=Brian|date=September 21, 2010|url=http://moviesblog.mtv.com/2010/09/21/source-code-bringing-duncan-jones-and-clint-mansell-back-together|title='Source Code' Bringing Duncan Jones And Clint Mansell Back Together|work=MoviesBlog.MTV.com|accessdate=November 22, 2010}}</ref> However, it was later announced that Mansell would no longer score the movie's soundtrack due to time constraints.<ref name="Twitter">{{cite web|date=December 15, 2010|url=http://www.twitter.com/ManMadeMoon/status/15125916111872001|title=Duncan Jones|work=Twitter|accessdate=January 14, 2011}}</ref>
+
+==Release==
+
+===Box office performance===
+{| class="wikitable" style="width:100%;"
+|-
+! rowspan="2" | Film
+! colspan="1" | Release date
+! colspan="3" | Box office revenue
+! colspan="2" text="wrap" | Box office ranking
+! rowspan="2" style="text-align:center;"| Budget
+! rowspan="2" style="text-align:center;"| Reference
+|-
+! United States
+! United States
+! International
+! Worldwide
+! All time United States
+! All time worldwide
+|-
+| ''Source Code''
+| style="text-align:center;"| April 2011
+| style="text-align:center;"| $54,712,227
+| style="text-align:center;"| $92,620,470
+| style="text-align:center;"| $147,332,697
+| style="text-align:center;"| #1095
+| style="text-align:center;"| Unknown
+| style="text-align:center;"| $32,000,000
+| style="text-align:center;"|<ref name=boxofficemojo/>
+|}
+
+''Source Code'' was released in theaters on April 1, 2011. In the United States and Canada, ''Source Code'' was released theatrically in 2,961 conventional theaters.<ref name="WeekendBoxOffice">{{cite web|url=http://www.boxofficemojo.com/weekend/chart/?yr=2011&wknd=13&p=.htm|title=Weekend Box Office Results for April 1-3, 2011|publisher=Box Office Mojo|accessdate=April 27, 2011}}</ref> The film grossed $54,712,227 during its run with midnight screenings in 2,961 locations.<ref>{{cite web|url=http://www.boxofficemojo.com/movies/?page=daily&id=sourcecode.htm|title=Source Code (2011) – Daily Box Office Results|publisher=Box Office Mojo|accessdate=April 27, 2011}}</ref> Overall the film made $147,812,094 and debuted at #2 on its opening weekend.<ref name="WeekendBoxOffice"/>
+
+===Critical reception===
+{| class="wikitable" style="width:99%;"
+|-
+! '''Film'''
+! '''[[Rotten Tomatoes]]'''
+! '''[[Metacritic]]'''
+|-
+| ''Source Code''
+| style="text-align:center;"| 92% (243 reviews)<ref name="Source Code">{{cite web|url=http://www.rottentomatoes.com/m/source_code/|title=Source Code|publisher=Flixster|work=Rotten Tomatoes|accessdate=August 18, 2011}}</ref>
+| style="text-align:center;"| 74/100 (41 reviews)<ref>{{cite web|url=http://www.metacritic.com/movie/source-code|title=Source Code|publisher=CBS|work=Metacritic|accessdate=August 18, 2011}}</ref>
+|}
+
+''Source Code'' received critical acclaim from critics. [[Review aggregator]] website [[Rotten Tomatoes]] reports a 92% "Certified Fresh" approval rating with an average rating of 7.5/10, based on an aggregation of 243 reviews. The site's consensus states: "Finding the human story amidst the action, director Duncan Jones and charming Jake Gyllenhaal craft a smart, satisfying sci-fi thriller."<ref name="RottenTomatoes">{{cite web|url=http://www.rottentomatoes.com/m/source_code|title=Source Code Movie Reviews, Pictures |work=Rotten Tomatoes|publisher=Flixster|accessdate=May 14, 2012}}</ref> [[Metacritic]] awarded the film an average score of 74/100 based on 41 reviews.<ref>{{cite web|title=Source Code Reviews, Ratings, Credits|url=http://www.metacritic.com/movie/source-code|publisher=Metacritic|accessdate=March 26, 2011}}</ref> Critics have compared ''Source Code'' with both the 1993 film ''[[Groundhog Day (film)|Groundhog Day]]'',<ref>{{cite web|url=http://www.thewrap.com/movies/column-post/source-code-groundhog-day-scientific-mumbo-jumbo-26025|accessdate=March 31, 2011|title='Source Code': A 'Groundhog Day' With Scientific Mumbo-Jumbo|work=TheWrap}}</ref><ref>{{cite web|url=http://www.signonsandiego.com/news/2011/apr/01/source-code-is-a-disaster-groundhog-day-with|accessdate=March 31, 2011|work=Sign On San Diego|title='Source Code' is a disaster 'Groundhog Day' with twists}}</ref><ref>{{cite web|url=http://www.rollingstone.com/movies/blogs/the-travers-take/peter-travers-source-code-is-confusing-but-exciting-20110331|accessdate=March 31, 2011|title=Peter Travers: 'Source Code' is Confusing But Exciting|work=Rolling Stone}}</ref> and British film director [[Tony Scott]]'s 2006 time-altering science fiction film ''[[Déjà Vu (2006 film)|Déjà Vu]]'': in the latter case, the similarity of plotline in the protagonist's determination to change the past was highlighted, and his emotional commitment to save the victim, rather than simply try to discover the identity of the perpetrator of the crime.<ref>{{cite news|url=http://www.westerngazette.ca/2011/04/06/source-code/|title=Source Code feels a lot like Deja Vu|author=Holmes, Brent|work=Western Gazette |date=April 6, 2011|accessdate=June 10, 2014}}</ref> Alternatively, it has been described as a "cross between ''Groundhog Day'' and ''[[Murder on the Orient Express (1974 film)|Murder on the Orient Express]]'',"<ref name="CNN2011">{{cite news|url=http://www.cnn.com/2011/SHOWBIZ/Movies/04/01/source.code.review|title='Source Code' a smart, original sci-fi thriller|last1=Charity|first1=Tom|date=April 1, 2011|publisher=CNN|accessdate=April 1, 2011}}</ref> while ''[[The Arizona Republic]]'' film critic Bill Goodykoontz says that comparing ''Source Code'' to ''Groundhog Day'' is doing a disservice to ''Source Code''{{'s}} enthralling "mind game."<ref>{{cite web|url=http://www.azcentral.com/thingstodo/movies/articles/2011/03/30/20110330source-code-review-goodykoontz.html|title=Arizona Republic: "Movies:  'Source Code' 4 Stars|publisher=AZ Central|date=March 30, 2011}}</ref>
+
+[[Richard Roeper]] of the ''[[Chicago Sun-Times]]'' called the film: "Confounding, exhilarating, challenging – and the best movie I've seen so far in 2011."<ref name="RottenTomatoes"/> [[Roger Ebert]]  gave the film 3.5 stars out of 4, calling it "an ingenious thriller" where "you forgive the preposterous because it takes you to the perplexing."<ref>{{cite news|url=http://rogerebert.suntimes.com/apps/pbcs.dll/article?AID=/20110331/REVIEWS/110339997|accessdate=March 31, 2011|title=Source Code|publisher=Chicago Sun-Times}}</ref> [[Kenneth Turan]] of the ''[[Los Angeles Times]]'' called Ben Ripley's script "cleverly constructed" and a film "crisply directed by Duncan Jones." He also praised the "cast with the determination and ability to really sell its story."<ref>{{cite news|url=http://www.latimes.com/entertainment/news/la-et-source-code-20110401,0,2928465.story|accessdate=March 31, 2011|work=The Los Angeles Times|title=Movie review: 'Source Code'|first1=Kenneth|last1=Turan|first2=Film|last2=Critic|date=April 1, 2011}}</ref> [[CNN]] called Ripley's script "ingenious" and the film "as authoritative an exercise in fractured storytelling as [[Christopher Nolan]]'s ''[[Memento (film)|Memento]]''." He also commented that Gyllenhaal is "more compelling here than he's been in a long time."<ref name="CNN2011"/> IGN gave it 2.5 stars out of 5, saying: "Gyllenhaal brings sincerity and warmth to his role, but his conviction only helps the movie so far before it ultimately buckles under the weight of its plot mechanics."
+
+===Accolades===
+{| class="wikitable"
+! Year !! Group !! Category !! Recipient !! Result
+|-
+| 2011
+| [[2011 Scream Awards|Scream Awards]]<ref>{{cite web|url=http://movies.about.com/od/awards/a/2011-Scream-Awards.htm|title=2011 SCREAM Awards List of Nominees|author=Murray, Rebecca|work=About.com|accessdate=September 15, 2011}}</ref>
+| Best Science Fiction Actor
+| [[Jake Gyllenhaal]]
+| {{Nom}}
+|-
+| 2011
+| [[Bradbury Award]]<ref>{{cite web|url=http://www.sfwa.org/2012/02/2011-nebula-awards-nominees-announced/|title=2011 Nebula Awards Nominees Announced|work=A SFWA|accessdate=February 27, 2012}}</ref>
+| Bradbury Award
+| rowspan="2"|[[Ben Ripley]] and [[Duncan Jones]]
+| {{Nom}}
+|-
+| 2012
+| [[Hugo Award]]<ref>{{cite web|url=http://chicon.org/hugo-awards.php#|title=Hugo Nominees 2012|work=A SFWA|accessdate=April 10, 2012}}</ref>
+| [[Hugo Award for Best Dramatic Presentation|Best Dramatic Presentation, Long Form]]
+| {{Nom}}
+|}
+
+===Home media===
+''Source Code'' was released on [[DVD]] and [[Blu-ray Disc]] simultaneously in the US on July 26, 2011,<ref>{{cite web|url=http://www.amazon.com/dp/B004XQO90E|title=Source Code Blu-ray (2011)|publisher=Amazon|accessdate=July 8, 2011}}</ref><ref>{{cite web|url=http://www.amazon.com/dp/B004XQO90O|title=Source Code|publisher=Amazon|accessdate=July 8, 2011}}</ref> with the UK release on DVD and Blu-ray Disc (as well as a combined DVD/Blu-ray Disc package) on August 15, 2011.<ref>{{cite web|url=http://www.amazon.co.uk/s?url=search-alias%3Ddvd&field-keywords=source+code&x=18&y=4|title=Source Code Film & TV|publisher=Amazon.com|accessdate=July 8, 2011}}</ref> In the UK, there was also a DVD released featuring a 3D cover.
+
+==Possible sequel==
+A planned television series for the network [[CBS]] was announced in 2011,<ref name=tv>{{cite web|title=TV series planned|url=http://www.hollywoodreporter.com/news/source-code-be-adapted-tv-236071|accessdate=May 30, 2013}}</ref> and was revealed to be in development on January 4, 2012, with [[Mark Gordon]] and Steve Maeda as producers.<ref>{{cite web|url=http://insidetv.ew.com/2012/01/04/new-tv-shows-2012/4/|title=Hottest TV projects of 2012: 'Bewitched,' 'Under the Dome,' 'Flintstones'|publisher=Inside TV|date=January 4, 2012}}</ref> The planned television series was canceled in December 2014 and, instead, it was announced that a film sequel is in development. The film will incorporate ideas originally intended for the television series.<ref>{{cite web|url=http://variety.com/2014/film/news/source-code-2-anna-foerster-directing-exclusive-1201368932/|title='Source Code' Sequel in the Works (EXCLUSIVE)|publisher=Variety|date=December 2, 2014}}</ref>
+
+==See also==
+*[[List of films featuring time loops]]
+*''[[12 Monkeys]]''
+*''[[All You Need Is Kill]]''
+*''[[Ghost Trick]]''
+*''[[Quantum Leap]]''
+*''[[La Jetée]]''
+*''[[Groundhog Day]]''
+*[[Seven Days (TV series)|''Seven Days'' (TV series)]]
+
+==Notes==
+{{Reflist|group="lower-alpha"}}
+
+==References==
+{{Reflist|2}}
+
+==External links==
+* [http://www.enterthesourcecode.com ''Official Site'']
+* {{IMDb title|0945513|Source Code}}
+* {{Amg movie|386148|Source Code}}
+* {{Rotten Tomatoes|source_code|Source Code}}
+* [http://www.metacritic.com/movie/source-code ''Source Code''] at [[Metacritic]]
+* {{Mojo title|sourcecode|Source Code}}
+
+{{Duncan Jones}}
+
+[[Category:2011 films]]
+[[Category:2010s action thriller films]]
+[[Category:2010s science fiction films]]
+[[Category:American action thriller films]]
+[[Category:American science fiction action films]]
+[[Category:English-language films]]
+[[Category:Films set in Chicago, Illinois]]
+[[Category:Films shot in Chicago, Illinois]]
+[[Category:Films shot in Montreal]]
+[[Category:Films shot in Ottawa]]
+[[Category:Rail transport films]]
+[[Category:StudioCanal films]]
+[[Category:Summit Entertainment films]]
+[[Category:Films directed by Duncan Jones]]
+[[Category:Time loop films]]
+[[Category:Time travel films]]
+[[Category:War in Afghanistan (2001–present) films]]
+[[Category:Techno-thriller films]]

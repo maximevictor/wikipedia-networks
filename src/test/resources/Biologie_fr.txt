@@ -1,0 +1,277 @@
+{{Voir homonymes|Bio}}
+
+La '''biologie'''<ref>Du grec ancien ''bios'', la vie, et ''logos'', étude. Abrégée couramment en « bio ».</ref> est la [[science]] du [[Vie|vivant]]. Prise au sens large de science du vivant elle recouvre une partie des [[sciences naturelles]] et de l'[[histoire naturelle]] des êtres vivants (ou ayant vécu). Toutefois la distinction entre organismes vivants et non vivants est parfois difficile et la détermination de l'objet spécifique de la biologie n'a rien d'évident.
+
+La vie se présente sous tellement de formes et à des échelles si différentes que la biologie couvre un très large spectre, qui va du niveau [[Molécule|moléculaire]], en passant par celui de la [[Cellule (biologie)|cellule]], puis de l'[[Organisme (physiologie)|organisme]], jusqu'au niveau de la [[population]] et de l'[[écosystème]]. Ces différents niveaux montrent que le domaine du vivant est fortement hiérarchisé et au fur et à mesure que la biologie progresse, elle se spécialise en de multiples domaines, tous plus ou moins liés aux autres.
+
+Au cours de l'[[histoire de la biologie]], des principes fondateurs ont été découverts. Les plus importants, qui régissent totalement le domaine du vivant et même le définissent sont :
+* l'[[Évolution (biologie)|évolution]] qui fait qu'à chaque génération une [[sélection naturelle]] est réalisée, amenant les caractères des êtres vivants les mieux [[Adaptation (biologie)|adaptés]] à une situation particulière à avoir plus de chance d'être présents dans les générations suivantes ;
+* l'[[hérédité]], qui assure la transmission des [[Caractère (biologie)|caractères]] innés d'un individu à sa descendance.
+
+== Étymologie ==
+[[Fichier:Jean-baptiste lamarck2.jpg|vignette|Portrait de [[Jean-Baptiste Lamarck]], [[1893]].]]
+
+Le terme biologie est formé par la composition des deux mots [[Grec ancien|grecs]] ''bios'' (βιος) en français « vie » et ''logos'' (λογος) qui signifie « discours, parole »<ref>« Logos et Biologie. Étymologie et historique » ''in'' Portail Lexical du Centre National de Ressources Textuelles et Lexicales - CNRTL - du CNRS en ligne </ref>{{,}}<ref name="">''afblum.be'' : [http://www.afblum.be/bioafb/ Répertoire des racines d'origine hellénique, utilisées dans la terminologie des sciences biologiques. {{Prs |Geerinck et Balleux}}. Biologie à l'Athénée Fernand Blum], consulté le {{1er}} septembre 2014.</ref>.
+
+Ce [[néologisme]] est créé à la fin du {{s|XVIII}} et au début du {{s|XIX}} et de façon indépendante :
+* en [[allemand]] par [[Theodor Georg August Roose]] en 1797<ref>Jean-Claude Laberche, ''Biologie végétale'', coll. « Sciences sup », [[éditions Dunod]], Paris, 1999, {{p.|3}}. {{ISBN|2-10-004548-2}}</ref>, [[Karl Friedrich Burdach]] en 1800 et [[Gottfried Reinhold Treviranus]] dans son ouvrage ''{{Lang|de|Biologie oder Philosophie der lebenden Natur}}'', publié à [[Göttingen]] en 1802 ;
+* en [[français]] par le [[naturaliste]] [[France|français]] [[Jean-Baptiste de Lamarck]] dans ses ''Recherches sur l’organisation des corps vivants'' en 1802 :
+
+{{début citation}}Tout ce qui est généralement commun aux [[végétal|végétaux]] et aux [[animal|animaux]] comme toutes les facultés qui sont propres à chacun de ces êtres sans exception, doit constituer l'unique et vaste objet d'une science particulière qui n'est pas encore fondée, qui n'a même pas de nom, et à laquelle je donnerai le nom de biologie.{{fin citation}}
+
+Chez Lamarck on trouve, pour la première fois, une conception de l'être vivant qui reconnaît son originalité comparativement aux objets inanimés sans pour autant la faire déroger aux lois de la physique, contrairement à ce qu'avaient tendance à faire les [[Vitalisme|vitalistes]] et les [[Fixisme|fixistes]].
+
+Le même Lamarck, bien avant de donner des cours de biologie en 1819, sépare dans son ouvrage ''Hydrogéologie'', paru également en 1802, la physique terrestre en trois parties :
+* la [[météorologie]] (étude de l'atmosphère) ;
+* l'[[hydrogéologie]] (étude de la croûte minérale) ;
+* la biologie (étude des corps vivants).
+
+Les savants allemands, à l'appel de Treviranus, lancent les méticuleux inventaires de la flore et de la faune, réalisés par ceux qui, respectivement, se nommeront botanistes et zoologistes. Vers le milieu du {{s-|XIX}}, un intérêt pour les fonctions du vivant oriente la recherche biologique vers la [[physiologie]].
+
+== Histoire ==
+{{article détaillé|Histoire de la biologie|Chronologie de la biologie}}
+
+== Principes fondateurs ==
+=== Définition de l'objet ===
+L'objet de la biologie est l'être vivant et la vie dans son ensemble et son fonctionnement. Mais qu'est-ce qu'un être vivant ? En quoi se différencie-t-il des objets inanimés et des [[Machine|machines]] ? Et qu'est-ce que la vie<ref>Voir [[Erwin Schrödinger]], ''[[Qu'est-ce que la vie ?]]'', 1944.</ref> ? À ces questions, les biologistes n'ont actuellement pas de réponse précise qui fasse l'unanimité dans la [[communauté scientifique]]. Certain d'entre eux, et non des moindres, pensent même que ces questions sont sans objet.
+
+Ainsi [[Claude Bernard]], dans la première des ''Leçons sur les phénomènes de la vie communs aux animaux et aux végétaux'' (1878), déclare explicitement que l'on n'a pas à définir a priori la notion de vie, car la biologie doit être une science expérimentale ; ce serait là une définition a priori et {{Citation|la méthode qui consiste à définir et à tout déduire d'une définition peut convenir aux sciences de l'esprit, mais elle est contraire à l'esprit même des sciences expérimentales}}. En conséquence, {{Citation|il suffit que l'on s'entende sur le mot vie pour l'employer}} et {{Citation|il est illusoire et chimérique, contraire à l'esprit même de la science, d'en chercher une définition absolue}}.
+
+La biologie semble être restée fidèle à cette conception, puisqu'elle continue à ne pas précisément définir la notion de vie pour se limiter à l'analyse de « choses naturelles » ou parfois en partie créées par l'homme (via la sélection puis le génie génétique) que le [[sens commun]] lui désigne comme vivants. Cette analyse permet de mettre en évidence un certain nombre de caractères communs à ces objets d'étude, et ainsi d'appliquer ce qualificatif de vivant à d'autres objets présentant les mêmes caractères. Cette méthode, exclusivement analytique et [[Méthode expérimentale|expérimentale]], a considérablement renforcé l'efficacité et la [[scientificité]] du travail du biologiste, comparativement aux conceptions souvent spéculatives d'avant [[Claude Bernard]]. Elle a cependant amené une « physicalisation » telle que l'on a parfois l'impression que, pour rendre scientifique la biologie, il a fallu nier toute spécificité à son objet.
+
+De fait, certain biologistes en viennent à déclarer que {{Citation |la vie n'existe pas !}}, ou plus exactement qu'elle serait un processus physico-chimique parmi d'autres.
+
+Le premier d’entre eux est probablement [[Albert Szent-Györgyi]], [[prix Nobel de physiologie ou médecine|prix Nobel de médecine]] en [[1937]], qui a déclaré : {{Citation bloc|La vie en tant que telle n’existe pas, personne ne l’a jamais vue<ref> 1948 ; cité par [[Henri Atlan]], 1994.</ref>.}}
+
+Le plus connu est [[François Jacob]] :
+{{Citation bloc |On n'interroge plus la vie aujourd'hui dans les laboratoires. On ne cherche plus à en cerner les contours. […] C'est aux algorithmes du monde vivant que s'intéresse aujourd'hui la biologie<ref> [[François Jacob]], ''La logique du vivant'', 1970, {{p.|321}}.</ref>.}}
+
+Plus récemment, c'est aussi la position d'[[Henri Atlan]] :
+{{Citation bloc |L’objet de la biologie est physico-chimique. À partir du moment où l’on fait de la biochimie et de la biophysique, et où l’on comprend les mécanismes physico-chimiques qui rendent compte des propriétés des êtres vivants, alors la vie s’évanouit ! Aujourd’hui, un biologiste moléculaire n’a pas à utiliser pour son travail le mot « vie ». Cela s’explique historiquement : il s’occupe d’une chimie qui existe dans la nature, dans un certain nombre de systèmes physico-chimiques particuliers, aux propriétés spécifiques, et appelés animaux ou plantes, c’est tout<ref> [[Henri Atlan]], ''Question de vie'', {{éd.}} Seuil, 1994, {{p.|43-44}}.</ref> !}}
+
+Cette dernière citation illustre la confusion entre l'''étude de la vie'' et celle de la ''matière des êtres vivants'', où transparaît la tentation de réduire la biologie à la seule [[biologie moléculaire]] en niant au vivant, grâce au nivellement que permet la [[chimie]], toute spécificité qui ne soit pas une simple différence physico-chimique. Autrement dit, il est tentant, en réduisant la biologie à la biologie moléculaire, de ne différencier le vivant de l'inanimé que par les critères par lesquels la biologie moléculaire se différencie du reste de la chimie.
+
+Cette négation de la spécificité du vivant vient d'une conception où l'on n'admet aucune discontinuité entre vivant et inanimé pour conserver un univers cohérent et unifié. On y admet donc une gradation progressive entre l'inanimé et le vivant, tant dans les formes actuelles (les virus, censés être à la limite du vivant et de l'inanimé) que dans l'apparition de la vie sur Terre (cette apparition y est comprise comme une phase prébiotique progressive sans discontinuité marquée). En fait, cette négation de la spécificité du vivant, qui se veut [[matérialiste]], confond simplement le matérialisme épistémologique et les sciences de la matière. Les sciences, y compris la biologie, se doivent d'être matérialistes, personne ne dira le contraire. Mais doivent-elles pour autant n'être que des sciences de la matière ? La physique est depuis longtemps la science modèle pour toutes les autres, à tel point qu'on a fini par la confondre avec l'idéal du matérialisme épistémologique.
+
+Parler de la notion de vie, de la spécificité de l'être vivant, c'est, en biologie, s'exposer à se voir qualifier de [[vitaliste]], voire d'[[animiste]], car qui s'écarte un peu de la physico-chimie est censé sortir du matérialisme épistémologique. Si bien qu'aujourd'hui on a l'impression que ce que vise la biologie n'est pas tant l'étude de la vie (ou de l'être vivant dans ce qu'il a de spécifique relativement à l'objet inanimé) que sa pure et simple négation, le nivellement et l'unification de l'univers par la physico-chimie. Comme si, pour unifier, il valait mieux nier les solutions de continuité que les comprendre.
+
+Une autre approche est plus ''[[systémique]]'' ainsi résumée par Jacob (1970) : {{Citation |Tout objet que considère la Biologie représente un système de systèmes; lui - même élément d'un système d'ordre supérieur, il obéit parfois à des règles qui ne peuvent être déduites de sa propre analyse}} ; c'est une des base de l'écologie scientifique et de son « approche écosystémique ».
+
+Le problème de la spécificité de l'être vivant n'est donc pas encore réglé par la biologie moderne qui ainsi n'a donc aucune définition claire et explicite de son objet. Ce problème est seulement occulté de diverses manières, qui toutes tendent à ramener, faute de mieux, la conception de [[Descartes]] de l'être vivant comme plus ou moins semblable à une [[animal-machine|machine]] très complexe. Rares sont les biologistes qui s'inscrivent en faux contre cette approximation en avançant une conception du vivant plus précise et proche de la réalité<ref> Voir [[André Pichot]], ''Histoire de la notion de vie'', 1993, chapitre de Conclusion ; [[Gérard Nissim Amzallag]], ''L'homme végétal, pour une [[Autonomie (biologie)|autonomie du vivant]]'', 2002.</ref>.
+
+=== Évolution ===
+{{article détaillé|Évolution (biologie)}}
+[[Fichier:Charles Darwin by Julia Margaret Cameron.jpg|vignette|droite|125px|[[Charles Darwin]] en [[1868]].]]
+[[Fichier:Origin of Species title page.jpg|vignette|droite|125px|Page titre du ''{{Lang|en|Origin of Species}}'' (''[[L'Origine des espèces]]'') de [[Charles Darwin]].]]
+
+La première [[théorie de l'évolution]] du vivant a été avancée par [[Jean-Baptiste Lamarck]] dans son ouvrage ''Philosophie Zoologique'' en [[1809]]. Comme son titre l'indique, elle se présente sous la forme d'un système philosophique, bien qu'elle pose les bases essentielles pour la compréhension des êtres vivants et de leur évolution. Cinquante ans plus tard, en [[1859]], avec la parution de ''[[L'Origine des espèces]]'', [[Charles Darwin]] propose une explication scientifique de l'évolution, sous la forme d'un [[mécanisme]] simple, avec le principe de [[sélection naturelle]]. Avec le temps, la théorie originelle de Darwin a été affinée avec les résultats des expériences et observations que les biologistes ont effectuées. La théorie faisant actuellement consensus est celle de la [[théorie synthétique de l'évolution]] ou [[néo-darwinisme]].
+
+Le caractère évolutionniste de la vie a pendant très longtemps été discuté et est même encore mis en doute par certaines personnes en dehors de la communauté scientifique, mais aucune de ces objections à la théorie de l'évolution n'est scientifiquement fondée. La communauté scientifique a depuis très largement admis l'évolutionnisme de la vie comme un fait démontré par l'expérience et l'observation à maintes reprises notamment par :
+* l'examen des [[fossile]]s en [[paléontologie]] qui montre l'évolution des formes de vie à travers le temps ;
+* l'[[anatomie comparée]] qui met en évidence les similitudes morphologiques entre des animaux pourtant différents ;
+* l'[[hérédité]] qui explique les variations génétiques d'une génération à une autre ;
+* l'étude comparée du [[génome]] de plusieurs organismes qui montre l'éloignement plus ou moins important dans l'[[arbre phylogénétique]], permettant ainsi de retracer l'évolution et l'éloignement des différentes formes de vie ;
+* la [[Culture sélective des plantes|sélection artificielle]] qui, pratiquée par l'Homme chez les animaux et les plantes qu'il a [[Domestication|domestiqués]], est la mise en application par l'Homme du principe de la sélection naturelle.
+
+=== Diversité ===
+{{article détaillé|Biodiversité}}
+
+Si la biologie est si vaste, c'est en raison de l'extrême diversité du vivant qui se présente sous tellement de formes que l'on peut avoir du mal à discerner des points communs. Une hiérarchisation du vivant a tout de même été réalisée, qui est le domaine de la [[systématique]] et de la [[taxinomie]]. Tous les êtres vivants sont classés en trois domaines :
+* les [[bactérie]]s ;
+* les [[Archaea|archées]] ;
+* les [[eucaryote]]s.
+
+=== Universalité ===
+[[Fichier:ADN animation.gif|vignette|Structure en [[3D]] de la [[molécule]] d'[[Acide désoxyribonucléique|ADN]]]]
+
+Bien qu'étant différentes, toutes les formes de vie partagent des caractères communs. Ce qui porte à croire que la vie sur Terre a pour origine une seule et même forme de vie, désignée sous l'[[Acronymie|acronyme]] de [[Last universal common ancestor|LUCA]] (pour l'{{Lang-en|''Last universal common ancestor''}}), qui serait apparue sur [[Terre]] il y a au moins 2,5 milliards d'années.
+
+Les principaux caractères universels du vivant sont :
+* le [[carbone]], qui de par ses caractéristiques physiques sert de « squelette » à tous les composés organiques ;
+* l'[[Acide désoxyribonucléique|ADN]] et l'[[Acide ribonucléique|ARN]], qui servent de support au [[génome]] et assurent la transmission de ce dernier à la descendance lors de la [[Reproduction (biologie)|reproduction]] ;
+* la [[Cellule (biologie)|cellule]] qui est la plus petite unité vivante. Ce dernier point est discuté au sein de la communauté scientifique, car les [[virus]] sont considérés comme vivants par certains biologistes, alors qu'ils n'ont pas de cellules.
+
+== Domaines d'études ==
+En raison du caractère extrêmement vaste du sujet, l'étude de la biologie nécessite un morcellement en domaines d'études. Une approche un peu « réductrice » mais ayant l'avantage de clarifier les thèmes consiste à définir des niveaux d'organisation. Dans un souci de parvenir à une compréhension plus globale de la biologie, des ponts se sont naturellement créés entre les différentes disciplines.
+
+=== Structure du vivant ===
+{{article détaillé|Biologie moléculaire|Biologie cellulaire}}
+[[Fichier:Plant cell structure-fr.png|vignette|Structure d'une [[Cellule (biologie)|cellule]] végétale.]]
+
+Les domaines étudiant la structure du vivant sont à l'échelle de l'[[atome]] pour la [[biologie moléculaire]] et de la cellule pour la biologie cellulaire.
+
+Le domaine de la biologie moléculaire étudie les composés de bases du vivant, comme l'[[Acide désoxyribonucléique|ADN]] et les [[protéine]]s. Pendant longtemps, on a cru que les lois de la [[chimie]] régissant le vivant étaient différentes de celles pour la matière inanimée. Mais depuis la synthèse de nombreux composés organiques, il est clairement admis que les lois chimiques sont les mêmes que pour la matière inorganique. Aucune [[force vitale]] n'insuffle la vie à la matière comme on le pensait avant avec la [[Vitalisme|théorie vitaliste]].
+
+La mise au point du [[Microscope optique|microscope]] avec lequel [[Robert Hooke]] a découvert les cellules en [[1665]] a marqué la naissance de la biologie cellulaire et celle d'un monde alors insoupçonné. Cette découverte et les nombreuses qui ont suivi ont permis d'expliquer certains phénomènes comme ce que l'on qualifiait à l'époque de [[génération spontanée]]. C'est à cette échelle que l'on rencontre les premiers organismes vivants.
+
+=== Anatomie et physiologie ===
+[[Fichier:Squelettes.png|vignette|Aspect de différents [[squelette]]s d'après le ''Larousse'' de [[1922]].]]
+{{article détaillé|Histologie|Physiologie|Anatomie}}
+
+Prise au sens structurelle et fonctionnelle, la biologie recouvre également l'ensemble des disciplines, classiques et modernes, qui étudient des structures comme les tissus avec l'histologie ou les organes avec l'anatomie. La physiologie quant à elle étudie les principes mécaniques, physiques et biochimiques des organismes vivants et est séparée en deux branches : la [[physiologie végétale]] et la physiologie animale.
+
+=== Diversité et évolution ===
+[[Fichier:Phylogenetic tree-fr.svg|vignette|L'[[arbre phylogénétique]].]]
+{{article détaillé|Taxinomie|Systématique|Biologie de l'évolution|Botanique|Zoologie}}
+
+L'extrême diversité du vivant n'empêche en rien le groupement en entités ou [[taxon]]s ([[Taxinomie]]), leurs relations les uns par rapport aux autres et leur classement ([[systématique]]).
+
+=== Interactions ===
+{{article détaillé|Écologie|Éthologie}}
+Les interactions des êtres vivants entre eux et les liens les unissant avec leur environnement est le domaine de l'écologie. L'éthologie quant à elle étudie le comportement animal dans le milieu naturel.
+
+=== Niveaux d'observation et disciplines ===
+{| class="wikitable alternance"
+ ! scope=col | Niveau d'observation
+ ! scope=col | Exemple
+ ! scope=col | Disciplines
+ |-----
+ ! scope=row | moléculaire
+ | [[molécule]]s biologiques : [[protéine]]s, [[Acide désoxyribo-nucléique|ADN]]
+ | [[chimie organique]], [[biochimie]], [[biologie moléculaire]]
+ |-----
+ ! scope=row rowspan=3 | microscopique
+ | composants de la [[cellule (biologie)|cellule]] ([[organite]]s)
+ | [[biologie cellulaire]], [[cytologie]]
+ |-----
+ | [[cellule (biologie)|cellules]], [[organisme vivant|organismes]] [[unicellulaire]]s
+ | [[microbiologie]]
+ |-----
+ | [[organe]]s, [[tissu biologique|tissus]]
+ | [[physiologie]], [[histologie]]
+ |-----
+ ! scope=row | macroscopique
+ | [[organisme vivant|organismes]], [[individu]]s
+ | biologie des organismes, [[anatomie]], [[éthologie]]
+ |-----
+ ! scope=row | populationnel
+ | [[colonie (zoologie)|colonies]], [[population]]s, [[métapopulation]]s
+ | [[biologie des populations]], [[génétique des populations]]
+ |-----
+ ! scope=row | spécifique
+ | [[espèce]]
+ | [[taxinomie]], [[phylogéographie]]{{Etc.}}
+ |-----
+ ! scope=row | supra-spécifique
+ | groupes d'[[espèce]]s, [[écosystème]]s, [[évolution humaine]]
+ | [[systématique]], [[écologie]], [[phylogénie]]
+|}
+
+== Applications ==
+[[Fichier:Lab bench.jpg|vignette|Un [[Laboratoire de recherche|laboratoire]] à l'institut de [[biochimie]] de [[Cologne]].]]
+
+Les applications des découvertes en biologie sont nombreuses et très présentes dans le quotidien de l'être humain. Les avancées importantes de ces dernières décennies en [[médecine]] ont principalement pour origine les découvertes sur le fonctionnement du corps humain. Le domaine [[pharmacie|pharmaceutique]] profite également des avancées en chimie organique.
+
+Plus récemment, la découverte de la structure de l'ADN et une meilleure compréhension de l'hérédité ont permis de modifier finement les êtres vivants {{comment}} et trouvent des applications dans les domaines [[agriculture|agricole]] et [[agro-alimentaire]].
+
+== Impacts sur la société ==
+Depuis le développement de la biologie moléculaire et de la physiologie cellulaire dans la seconde partie du {{s-|XX|e}}, les progrès de la biologie sont devenus quotidiens et ont un impact énorme sur la société : compréhension des mécanismes moléculaires de plusieurs centaines de maladies, amélioration des traitements contre le cancer, compréhension des mécanismes neurologiques, amélioration des traitements des maladies mentales et dépistage de tares génétiques ''in utero''. Une meilleure compréhension de l'évolution moléculaire, substrat physique à l'évolution des espèces, permet de transposer à l'homme les découvertes faites sur les animaux, y compris des vers comme ''C. elegans'' ou la mouche [[drosophile]], dont on a montré que les mécanismes moléculaires de segmentation du corps au cours de l'[[embryogenèse]] sont identiques à ceux de l'humain, et, de manière générale, à tout le vivant [[métazoaire]].
+
+Toutefois, les progrès très rapides de la biologie suscitent parfois des interrogations [[Bioéthique|philosophiques]], de vives inquiétudes, voire une forte opposition de certaines associations ou [[Associations et organismes|organisations non gouvernementales (ONG)]]. Citons notamment : l'[[Interruption volontaire de grossesse|interruption volontaire de grossesse (IVG)]], décriée par certains religieux, le [[clonage]], les [[Organisme génétiquement modifié|organismes génétiquement modifiés (OGM)]], le [[Séquençage de l'ADN|séquençage]] et les problèmes de [[propriété intellectuelle]] qui en découlent.
+
+== Notes et références ==
+{{Références|colonnes=2}}
+
+== Voir aussi ==
+{{Autres projets
+ | commons     = Category:Biology
+ | wikispecies = <!-- Wikispecies -->
+ | wiktionary  = biologie
+ | wikiversity = Faculté:Biologie
+ | wikibooks   = <!-- Wikibooks -->
+ | wikisource  = Catégorie:Biologie
+ | wikiquote   = <!-- Wikiquote -->
+ | wikinews    = Catégorie:Biologie
+ | meta        = <!-- Metawiki -->
+ | outreach    = <!-- Outreach -->
+}}
+
+=== Bibliographie ===
+==== Introduction à la biologie : dictionnaire, traité, présentation générale, réflexion ====
+* Neil A. Campbell et Jane B. Reece, ''Biologie'', septième édition, adaptation de l'édition en anglais et révision scientifique de René Lachaîne et Michel Bosset, Pearson Education, 2007.
+* [[Référence:Dictionnaire raisonné de biologie (Jean-Louis Morère, Raymond Pujol)]], éditions Frison-Roche, Paris, 2003, 1222 pages. Préface de Jean Dorst et [[Yves Coppens]]. {{ISBN|978-2-87671-300-0}}
+* William K. Purves, Gordon H. Orians, H. Craig Heller, ''Traité de Biologie'', Sciences Flammarion, Paris, 1994, {{Unité|1224|pages}}. Traduction par Jacqueline London de {{Lang|en|''{{pc|Life}}: The science of biology'', third edition, Sinauer associates, Inc, Sunderland, Massachusetts}}, 1992. {{ISBN|978-2-257-15025-7}}
+* {{en}} Hans Günter Schlegel, {{Lang|en|''General Microbiology'', Seventh Edition, Cambridge University Press}}, 1992, 656{{Nb p.}} Translation of ''Allgemeine Mikrobiologie'', Georg Thieme Verlag, Stuttgart, 1969-1992, by Margot Kogut. {{ISBN|978-0-521-43980-0}}
+* Boyce Rensberger, ''Au cœur de la vie, au royaume de la cellule vivante'', De Boeck Université, 1999, Bruxelles, 348 pages. Traduction de {{Lang|en|''Life itself : exploring the realm of the living cell'', Oxford University Press, Inc.}}, 1996. {{ISBN|978-2-7445-0054-1}}
+* Günther Vogel, Hartmunt Angermann, ''Atlas de la biologie'', Encyclopédie d’aujourd’hui, La Pochothèque, Le livre de poche, 1994, 641 pages. Adaptation du {{Lang|de|''dtv-Atlas zur Biologie'', zweite Verfassung, Deutsche Taschenbuch Verlag, München}}, 1984, sous la direction de Georges Carric. La première adaptation scientifique de l’édition 1970 est dirigée par le biologiste généticien Mathieu Ricard avec Michel Stephan, Élisabeth Loubet, Jean-Pierre Bobillot, Dominique Marie, Alain Saint-Dizier et la traduction de Anne Sebisch, Michel Brottier et Claude Sebisch. {{ISBN|978-2-253-06451-0}}
+* ''Le livre de la vie'', sous la direction de Stephen Jay Gould, textes de Peter Andrews, Michael Benton, Christine Janis, J. John Sepkoski, Christopher Stringer, dessins de John Barber, Marianne Collins, Ely Kish, Akio Morishima, Jean-Paul Tibbles, Collection science ouverte, Seuil, Paris, 1993, 256 pages. Traduit de l’anglais par Marcel Blanc. {{ISBN|978-2-02-019988-9}}
+* Guillaume Lecointre (dir.), ''Guide critique de l’évolution'', Belin, Paris, 2009, 504 pages. {{ISBN|978-2-7011-4797-0}}
+* Guillaume Lecointre, Hervé Le Guyader, ''Classification phylogénétique du vivant'', {{3e}} édition revue et augmentée après première édition de 2001, Belin, 2006, 560 pages. {{ISBN|978-2-7011-4273-9}}
+* Pierre-Paul Grassé, ''L’évolution du vivant'', collection sciences d’aujourd’hui, Édition Albin Michel, Paris, 1973.
+* Jacques Ruffié, ''Traité du vivant'', collection Le temps des sciences, Librairie Arthème Fayard, Paris, 1983, 796 pages. {{ISBN|978-2-213-01159-2}}
+* François Jacob, ''La logique du vivant'', une histoire de l’hérédité, Collection Tel, {{1re}} édition 1970, éditions Gallimard, Paris, 1987, 356 pages. {{ISBN|978-2-07-029334-6}}
+* Louis de Bonis, ''Évolution et extinction dans le règne animal'', Les grands problèmes de l’évolution, Masson, 1991, 192 pages. {{ISBN|978-2-225-82322-0}}
+* Edward O. Wilson, ''La diversité de la vie'', édition Odile Jacob Sciences, 1993, 496 pages. Traduction par Marcel Blanc de ''{{Lang|en|The diversity of life}}'', 1992. {{ISBN|978-2-7381-0221-8}}
+* Christian de Duve, ''À l’écoute du vivant'', Odile Jacob sciences, Paris, 2002, 402 pages. {{ISBN|978-2-7381-1166-1}}
+
+==== Botanique ====
+* Frederik Liubenstein, ''Dictionnaire de la Botanique Européenne'' (''{{Lang|de|Europaïsch Botanisch Wörterbuch}}'') Brême, 1862
+* Gaston Bonnier, ''Les noms de fleurs trouvés par la méthode simple'', Librairie générale de l’enseignement, Paris, 1971, 338 pages.
+* Dietmar Aichelé, ''Quelle est donc cette fleur ?'', éditions Fernand Nathan, Paris, 1975, 400 pages. Illustrations de Marianne Golte-Bechtle. Traduction par Thomas Althaus de {{Lang|de|''Was blüht denn da ?'', Frankh’sche Verlagshandlung, Kosmos Verlag, Stuttgart}}, 1973.
+* Bernard Boulard, ''Le dictionnaire de Botanique'', ellipses, 1990.
+* Aline Raynal-Roques, ''La botanique redécouverte'', Belin/INRA éditions, 1994, 512 pages. {{ISBN|978-2-7011-1610-5}}
+* Brian Capon, ''La botanique pour jardinier'', Belin, 2005, 256 pages. Traduction par Georges Ducreux de Botany Gardeners, édition de 1990 révisée en 2005. {{ISBN|978-2-7011-3919-7}}
+* Paul Mazliak, ''Traité de physiologie végétale'', Hermann
+* [[Marcel Bournérias]], Christian Bock, ''Le Génie végétal'', Nathan, Paris, 1992, 232 pages. {{ISBN|978-2-09-241040-0}}
+* Christine Bourquin-Mignot, Jacques-Elie Brochier, Lucie Chabal, Stéphane Crozat, Laurent Fabre, Frédéric Guibal, Philippe Marinval, Hervé Richard, Jean-Frédéric Terral, Isabelle Théry-Parizot, ''La Botanique'', collection Archéologiques sous la direction d’Alain Ferdière, éditions Errance, Paris, 1999, 208 pages. {{ISBN|978-2-87772-174-5}}
+* Suzanne Amigues, ''Études de botanique antique'' , préface de Pierre Quézel. Paris, de Boccard, 2002, {{XV}}-501{{Nb p.}}
+
+==== Espèces animales ====
+* Henri Tachet (dir.), Philippe Richoux, Michel Bournand, Philippe Usseglio-Polatera, ''Invertébrés d’eaux douces, systématique, biologie, écologie'', CNRS éditions, Paris, 588 pages {{ISBN|978-2-271-05745-7}}
+* R. Jeannel, « Introduction à l’entomologie » in ''Nouvel atlas d’entomologie'', éditions N. Boubée & {{Cie}}, 1960.
+* Michel Lamy, ''Les insectes et les hommes'', collection Sciences d’aujourd’hui, Albin Michel Sciences, Paris, 1997, 416 pages. {{ISBN|978-2-226-08896-3}}
+* Lars Svensson, Peter J. Grant pour les textes, Dan Zetterström, Kilian Mullarney pour les illustrations, ''Le guide ornitho, les 848 espèces d’Europe en {{formatnum:4,000}} dessins'', Collection Les guides du naturaliste, Delachaux et niestlé, Paris, 2000, 400 pages. Traduction de l’ouvrage suédois {{Lang|sv|''Faogel guiden, Europas och Medelhavsomraodets faoglar i fält'', Albert Bonniers, Förlag}}, Stockholm, 1999 par Jean-Louis Parmentier avec adaptation et supervision scientifique de Guilhem Lesaffre, {{ISBN|978-2-603-01142-3}}
+* Louis Chaix, Patrice Méniel, ''Archéozoologie, les animaux et l’archéologie'', Collection des Hespérides, éditions Errance, Paris, 2001, 240 pages. {{ISBN|978-2-87772-218-6}}
+* Jared Diamond, ''Le troisième chimpanzé, essai sur l’évolution et l’avenir de l’animal humain'', Gallimard, Paris, 2000. Traduction de {{Lang|en|''The Third Chimpanzee'', Harper-Collins, New York}}, 1992.
+* André Langaney, ''Les Hommes, passé, présent, conditionnel'', Armand Colin, Paris, 1998, 252 pages. {{ISBN|978-2-200-37117-3}}
+
+==== Écologie et milieux ====
+* Jean-Louis Morere (dir), ''Les êtres vivants dans leur milieu'', sciences naturelles {{2nde}}, Hachette, Paris, 1985, 240 pages. {{ISBN|978-2-01-010680-4}}
+* Gunnar Thorson, ''La vie dans la mer'', Collection L’Univers des connaissances, Hachette, Paris, 1971, 256 pages. Texte français de Georges H. Gallet.
+* Bernard Boulard, ''Guerre et paix dans le règne végétal'', ellipses, Aubin Imprimeur, Paris, 1990, 336 pages. {{ISBN|978-2-7298-9033-9}}
+* Claude Leroy, ''La forêt redécouverte'', Belin, Paris, août 2009, 732 pages. {{ISBN|978-2-7011-4886-1}}
+
+==== Biogéographie et culture botanique ====
+* Paul Ozenda, ''Végétation du continent européen'', Delachaux et Niestlé, Lausanne /Paris, 1994, 272 pages. {{ISBN|978-2-603-00954-3}}
+* François Couplan, ''Ce sont les plantes qui sauvent, ma botanique gourmande, récit'', Plon, Paris, 2005, 462 pages. {{ISBN|978-2-259-19670-3}}
+* Gérard Debuigne, François Couplan, ''Petit Larousse des plantes qui guérissent, 500 plantes'', édition Larousse 2006, 896 pages. {{ISBN|978-2-03-582256-7}}
+* Christian et Élisabeth Busser, ''Les plantes des Vosges, médecine et traditions populaires'' avec un guide de découverte et d’emploi de 200 plantes médicinales, La Nuée bleue, DNA Strasbourg, 2005, 348 pages. Préface de Jean-Marie Pelt. {{ISBN|978-2-7165-0657-1}}
+
+==== Initiation à la biophysique et biologie humaine ====
+* André Aurengo, Bertran Auvert, François Leterrier, Thierry Petitclerc sous la direction de François Gremy, ''Biophysique'', Collection PCEM éditée par François Grémy en 1982, {{2e}} tirage corrigé, Médecine Sciences Flammarion, Paris, 1994, 494 pages. {{ISBN|978-2-257-10594-3}}
+* Alain Blacque-Belair, Bernard Mathieu de Fossey, Max Fourestier, ''Dictionnaire des constantes biologiques et physiques en médecine, applications cliniques pratiques'', {{6e}} édition, éditions Maloine, Paris, 1991, 848 pages. {{ISBN|978-2-224-01907-5}}
+* P. Boulanger, J. Polonovski, G. Biserte, M. Dautrevaux, ''Abrégé de biochimie médicale'', Masson, Paris, {{1ère}} édition 1981, {{2e}} édition 1989 :
+** 1. Les constituants des organismes vivants, {{2e}} édition, 1989, 348 pages. {{ISBN|978-2-225-81640-6}}
+** 2. Métabolismes et régulations, {{1ère}} édition, 1981, 344 pages. {{ISBN|978-2-225-68740-2}}
+* G. Crouzols, M. Lechaud, avec la mise à jour de F. Lasnier, ''Hygiène et biologie humaines'', éditions Jacques Lanore, Malakoff, 1993, 288 pages. {{ISBN|978-2-86268-035-4}}
+* Christian Robert, Pierre Vincent, ''Biologie & physiologie humaines'', Vuibert, Paris, 1995, 678 pages. {{ISBN|978-2-7117-5234-8}}
+* Pierre Jacquemin, Jean-Louis Jacquemin (illustrations), ''Abrégé de parasitologie clinique'', Collection d’abrégés de médecine sous la direction du professeur Le Guyon, Masson et {{Cie}} éditeurs, Paris, 1974, 228 pages. {{ISBN|978-2-225-36091-6}}, Réédition 1987 {{ISBN|978-2-225-80910-1}}
+* IMS Wilkinson, ''Neurologie'', collection En bref, De Boeck Université, Bruxelles, 2002, 284 pages. Traduction par Patrick Chaynes, avec révision scientifique de Mathieu Zuber, de l’ouvrage anglais {{Lang|en|''Neurology'', third edition, Blackwell Science Ltd}}. 1999. {{ISBN|978-2-7445-0134-0}}
+* Jean-Marie Bourre, ''Le cholestérol'', Les classiques santé, édition Privat, Toulouse, 1997, 160 pages. Préface de Jean-Louis Étienne. {{ISBN|978-2-7089-3703-1}}
+
+==== Histoire de la biologie ====
+* Georges Petit, Jean Théodorides, ''Histoire de la zoologie, des origines à Linné'', Collection Histoire de la pensée, de l’école pratique des hautes études, Tome {{VIII}}, Hermann, 1962, 36 pages.
+*{{de}} {{Lang|de|Gottfried Reinhold Treviranus, ''Biologie oder Philosophie der lebenden Natur''}}, 6 tomes, Göttingen, 1802.
+* Bernard Mantoy, ''Jean-Baptiste de Lamarck, créateur de la biologie'', éditions Seghers, Paris, 1968, 192 pages.
+* Charles Darwin, ''L’origine des espèces au moyen de la sélection naturelle ou la préservation des races favorisées dans la lutte pour la vie'', GL Flammarion, Paris, 1992, 604 pages. Traduction de ''{{Lang|en|On the origin of species by means of natural selection or the preservation of favoured races in the struggle of life}}'' publié en 1859. Texte de Daniel Becquemond à partir de la traduction de l’anglais d’Edmond Barbier. Introduction de Jean-Marc Drouin. {{ISBN|978-2-08-070685-0}}
+* Paul Mazliak, ''Les fondements de la biologie, le {{s-|XIX}} de Darwin, Pasteur et Claude Bernard'', Vuibert, AdAPT, 2002, 346 pages. {{ISBN|978-2-7117-5352-9}}
+* André Pichot, ''Histoire de la notion de vie'', {{éd.}} Gallimard, collection Tel, 1993.
+
+==== La biologie, source de débats contemporains ====
+* Edward O. Wilson, ''L’unicité du savoir, de la biologie à l’art, une même connaissance'', Robert Laffont, Paris, 2000, 398 pages. {{ISBN|978-2-221-08877-7}} Traduction de ''Consilience'', Alfred A. Knopf, New-York, 1998. {{ISBN|978-0-679-45077-1}}
+* Bernard Dussart, Henri Friedel, Roger Dajoz, Roger Molinier, Jacques Daget, Jean Keiling, François Ramade, René Oizon, Claude-Marie Vadrot, François Lapoix, Michel et Claire Corajoud, Dominique Simonnet, Jean-Pierre Charbonneau, ''Encyclopédie de l’écologie, le présent en question'', Librairie Larousse, 1977, 488 pages. Présentation de Henri Friedel. Conclusion de René Dumont. Un livre vert à plusieurs voix, contemporain de l’essor du courant politique vert. {{ISBN|978-2-03-070102-7}}
+
+=== Articles connexes ===
+{{Catégorie principale}}
+* [[Histoire de la biologie]]
+* [[Biologistes célèbres]]
+* [[Biologie numérique]]
+* [[Biosystémique]]
+
+=== Lien externe ===
+* [http://signets.bnf.fr/html/categories/c_570biologie.html Sélection de sites web sur la biologie dans le répertoire encyclopédique : Les signets de la Bibliothèque nationale de France]
+
+{{Palette|Branches de la biologie}}
+{{Portail|Biologie|Sciences|Médecine}}
+
+[[Catégorie:Biologie| ]]

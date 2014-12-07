@@ -1,0 +1,47 @@
+[[Datei:Geany_0.14_de.png|mini|hochkant=1.3|Screenshot der [[Integrierte Entwicklungsumgebung|IDE]] [[Geany]] mit [[Python (Programmiersprache)|Python]]-Quelltext]]
+
+Unter dem Begriff '''Quelltext''', auch '''Quellcode''' ({{enS|''source code''}}) oder unscharf ''Programmcode'' genannt, wird in der [[Informatik]] der für [[Menschenlesbar|Menschen lesbare]], in einer [[Programmiersprache]] geschriebene Text eines [[Computerprogramm]]es verstanden. Abstrakt betrachtet kann der Quelltext für ein Programm auch als ''Software-Dokument'' bezeichnet werden, welches das Programm formal so exakt und vollständig beschreibt, dass dieses aus ihm vollständig automatisch von einem Computer in [[Maschinensprache]] übersetzt werden kann.
+
+Ein Quelltext kann auch (teilweise oder komplett) nicht-textueller Form sein, zum Beispiel als grafische Verknüpfung von logischen Funktionsblöcken (beispielsweise in [[Simulink]] oder als [[Unified Modeling Language|UML]]-Diagramm). Der Quelltext eines Programms kann mehrteilig sein, zum Beispiel auf mehrere Dateien (evtl. unterschiedlicher [[Dateiformat|Formate]]) aufgeteilt sein oder teilweise grafisch, teilweise textuell vorliegen (z.&nbsp;B. UML, angereichert mit Methodenimplementierungen in der verwendeten Programmiersprache).
+
+== Anwendung ==
+=== Erstellung ===
+Der Quelltext wird meist manuell mit Hilfe einer [[integrierte Entwicklungsumgebung|integrierten Entwicklungsumgebung]] oder eines [[Texteditor]]s erstellt, aber es gibt auch [[Codegenerator]]en, die den Code aus strukturierten Entwurfsdokumenten, z.&nbsp;B. [[Nassi-Shneiderman-Diagramm|Struktogrammen]] oder [[Unified Modeling Language|UML]]-Entwürfen, automatisch generieren. Besonders interessant sind [[Entwicklungswerkzeug]]e, die aus Entwürfen Code und umgekehrt auch aus Code wieder Entwürfe erzeugen können. Dabei werden manuelle Änderungen am Code nachträglich wieder in den Entwurf übernommen. Auf diese Weise ist ein „[[Round-Trip-Engineering]]“ möglich, bei dem an jeder Stelle manuelle Veränderungen in den gesamten Entwicklungsprozess eingebracht werden können.
+
+Zum Erstellen des Quelltextes ist meist ein einfacher Texteditor ausreichend, jedoch vereinfachen spezialisierte [[integrierte Entwicklungsumgebung]]en einige Arbeitsschritte. Mittels der [[Syntaxhervorhebung]] sind die Teile des Quelltextes entsprechend ihrer Funktionalität farblich hervorgehoben, was die Lesbarkeit verbessert. Ebenfalls zur Verbesserung der Lesbarkeit halten sich Programmierer meist an eine bestimmte [[Quelltextformatierung]] (z.&nbsp;B. Einrückung von Unterabschnitten, Groß-/Kleinschreibung …). In manchen Sprachen ist eine bestimmte Quelltextformatierung vorgegeben (z.&nbsp;B. [[Fortran]]-77, [[Python (Programmiersprache)|Python]]), manche [[integrierte Entwicklungsumgebung]] kann den Quelltext automatisch formatieren (sog. ''Beautifier'').
+
+Bei größeren Programmen, die aus vielen einzelnen [[Datei|Quelldateien]] bestehen, werden mitunter Informationen verwaltet, welche die Abhängigkeiten der Quelltextdateien untereinander beschreiben. Dies erlaubt beim Kompilieren mittels eines einzigen Aufrufes, alle Arbeitsschritte zur Erstellung des fertigen Programms auszuführen und nur jene Bestandteile erneut zu übersetzen, welche zwischenzeitlich geändert wurden oder von geänderten Komponenten abhängen. Beispiel hierfür sind [[Make]]files.
+
+Zur besseren Dokumentation der Änderungen oder der gezielten Synchronisierung von mehreren gleichzeitig arbeitenden Programmierern wird der Quelltext häufig mit einer Software-[[Versionsverwaltung]] gespeichert, wodurch alle Änderungen später einsehbar sind.
+
+=== Übersetzung und Ausführung ===
+Bevor das [[Software|Programm]], das der Programmierer schreibt, von einem [[Computer]] ausgeführt werden kann, muss es in [[Maschinensprache]], also in eine vom Computer verständliche Folge von [[Bit]]s, umgesetzt werden. Dies kann entweder vorab durch einen [[Compiler]] oder – zur [[Laufzeit (Informatik)|Laufzeit]] – durch einen [[Interpreter]] oder [[Just-in-time-Kompilierung|JIT-Compiler]] geschehen. In vielen Fällen wird mittlerweile eine Kombination aus beiden Varianten gewählt, bei der zuerst – meist vom Programmierer – der Quelltext der eigentlichen Programmiersprache in einen abstrakten Zwischencode übersetzt wird, welcher dann zur Laufzeit von einer [[Laufzeitumgebung]] durch einen Interpreter oder JIT-Compiler in den eigentlichen Maschinencode überführt wird. Dieses Prinzip hat den Vorteil, dass ein und derselbe Zwischencode auf sehr vielen verschiedenen Plattformen ausführbar ist und somit nicht für jedes auf dem Markt übliche System eine eigene Version der Software erscheinen muss. Typische Beispiele für einen solchen Zwischencode sind der Java-[[Bytecode]] sowie die [[Common Intermediate Language]]. Mittels eines [[Debugger]]s kann die Funktionsweise des Programmes zur Laufzeit verfolgt werden.
+
+Programmiersprachen wie [[C++]], [[Java (Programmiersprache)|Java]], [[Perl (Programmiersprache)|Perl]] oder auch [[PHP]] arbeiten mit Begriffen, die Menschen leichter zugänglich sind. Bei der Programmierung wird dann auf der Grundlage der Begrifflichkeit der jeweiligen Programmiersprache ein Quelltext erstellt. Dieser ist im Vergleich zum Maschinencode besser verständlich, muss aber im nächsten Schritt noch in die maschinenlesbare binäre Form gebracht werden.
+
+== Lizenzierung ==
+Software und der dazugehörige Quelltext unterliegen dem [[Urheberrecht]]. Sie können in zwei Kategorien unterteilt werden: [[Proprietär]]e Software und [[Open Source|quelloffene]]-Software.
+
+Quelloffene Programme, also solche, die unter einer "Open-Source"-Lizenz stehen, werden in der Regel direkt mit ihrem Quelltext ausgeliefert, dessen Änderung und Weitergabe durch die Lizenz gestattet ist. Dies ermöglicht deren Studium, Prüfung und Anpassung für spezifische Bedürfnisse. Verfechter des Open-Source-Prinzips sind der Meinung, dass dies zudem die Qualität verbessere, da Fachleute die Fehler besser lokalisieren könnten und sie entweder direkt beheben oder den ursprünglichen Programmierern qualitativ bessere Fehlermeldungen liefern könnten. Die Möglichkeit, Open-Source-Software anhand ihres Quelltextes zu überprüfen, erhöhe das Vertrauen des Anwenders in ihre Korrektheit und Funktionalität im Sinne des Anwenders. [[Freie Software]] ist in diesem Sinne mit Open-Source-Software identisch.
+
+Proprietäre Software wird in der Regel ohne Quelltext ([[Closed Source]]) oder nur unter besonders restriktiven Lizenzen ausgeliefert. Dem Schutz des Abnehmers dienen dann manchmal Vereinbarungen zur [[Quelltexthinterlegung]] ''(Source Code Escrow Agreements)''. Lediglich bei der Erstellung von [[Individualsoftware]] wird häufiger auch die Übergabe des Quelltexts vereinbart.
+
+== Andere Bedeutungen ==
+Im weiteren Sinne versteht man unter Quelltext auch die menschenlesbare Beschreibung eines gerenderten Mediums.
+* Der Quelltext von Web-Seiten ist in der Regel in [[Hypertext Markup Language|HTML]] geschrieben.
+* Unter dem Quelltext von Wikipedia-Artikeln ist der Text zu verstehen, den die Autoren der Artikel eingeben. Hier ist, wie bei vielen dynamischen Webseiten, der HTML-Code das Ergebnis einer Transformation des Wiki-Codes nach HTML und [[Cascading Style Sheets|CSS]]. Somit ist bei dynamischen Webseiten mit Quelltext häufig nicht das generierte HTML gemeint, sondern die Informationsquelle, aus der die Webseite generiert wird.
+* Auch [[PostScript]] und andere [[Vektorgrafik|Vektorformate]] sind ungerendert „Quelltext“.
+* [[Very High Speed Integrated Circuit Hardware Description Language|VHDL]] beschreibt elektronische Schaltungen, die in einem Simulator Datenverarbeitung betreiben können.
+
+== Siehe auch ==
+* [[Hallo-Welt-Programm]], Beispiele für Quelltexte einfacher Programme
+* [[Quelltextformatierung]]
+* [[Programmierstil]]
+* [[Einrückungsstil]]
+* [[Obfuscator|Quelltextverschleierung]]
+
+== Weblinks ==
+{{Wiktionary|Quelltext}}
+{{Commonscat|Source code|Quelltext}}
+
+[[Kategorie:Programmierung]]
