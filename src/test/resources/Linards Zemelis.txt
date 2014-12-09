@@ -1,0 +1,59 @@
+{{Infobox Biathlet
+| kurzname = Linards Zēmelis
+| bild =
+| langname =
+| geburtstag = 26. Oktober 1995
+| geburtsort =
+| geburtsland =
+| sterbedatum =
+| sterbeort =
+| sterbeland =
+| nation = {{LAT}}
+| beruf =
+| verein =
+| trainer =
+| nationalkader =
+| europacup = 2013
+| europacupsiege =
+| weltcup =
+| weltcupsiege =
+| karriereende =
+<!-- Status-Kürzel: a für aktiv, g für gesperrt, n für nicht aktiv, v für verstorben, z für zurückgetreten -->
+| status = a
+| Medaillenspiegel =
+| medaillen =
+| gesamtweltcup =
+| einzelweltcup =
+| sprintweltcup =
+| verfolgungsweltcup =
+| massenstartweltcup =
+| update = 30. November 2014
+}}
+'''Linards Zēmelis''' (* [[26. Oktober]] [[1995]]) ist ein lettischer [[Biathlon|Biathlet]].
+
+Linards Zēmelis gab sein internationales Debüt im Rahmen der [[Olympische Jugend-Winterspiele 2012|Olympischen Jugend-Winterspiele 2012]] in [[Innsbruck]], wo er 49. des Sprints, 43. der Verfolgung sowie mit der Biathlon/Skilanglauf-Mixed-Staffel 23. wurde.<ref>[http://www.2bmoto.com/search/info/Latvia%20at%20the%202012%20Winter%20Youth%20Olympics Latvia at the 2012 Winter Youth Olympics]</ref> Bei den [[Biathlon-Juniorenweltmeisterschaften 2013]] in [[Obertilliach]] belegte er die Ränge 19 im Einzel, 51 im Sprint und 58 in der Verfolgung. [[Biathlon-Juniorenweltmeisterschaften 2014|Ein Jahr später]] wurde er in [[Presque Isle (Maine)|Presque Isle]] 32. des Einzels, 39. des Sprints, 45. der Verfolgung und 12. mit der lettischen Staffel.
+
+Seine ersten Rennen bei den Männern im Leistungsbereich bestritt Zēmelis [[IBU-Cup 2013/14|2013]] in [[Beitostølen]] im [[IBU-Cup]] und wurde 100. des Einzels und 97. des Sprintrennens. Kurz darauf wurde er in Obertilliach 71. eines Sprints und erreichte damit seine bislang bese Platzierung in der Rennserie. Ein erster Höhepunkt bei den Männern wurden die [[Biathlon-Europameisterschaften 2014]] in [[Nové Město na Moravě]]. Zēmelis kam hier einzig im Staffelrennen zum Einsatz und beendete dieses an der Seite von [[Rolands Pužulis]], [[Toms Praulītis]] und [[Aleksandrs Patrijuks]] als Schlussläufer der lettischen Vertretung als überrundete Staffel auf Rang 18.
+
+== Weblinks ==
+* {{IBU|BTLAT12610199501}}
+* {{FISDB|CC|180143}}
+
+== Einzelnachweise ==
+<references />
+
+{{SORTIERUNG:Zemelis, Linards}}
+[[Kategorie:Biathlet (Lettland)]]
+[[Kategorie:Lette]]
+[[Kategorie:Geboren 1995]]
+[[Kategorie:Mann]]
+
+{{Personendaten
+|NAME=Zēmelis, Linards
+|ALTERNATIVNAMEN=Zemelis, Linards
+|KURZBESCHREIBUNG=lettischer Biathlet
+|GEBURTSDATUM=26. Oktober 1995
+|GEBURTSORT=
+|STERBEDATUM=
+|STERBEORT=
+}}

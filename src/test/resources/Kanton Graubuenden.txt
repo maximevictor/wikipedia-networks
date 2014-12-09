@@ -1,0 +1,284 @@
+<!-- schweizbezogen -->
+{{Infobox Kanton
+| Name=Kanton Graubünden
+| Name2='''Chantun Grischun''' <span style="font-size: 0.7em;">({{rmS}})</span>
+| Name3='''Cantone dei Grigioni''' <span style="font-size: 0.7em;">({{itS}})</span>
+| Abkürzung=GR
+| Wappen=Wappen Graubünden matt.svg
+| Wappen_Name=[[Fahne und Wappen des Kantons Graubünden|Wappen]]
+| Karte=Reliefkarte Graubünden.png
+| Lage=Karte Lage Kanton Graubünden 2014.png
+| Gemeinden=Karte Gemeinden des Kantons Graubünden farbig 2014.png
+| Hauptort=[[Chur]]
+| Fläche=7105
+| Fläche_Rang=1
+| Einwohner={{EWZ CH|CH-GR|CH-GR}}<ref>[https://www.gr.ch/DE/kanton/ueberblick/Seiten/Bevoelkerung.aspx ''Bevölkerung''], Standeskanzlei Graubünden</ref>
+| Einwohner_Rang=14
+| Einwohner_Jahr={{EWD|CH-GR|TIMESTAMP}}
+| Dichte=27
+| Dichte_Rang=26
+|Ausländer=17,3 %<ref>[https://www.bfm.admin.ch/content/dam/data/migration/statistik/auslaenderstatistik/aktuelle/ausl-nach-kanton/107-bevoelkerung-kt-2013-08-d.pdf ''Bestand der ständigen ausländischen Wohnbevölkerung nach Wohnkanton und Ausländergruppe Ende August 2013''] (PDF; 132&nbsp;kB). [[Bundesamt für Migration]] (BFM). Medienmitteilung vom 22. Oktober 2013. Abgerufen am 26. Dezember 2013.</ref> <small>(August 2013)</small>
+|Arbeitslose=2,1 %<ref>[http://www.seco.admin.ch/themen/00374/00384/index.html?lang=de&download=NHzLpZeg7t,lnp6I0NTU042l2Z6ln1acy4Zn4Z2qZpnO2Yuq2Z6gpJCGdn53gmym162epYbg2c_JjKbNoKSn6A-- ''Die Lage auf dem Arbeitsmarkt – November 2013''] (PDF; 618&nbsp;kB). [[Staatssekretariat für Wirtschaft]] (SECO). Pressedokumentation vom 9. Dezember 2013. Abgerufen am 26. Dezember 2013.</ref> <small>(November 2013)</small>
+| Beitrittsjahr=1803
+| Sprache=[[Deutsche Sprache|Deutsch]]&nbsp;(76 %),<br />[[Bündnerromanisch|Rätoromanisch]]&nbsp;(14 %),<br />[[Italienische Sprache|Italienisch]]&nbsp;(10 %)
+| Website=[http://www.gr.ch/ www.gr.ch]
+}}
+
+'''Graubünden''' ({{gswS-ch|''Graubünda/Bündnerland,''}} {{rmS|{{Audio|Roh-sursilvan-grischun.ogg|'''Grischun'''}}}} [{{IPA|ɡʁiˈʒun}}], {{itS|'''Grigioni'''}} [{{IPA|ɡriˈdʒoːni}}], {{frS|''Grisons''}}) ist ein deutsch-, rätoromanisch- und italienischsprachiger [[Kanton (Schweiz)|Kanton]] der [[Schweiz]] und liegt vollständig im Gebiet der [[Alpen]]. Der Hauptort ist [[Chur]].
+
+== Name und Wappen ==
+[[Datei:Hiking Switzerland, Graubünden capital Chur.jpg|mini|links|Die Hauptstadt Chur; Blick gegen Westen ins Vorderrheintal]]
+
+Der Kanton Graubünden trägt den Namen des ehemals politisch gewichtigsten der [[Drei Bünde]], aus denen er entstanden ist. Der 1367 gegründete ''Graue Bund'' ([[Heroldsbild#Spaltung|gespaltener]] Schild, weiss/schwarz) wurde 1442 erstmals genannt, vermutlich ein Spottname der Zürcher und Österreicher, der von den Bundsleuten vor 1486 übernommen wurde. Im 15. Jahrhundert erscheint der Name für die sonst ''Drei Bünde'' genannte Gesamtheit der Bünde. Im 16.&nbsp;Jahrhundert wurde von Humanisten der Name der römischen Provinz ''[[Rätia]]'' als ''Rätien'' auf das Gebiet der Drei Bünde übertragen. 1799 wurden die Bünde von [[Napoleon Bonaparte]] als ''[[Kanton Rätien]]'' der damaligen [[Helvetische Republik|Helvetischen Republik]] eingegliedert. Die Bezeichnung ist heute noch für Institutionen wie die [[Rhätische Bahn]] oder das [[Rätisches Museum|Rätische Museum]] in [[Chur]] üblich, und auch die Bezeichnung ''rätoromanisch'' für die [[bündnerromanisch]]e Sprache stammt daher. Mit der 1803 von Napoleon Bonaparte erlassenen [[Mediation (Geschichte)|Mediationsakte]] und der damit verbundenen Konstituierung der modernen Schweizerischen Eidgenossenschaft wurde der Name ''Graubünden'' offiziell.<ref>''Rätisches Namenbuch.'' Begründet von Robert von Planta. Bd 2. Etymologien. Bearbeitet und herausgegeben von Andrea Schorta. Bern 1964, S.&nbsp;713f., 810f.</ref><ref>{{HLS|47667|Rätien|Autor= Adolf Collenberg}}</ref>
+Das Kantonswappen setzt sich entsprechend aus den Wappen der Drei Bünde zusammen; siehe auch [[Fahne und Wappen des Kantons Graubünden]].
+
+== Geographie ==
+[[Datei:Palpuogna.jpg|mini|links|Palpuognasee am Albulapass]]
+
+* ''Höchste Erhebung'': [[Piz Bernina]] ({{Höhe|4049|CH|link=true}})
+* ''Tiefster Punkt:'' die [[Moësa (Fluss)|Moësa]] an der Grenze zum Kanton Tessin ({{Höhe|260|CH}})
+Der Kanton bildet als grösster Kanton der Schweiz deren südöstlichen Teil und ist vor allem durch Berglandschaften geprägt. Aufgrund der geographischen Bedingungen ist er der am dünnsten besiedelte Kanton der Schweiz und belegt trotz seiner Grösse von der Einwohnerzahl her nur den 14. Rang.
+
+Gemeinsame Kantonsgrenzen hat Graubünden im Südwesten mit dem [[Kanton Tessin]], im Westen mit [[Kanton Uri|Uri]], im Norden mit [[Kanton Glarus|Glarus]] und [[Kanton St. Gallen|St.&nbsp;Gallen]]. Graubünden bildet die Landesgrenze der Schweiz mit [[Liechtenstein]] sowie mit [[Österreich]] (Bundesländer [[Vorarlberg]] und [[Tirol (Bundesland)|Tirol]]) im Norden, dem [[Grenze zwischen Italien und der Schweiz|italienischen]] [[Südtirol]] im Osten und der [[Lombardei]] im Süden. Neben Graubünden grenzt nur noch St. Gallen an drei verschiedene Nachbarstaaten.
+
+Entwässert wird Graubünden zum grössten Teil vom [[Rhein]] mit seinen in Graubünden entspringenden Quellflüssen [[Vorderrhein]] und [[Hinterrhein]]. Den Osten des Landes, das [[Engadin]], entwässert der [[Inn]], der ebenfalls in Graubünden entspringt. Jenseits des [[Alpenhauptkamm]]s liegen die zum [[Po (Fluss)|Po]] entwässernden und italienischsprachigen Bündner Südtäler: das [[Misox]] mit dem [[Calancatal]], das [[Bergell]] und das [[Puschlav]]. Der östlichste Teil des Landes, das [[Val Müstair|Münstertal]], entwässert zur [[Etsch]]. Die drei Einzugsgebiete der Nordsee, des Mittelmeers und des Schwarzen Meers treffen sich unweit der Inn-Quelle nahe dem [[Pass Lunghin]] oberhalb von [[Maloja]], der Dreiwasserscheide. Von dort fliesst Richtung Norden die [[Julia (Fluss)|Julia]], die via Rhein zur Nordsee führt, nach Süden die [[Mera|Maira]], deren Wasser über den Po ins [[Mittelmeer]] kommt, und nach Osten der Inn, der in die [[Donau]] mündet und damit ins [[Schwarzes Meer|Schwarze Meer]] fliesst.
+
+Im Kanton Graubünden gibt es 150 Täler, 615 Seen (von gut 1500 Seen in der Schweiz), 937 Berggipfel bis hinauf zum [[Piz Bernina]] auf {{Höhe|4049|CH-m}} sowie den grössten prähistorischen Bergsturz der Welt, welcher bei [[Flimser Bergsturz|Flims]] immer noch sichtbar ist.
+Den Gesamtkomplex der Berggruppen um Rhein- und Innquellgebiet nennt man ''[[Bündner Alpen]]''.
+
+=== Fauna und Flora ===
+Im Kanton Graubünden sind ca. 300 Vogelarten bekannt. Dokumentiert sind sie im Nachschlagewerk ''[[Die Vögel Graubündens]]''.
+
+== Bevölkerung ==
+Die Einwohner werden als ''Bündner'' bezeichnet.
+
+=== Sprachen ===
+[[Datei:Karte Sprachen Graubünden.png|mini|links|Ehemaliges Verbreitungsgebiet der einzelnen romanischen Idiome in Graubünden]]
+
+Als einziger Kanton der Schweiz hat Graubünden drei Amtssprachen: [[Deutsche Sprache|Deutsch]], [[Bündnerromanisch|Rätoromanisch]] und [[Italienische Sprache|Italienisch]]. Gleichzeitig ist es der einzige Kanton, in dem Rätoromanisch Amtssprache ist. Aufgrund dieser und damit auch der kulturellen Vielfalt, aber auch wegen seiner Form und Beschaffenheit wird der Kanton auch als kleine Schweiz innerhalb der Schweiz bezeichnet.
+
+Die Gemeinden und Kreise sind autonom, ihre eigenen Amts- und Schulsprachen festzulegen, der Kanton setzt jedoch Richtlinien, insbesondere zur Unterstützung der Minderheitensprachen Rätoromanisch und Italienisch. Gemäss Art. 16 des Bündner Sprachengesetzes von 2006 gelten Gemeinden, in denen mindestens 40 % der Einwohner das angestammte Idiom sprechen, als amtlich einsprachig, und Gemeinden, in denen wenigstens 20 % das angestammte Idiom sprechen, als amtlich zweisprachig.<ref>[http://www.gr-lex.gr.ch/frontend/versions/238/pdf_file Sprachengesetz des Kantons Graubünden vom 19. Oktober 2006.]</ref>
+
+Die ''deutschen Mundarten'' Graubündens gehören zu zwei Gruppen des [[Schweizerdeutsch]]en:
+
+* Dem [[Hochalemannisch|hochalemannischen]] [[Bündnerdeutsch]], das in der Region Chur, in der [[Bündner Herrschaft]], den [[Fünf Dörfer]]n und im [[Domleschg]] gesprochen wird; diese Dialekte verbreiteten sich im Hoch[[mittelalter]] und der [[Neuzeit]] von Norden ([[Bodensee]] und [[Alpenrheintal|Rheintal]]) bzw. von Nordwesten ([[Walensee]]-[[Seeztal]]) her und überlagerten ursprünglich rätoromanisches Siedlungsgebiet.
+* Dem höchstalemannischen [[Walliserdeutsch|Walserdeutsch]], das in den im Hochmittelalter vom [[Kanton Wallis|Wallis]] her besiedelten [[Walser]]dörfern gesprochen wird, insbesondere im [[Prättigau]], der [[Davos|Landschaft Davos]] und dem [[Schanfigg]] sowie in mehreren Exklaven oder [[Sprachinsel]]n (Avers, Mutten, Obersaxen, Rheinwald, Safien-Tschappina, Vals), die infolge des Rückzugs der rätoromanischen Sprache heute allerdings teilweise räumlichen Anschluss an das Hochalemannische gefunden haben.
+* Die Mundart von [[Samnaun]] gehört hingegen, als einziger Dialekt in der Schweiz, zum [[Bairische Sprache|Bairischen]], speziell zum [[Dialekte in Tirol|Tirolerischen]].
+
+Im ''[[Bündnerromanisch]]en'', das in verschiedenen Gegenden des Kantons (vorwiegend in der Surselva, in Teilen Mittelbündens, im Engadin und im Val Müstair) gesprochen wird, existieren sowohl fünf regionale Schriftdialekte (sogenannte Idiome), nämlich [[Surselvische Sprache|Surselvisch]] (Sursilvan), [[Sutselvische Sprache|Sutselvisch]] (Sutsilvan), [[Surmeirische Sprache|Surmeirisch]] (Surmiran), [[Oberengadinische Sprache|Oberengadinisch]] (Puter) und [[Unterengadinische Sprache|Unterengadinisch]] (Vallader) als auch eine einheitliche Schriftsprache [[Rumantsch Grischun]], die erst in den 1980er Jahren als [[Kunstsprache]] geschaffen worden ist. [[Jauer (Sprache)|Münstertalisch]] (Jauer) hat keine schriftsprachliche Tradition. In den Münstertaler Schulen wurde bis zur Einführung von Rumantsch Grischun in Unterengadinisch unterrichtet.
+
+Die ''italienischen Mundarten'' im Misox und Calancatal, Bergell, in Bivio und dem Puschlav gehören dem [[Lombardische Sprache|Alpinlombardisch]]en an.
+
+Spätestens seit Mitte des 19. Jahrhunderts, als der Bund im Zug der Umsetzung des ''Gesetzes betreffend die Heimatlosigkeit'' dem Kanton Graubünden eine grosse Zahl [[Jenische]]r zwangsweise zuwies, hat Graubünden auch eine statistisch nicht erfasste (gesamtschweizerisch auf 35'000 Personen geschätzte) Population ''[[Jenische Sprache|jenischer Muttersprache]]''. Das Jenische ist anerkannte Minderheitensprache in der Schweiz<ref>Schweizerische Eidgenossenschaft, Bundesamt für Kultur: ''[http://www.bak.admin.ch/bak/themen/sprachen_und_kulturelle_minderheiten/00507/00511/index.html?lang=de Fahrende – Anerkennung als nationale Minderheit.]''</ref> und somit auch in Graubünden, besitzt aber keinen Amtssprachenstatus.
+
+Wohnbevölkerung nach Sprachen (Volkszählung 2000):
+* Deutsch: 127'755 (68 %)
+* Rätoromanisch: 27'038 (14 %)
+* Italienisch: 19'106 (10 %)
+* Andere: 13'159 (8 %)
+
+<gallery>
+Mehrheitssprachen GR 1860.png|Sprachmehrheit in Graubünden 1860
+Mehrheitssprachen GR 2000.png|Sprachmehrheit in Graubünden 2000
+Sprachen GR 2000.png|Tatsächliche Verbreitung der Landessprachen in Graubünden 2000
+LinguaRumantsha.png|Verbreitung des [[Bündnerromanisch]]
+</gallery>
+
+Bis 2003 hatte der Kanton Graubünden seine Schulbücher in sieben Sprachen herausgegeben, neben Deutsch und Italienisch auch in allen fünf rätoromanischen Schriftdialekten. 2003 entschied das Bündner Parlament, die romanischen Lehrmittel nur noch in Rumantsch Grischun herauszugeben. Dieser Entscheid wurde jedoch bereits 2013 im Grundsatz wieder rückgängig gemacht.<ref>[http://www.srf.ch/player/tv/tagesschau/video/lokale-idiome-statt-rumantsch-grischun?id=57fc2681-67fb-4ce9-a60e-c457ba8e0a5d ''Lokale Idiome statt Rumantsch Grischun'']. [[Tagesschau (SRF)|Tagesschau]] vom 26. Juli 2011.</ref>
+
+=== Konfessionen ===
+[[Datei:Disentis Kloster.jpeg|mini|[[Kloster Disentis]]]]
+
+Infolge der Souveränität der einzelnen Gemeinden konnte im 16. Jahrhundert jede Gemeinde ihre Konfession autonom bestimmen. [[Fläsch]] war die erste reformierte Gemeinde im Kanton, danach folgte [[St. Antönien]], später andere. Graubünden gehört somit zu den traditionell [[Konfessionelle Parität|paritätischen]] Kantonen.
+
+Überwiegend katholisch sind das [[Vorderrhein]]tal mit dem [[Val Lumnezia|Lugnez]] (ohne [[Vuorz|Waltensburg]] und [[Gruob]]), das [[Oberhalbstein]] (ohne [[Bivio]]) und das mittlere [[Landwasser (Albula)|Landwassertal]] (ohne [[Bergün/Bravuogn|Bergün]]), das [[Misox]] und das [[Puschlav]].
+
+Überwiegend reformiert sind das [[Prättigau]], das [[Schanfigg]] und das obere Landwassertal, im [[Hinterrhein]]tal das [[Schams]], das [[Rheinwald]], das [[Safiental]] und das [[Avers GR|Avers]], das [[Engadin]] (ohne [[Tarasp]] und [[Samnaun]]), das [[Bergell]] und das [[Val Müstair|Münstertal]] (ohne [[Müstair]]).
+
+Konfessionell gemischt sind die Regionen [[Fünf Dörfer]] und [[Imboden (Bezirk)|Imboden]] sowie das [[Domleschg]] und das [[Churwaldnertal]].
+
+Klöster gibt es in [[Benediktinerinnenkloster St. Johann|Müstair]], [[Kloster Disentis|Disentis]], [[Kloster Cazis|Cazis]] und [[Ilanz]].
+
+== Verfassung und Verwaltung ==
+Bisher kennt Graubünden drei kantonale Verfassungen. Die früher gültigen wurden in den Jahren 1854 und 1892 erlassen, die heutige<ref>[http://www.admin.ch/ch/d/sr/131_226/index.html ''Verfassung des Kantons Graubünden''], Die Bundesbehörden der Schweizerischen Eidgenossenschaft ([[admin.ch]])</ref> datiert von 2003.
+
+Für das Bundesparlament entsendet Graubünden wie jeder Vollkanton zwei Vertreter in den Ständerat und gemäss seinem Anteil an der Bevölkerung fünf Abgeordnete in den Nationalrat.
+
+=== Legislative ===
+[[Datei:Chur Grossratsgebäude.jpg|mini|[[Grossratsgebäude (Chur)|Grossratsgebäude]] in Chur, vor der Fassadenrenovierung und Neugestaltung des Eingangsbereichs]]
+
+{| class="wikitable zebra"
+|- class="hintergrundfarbe5"
+! Partei !! Sitze !! Sitzverteilung 2014-2018<ref>[http://www.gr.ch/DE/institutionen/parlament/Seiten/GrosserRat.aspx Grosser Rat des Kantons Graubünden]</ref>
+|-
+| [[FDP.Die Liberalen]] (FDP) || align="center" | 35 || align="center" rowspan="6" | [[File:Grosser Rat GR 2014.svg|250px|]]
+|-
+| [[Christlichdemokratische Volkspartei]] (CVP) || align="center" | 31
+|-
+| [[BDP Graubünden|Bürgerlich-Demokratische Partei]] (BDP) || align="center" | 27
+|-
+| [[Sozialdemokratische Partei der Schweiz]] (SP) || align="center" | 16
+|-
+| [[Schweizerische Volkspartei]] (SVP) || align="center" | 9
+|-
+| [[Grünliberale Partei]] (GLP) fraktionslos|| align="center" | 2
+|}
+
+Gesetzgebende Behörde ist der [[Grosser Rat (Graubünden)|Grosse Rat]], der 120 Mitglieder zählt und vom Volk gemäss [[Majorz]]verfahren fest für vier Jahre gewählt wird.
+
+Das Volk ist direkt an der Gesetzgebung beteiligt: 4000 Stimmberechtigte oder ein Siebtel der Gemeinden können eine Änderung der Verfassung verlangen, 3000 Stimmberechtigte oder ein Achtel der Gemeinden ein Gesetz oder eine Gesetzesänderung vorschlagen (Volksinitiative) und 1500 Stimmberechtigte oder ein Zehntel der Gemeinden können verlangen, dass ein vom Grossen Rat erlassenes Gesetz oder eine solche Gesetzesänderung der Volksabstimmung zu unterwerfen sei (Referendum). Änderungen der Verfassung unterliegen obligatorisch der Volksabstimmung.
+
+=== Exekutive ===
+Die Regierung (früher: ''Kleiner Rat'') zählt fünf Mitglieder und wird vom Volk ebenfalls im Majorzverfahren auf ebenfalls vier Jahre gewählt. Das Präsidium wechselt jährlich im Turnus.
+
+Die derzeit amtierenden Regierungsräte und ihre jeweiligen Departemente sind:
+
+{| class="wikitable zebra"
+|+ Amtsperiode 1. Januar 2011 bis 31. Dezember 2014<ref>[http://www.gr.ch/DE/institutionen/regierung/Seiten/Regierung.aspx Regierung des Kantons Graubünden]</ref>
+|- class="hintergrundfarbe5"
+! Regierungsrat !! Partei !! Departement
+|-
+| [[Mario Cavigelli]], Präsident || [[Christlichdemokratische Volkspartei|CVP]] || Bau-, Verkehrs- und Forstdepartement
+|-
+| [[Martin Jäger (Politiker)|Martin Jäger]], Vizepräsident  || [[Sozialdemokratische Partei der Schweiz|SP]] || Erziehungs-, Kultur- und Umweltschutzdepartement
+|-
+| [[Christian Rathgeb]] || [[FDP.Die Liberalen|FDP]] || Departement für Justiz, Sicherheit und Gesundheit
+|-
+| [[Barbara Janom Steiner]] || [[BDP Graubünden|BDP]] || Departement für Finanzen und Gemeinden
+|-
+| [[Hansjörg Trachsel]] || [[BDP Graubünden|BDP]] || Departement für Volkswirtschaft und Soziales
+|}
+
+Leiter der Standeskanzlei ist seit 1990 Claudio Riesen.<ref>[https://www.gr.ch/DE/institutionen/regierung/Seiten/Regierung.aspx ''Regierung des Kantons Graubünden''] auf der Website des Kantons Graubünden</ref>
+
+=== Judikative ===
+[[Datei:Chur Kantonsgericht.jpg|mini|Das [[Altes Gebäu (Chur)|Alte Gebäu]]&nbsp;– Sitz des Kantonsgerichts in Chur]]
+
+Die obersten Gerichte des Kantons sind das [[Obergericht (Schweiz)|Kantonsgericht]] und das [[Verwaltungsgerichtsbarkeit (Schweiz)|Verwaltungsgericht]]. Das Kantonsgericht ist mit der Rechtsprechung auf den Gebieten des Zivil-, Straf-, Schuldbetreibungs- und Konkursrechts sowie teilweise des Verwaltungs- und Verwaltungsstrafrechts betraut. Das Verwaltungsgericht ist zugleich Verfassungs- und Versicherungsgericht und ist mit der Rechtsprechung auf dem Gebiet des öffentlichen Rechtes betraut. Untere Instanz sind die elf [[Bezirksgericht (Schweiz)|Bezirksgerichte]].
+
+Bevor eine Klage bei einem Bezirksgericht eingereicht werden kann, ist in der Regel ein Schlichtungsverfahren durchzuführen. Dafür zuständig sind die Schlichtungsbehörden, deren Vorsitzende im allgemeinen Sprachgebrauch oft Friedensrichter oder Vermittler genannt werden. Im Kanton Graubünden gibt es drei Arten von Schlichtungsbehörden (Art. 3 EGzZPO): Vermittlerämter (1 pro Bezirk), Schlichtungsbehörden für Mietsachen (1 pro Bezirk) und die kantonale Schlichtungsbehörde für Gleichstellungssachen (1 im Kanton).
+
+=== Verwaltungseinheiten ===
+{{Hauptartikel|Gemeinden des Kantons Graubünden#Kanton Graubünden|titel1=Kreise und Bezirke des Kantons Graubünden}}
+
+Graubünden ist der Kanton, in dem die 178 [[Politische Gemeinde|politischen Gemeinden]] – im Jahr 2001 waren es noch 212&nbsp;– historisch bedingt die wohl ausgeprägteste [[Gemeindeautonomie]] der Schweiz haben. Autonomie geniessen auch die Kreise, die aus einer kleinen Zahl Gemeinden oder ausnahmsweise aus einer einzigen Gemeinde bestehen. Sie sind zugleich die Wahlkreise des Grossen Rates, in denen die Grossräte teilweise noch an den traditionellen [[Landsgemeinde]]n gewählt werden. Die Bezirke hingegen sind reine Verwaltungsorgane des Kantons ohne innere Autonomie.
+
+Diese dreifache Verwaltungsgliederung ist vor dem geschichtlichen Hintergrund zu sehen, dass die politischen Gemeinden in ihrer Mehrheit die [[Nachbarschaft (Graubünden)|Nachbarschaften]] und die Kreise die [[Gerichtsgemeinde]]n des früheren Freistaats der [[Drei Bünde]] fortsetzen, die Bezirke hingegen eine erst im 19.&nbsp;Jahrhundert vom modernen Kanton Graubünden errichtete Institution sind.
+
+== Wirtschaft und Tourismus ==
+{{Siehe auch|Liste der Kulturgüter im Kanton Graubünden|Liste der Kulturgüter von nationaler Bedeutung im Kanton Graubünden}}
+
+Die für die dauerhafte Besiedlung mancher Talschaften unabdingbare Berglandwirtschaft überlebt dank Nischenproduktion sowie Subventionen. Acht Prozent der Bevölkerung arbeiten in der Land- und Forstwirtschaft, wobei 50 Prozent der Betriebe biologisch geführt werden. Das grösste Wachstum nach der Jahrtausendwende erreicht die Exportindustrie,<ref>[http://www.gr.ch/DE/institutionen/verwaltung/dvs/awt/dokumentation/Dokumente%20Volkswirtschaftliche%20Grundlagen/Wertsch%C3%B6pfung%20im%20Kanton%20Graub%C3%BCnden%201990%20-%202013%20%28BAKBASEL%202010%29.pdf Wirtschaftliche Entwicklung der Regionen ab 1990]</ref> 24 Prozent der Bevölkerung arbeiten in Industrie und Gewerbe. Wichtigster Wirtschaftszweig ist der Dienstleistungssektor und insbesondere der Tourismus mit einem sehr hohen Anteil am Bündner Bruttoinlandsprodukt von rund 14 Prozent.
+
+[[Datei:Sessellift Naluns.jpg|mini|Skigebiet Scuol]]
+
+Der Fremdenverkehr, ursprünglich eine Sommeraktivität, wurde schon 1865 durch die Bündner Erfindung des [[Wintertourismus]]<ref>[http://www.kulmhotel-stmoritz.ch/tl_files/pdf/press_erfindung_d.pdf Erfindung des Wintertourismus in St. Moritz]</ref> ergänzt, die Brennpunkte sind die Regionen [[Oberengadin]], [[Davos]]/[[Klosters]], [[Arosa]], [[Lenzerheide/Lai|Lenzerheide]] und [[Flims]]. Hervorzuheben ist auch der Bädertourismus in [[Vals GR|Vals]], [[Scuol]] und [[Andeer]] sowie [[Alvaneu]].  Graubünden ist der Kanton mit der grössten Dichte an Burgen und weist mit dem [[Benediktinerinnenkloster St. Johann]] in [[Müstair]], dem Dorf [[Soglio GR|Soglio]] und der [[Kirche St. Martin Zillis|Kirche von Zillis]] [[Weltkulturerbe|Kulturgüter]] von Weltrang auf. Neu dazugestossen ist die Anlage der [[Rhätische Bahn|Rhätischen Bahn]] im [[Albulabahn|Albulatal]]. Auch die [[Berninabahn|Bahnstrecke über den Berninapass]] ist von grosser architektonischer Bedeutung, während die [[TektonikArena Sardona]] als [[Weltnaturerbe]] gelistet wird.
+Seit 1991 ist die [[Salginatobelbrücke]] der Verbindungsstrasse von [[Schiers]] nach [[Schuders]] das bislang einzige [[Weltmonument]] der Schweiz. Diese Auszeichnung wurde von der [[American Society of Civil Engineers|ASCE]] vergeben.
+
+== Verkehr ==
+[[Datei:Strassengesetz GR.jpg|mini|hochkant|links|Propagandschrift zur Abstimmung über das kantonale Strassenverkehrsgesetz vom 20. Februar 1927]]
+
+Der Verkehr bestimmte seit dem Altertum die Besiedelung des Kantons. Der Handelsverkehr war ein wichtiger Wirtschaftsfaktor; schon während der Römerzeit querten Karren den [[Julierpass]]. 1387 beauftragte der Bischof von Chur den Bergeller Adligen Jakob von Castelmur, den [[Septimerpass]] zu einer befahrbaren Strasse auszubauen.
+
+Zu Beginn des 20. Jahrhunderts gab es im Kanton Graubünden Strassen in der Länge von 1000 Kilometern, doch der motorisierte Individualverkehr wurde vehement bekämpft. 1903 erteilte der «Kleine Rat» des Kantons nur Autos von Ärzten und Sanitätsfahrzeugen eine Fahrbewilligung auf Bündner Strassen. Am 13. Oktober 1907 stimmten 9110 Stimmbürger gegen die Zulassung von Autos, 2074 waren dafür. Trotzdem setzte der Rat seine frühere Bewilligungspraxis fort und beschloss am 14. Mai 1910, die Strasse von der [[Tardisbrücke]] bei [[Landquart GR|Landquart]] bis Chur ganz dem Verkehr zu öffnen. Eine weitere Volksabstimmung machte diese Bewilligung rückgängig, später wurde ein absolutes Verbot durchgesetzt. 1919 wurden auch Postautokurse auf Bündner Strassen abgelehnt. Erst am 21. Juni 1925 stimmte der Bündner Souverän knapp einer Vorlage zu, die das Befahren der Strassen mit Autos bis acht Plätzen erlaubte.<ref>[[Bündner Kalender]] 2010, S. 116</ref>
+
+Die Zulassung von Autos verlangte den Ausbau des Strassennetzes, wofür dem Kanton jedoch die finanziellen Mittel fehlten. Erst 1935 kam die Eidgenossenschaft den Alpenkantonen zu Hilfe und stellte 126 Millionen Franken zur Verfügung, 35 erhielt Graubünden. Damit wurden die vier wichtigsten Alpenstrassen ausgebaut; darunter die «Obere Strasse» über den [[Julierpass]].
+Das kantonale Strassennetz umfasst heute 163 Kilometer [[Nationalstrasse (Schweiz)|Nationalstrassen]], 597 Kilometer [[Hauptstrasse]]n und 835 Kilometer Verbindungsstrassen.<ref>http://www.tiefbauamt.gr.ch/strassennetz/index.htm (Anmeldung erforderlich)</ref>
+
+Die wichtigsten Talschaften und die grossen Tourismusorte Graubündens werden von der [[Rhätische Bahn|Rhätischen Bahn]] bedient. Zudem wird der Kanton in Nord-Süd-Richtung von der Autobahn [[A13 (Schweiz)|A13]] durchquert. Wichtigste Pässe zwischen Nord und Süd sind heute der [[San-Bernardino-Pass|San Bernardino]] zwischen dem [[Rheinwald]] und dem [[Misox]] und der [[Julierpass]] ins Engadin.
+
+== Geschichte ==
+{{Hauptartikel|Geschichte des Kantons Graubünden}}
+
+[[Datei:Geschichte Graubuenden.png|mini|Der Freistaat der Drei Bünde bis 1797]]
+
+Während der [[Eisenzeit]] bestanden auf dem Gebiet des heutigen Graubünden vor allem [[keltisch]]e, [[Rätier|rätische]] und [[Lepontier|lepontische]] [[Kultur]]en. Abgesehen von den italischen Südtälern gehörte das Gebiet von etwa 15 vor unserer Zeitrechnung bis zum 5. Jahrhundert zum Römischen Reich (Provinz ''[[Raetia]]'', später Provinz ''Raetia&nbsp;I''). Um 536/537 fiel Rätien (das Gebiet der ehemaligen Provinz ''Raetia&nbsp;I'') an das [[Fränkisches Reich|Fränkische Reich]]. Um 806/807 wurde das [[Bistum Chur]] vom [[Erzbistum Mailand]] zum [[Erzbistum Mainz]] umgegliedert.
+
+Im 10. und 11. Jahrhundert war Rätien Teil des [[Herzogtum Schwaben|Herzogtums Schwaben]]. Im Laufe des Hochmittelalters kam es zur Territorialbildung. Zu den bedeutendsten Territorialherren erwuchsen der Bischof von Chur und das [[Kloster Disentis]]. Kleinere Territorien wurden von verschiedenen Grafen und Herren ausgebildet oder erworben. Im Süden erreichte die Familie Visconti eine starke Stellung (später [[Herzogtum Mailand]]).
+
+Das Spätmittelalter ist gekennzeichnet durch politische Verselbständigung vieler (Gerichts-)Gemeinden, die viele [[Souveränität]]srechte an sich binden konnten. Sie vereinigten sich in mehreren Bünden ([[Gotteshausbund]] 1367, Oberer oder [[Grauer Bund]] 1395, [[Zehngerichtebund]] 1436). Diese Bünde fanden sich ab 1450 zu einem eigenständigen staatlichen Gebilde zusammen ([[Drei Bünde|Freistaat der Drei Bünde]]). Die Bünde wurden durch verschiedene Verträge (seit 1497) gleichberechtigter Partner der schweizerischen Eidgenossenschaft (formell als [[Zugewandter Ort]]). Seit 1512 verfügten die Bünde über die südlich anschliessenden Untertanengebiete [[Chiavenna]], [[Veltlin]] und [[Bormio]].
+
+Die bündnerischen Untertanengebiete fielen 1797 an die [[Cisalpinische Republik]]. 1799/1800 kam das verbliebene Gebiet als [[Kanton Rätien]] zur [[Helvetische Republik|Helvetischen Republik]], 1803 als Kanton Graubünden zur Schweiz.
+
+Am 5.&nbsp;März 1972 wurde das Frauenstimm- und Wahlrecht eingeführt.
+
+== Politische Gliederung ==
+=== Städte und Orte ===
+{{Hauptartikel|Gemeinden des Kantons Graubünden}}
+
+[[Datei:Karte Kanton Graubünden 2010.png|mini|Orte des Kantons Graubünden]]
+
+Folgende Gemeinden des Kantons hatten mehr als 5000 Einwohner per {{EWD|CH-GR|TIMESTAMP}}:
+
+{| class="wikitable zebra"
+|- class="hintergrundfarbe5"
+! Ort !! Einwohner
+|-
+| [[Chur]] || align="right" | {{EWZ CH|CH-GR|3901}}
+|-
+| [[Davos]] || align="right" | {{EWZ CH|CH-GR|3851}}
+|-
+| [[Landquart GR|Landquart]] || align="right" | {{EWZ CH|CH-GR|3955}}
+|-
+| [[Domat/Ems]] || align="right" | {{EWZ CH|CH-GR|3722}}
+|-
+| [[St. Moritz]] || align="right" | {{EWZ CH|CH-GR|3787}}
+|}
+Die politische Gemeinde [[Landquart GR|Landquart]] besteht seit dem 1. Januar 2012 aus den ehemaligen Gemeinden [[Igis]] und [[Mastrils]]. Sie hatte zu diesem Zeitpunkt etwa 8'500 Einwohner.
+
+=== Bezirke und Kreise ===
+[[Datei:Karte Kanton Graubünden Bezirke 2010.png|mini|Bezirke des Kantons Graubünden]]
+
+Der Kanton Graubünden ist in elf Bezirke eingeteilt. Sie entsprechen im Wesentlichen den natürlichen Landschaftsräumen. (Die Bezirke sind wiederum unterteilt in 39 Kreise):
+
+* [[Bezirk Albula|Albula]] mit den Kreisen [[Kreis Alvaschein|Alvaschein]], [[Kreis Belfort|Belfort]], [[Kreis Bergün|Bergün]] und [[Kreis Surses|Surses]]
+* [[Bezirk Bernina|Bernina]] mit den Kreisen [[Kreis Brusio|Brusio]] und [[Kreis Poschiavo|Poschiavo]]
+* [[Bezirk Hinterrhein|Hinterrhein]] mit den Kreisen [[Kreis Avers|Avers]], [[Kreis Domleschg|Domleschg]], [[Kreis Rheinwald|Rheinwald]], [[Kreis Schams|Schams]] und [[Kreis Thusis|Thusis]]
+* [[Bezirk Imboden|Imboden]] mit den Kreisen [[Kreis Rhäzüns|Rhäzüns]] und [[Kreis Trins|Trins]]
+* [[Bezirk Inn|Inn]] mit den Kreisen [[Kreis Sur Tasna|Sur Tasna]], [[Kreis Ramosch|Ramosch]], [[Kreis Suot Tasna|Suot Tasna]] und [[Kreis Val Müstair|Val Müstair]]
+* [[Bezirk Landquart|Landquart]] mit den Kreisen [[Kreis Fünf Dörfer|Fünf Dörfer]] und [[Kreis Maienfeld|Maienfeld]]
+* [[Bezirk Maloja|Maloja]] mit den Kreisen [[Kreis Bergell|Bergell]] und [[Kreis Oberengadin|Oberengadin]]
+* [[Bezirk Moesa|Moësa]] mit den Kreisen [[Kreis Calanca]], [[Kreis Misox|Misox]] und [[Kreis Roveredo|Roveredo]]
+* [[Bezirk Plessur|Plessur]] mit den Kreisen [[Kreis Chur|Chur]], [[Kreis Churwalden|Churwalden]] und [[Kreis Schanfigg|Schanfigg]]
+* [[Bezirk Prättigau-Davos|Prättigau-Davos]] mit den Kreisen [[Kreis Davos|Davos]], [[Kreis Jenaz|Jenaz]], [[Kreis Klosters|Klosters]], [[Kreis Küblis|Küblis]], [[Kreis Luzein|Luzein]], [[Kreis Schiers|Schiers]] und [[Kreis Seewis|Seewis]]
+* [[Bezirk Surselva|Surselva]] mit den Kreisen [[Kreis Disentis|Cadi/Disentis]], [[Kreis Ilanz|Ilanz]], [[Kreis Lumnezia/Lugnez|Lumnezia/Lugnez]], [[Kreis Ruis|Ruis]] und [[Kreis Safien|Safien]]
+
+{{Siehe auch|Bezirk (Schweiz)#Kanton Graubünden|titel1=Bezirke des Kanton Graubünden}}
+
+== Kultur ==
+=== Bündner Küche ===
+Der Kanton Graubünden hat eine eigenständige Küche entwickelt, welche sich von anderen Schweizer Regionalküchen unterscheidet. Typische regionale Produkte sind das luftgetrocknete [[Bündnerfleisch]] und andere Trockenfleischspezialitäten wie [[Salsiz]] oder Andutgel. Typische Gerichte sind [[Capuns]], Plain in Pigna, [[Pizokel]], [[Maluns]], die [[Bündner Nusstorte]] sowie die Bündner Gerstensuppe. Als typisches Bündner Getränk gilt der [[Röteli]]. Bekannt sind die Weine aus der [[Bündner Herrschaft]], dem grössten Weinbaugebiet des Kantons.
+
+=== Literatur ===
+Es gibt eine in verschiedenen Idiomen geschriebene [[Rätoromanische Literatur|rätoromanische Literatur]]; bekannte Vertreter waren und sind [[Clo Duri Bezzola]], [[Cla Biert]], [[Arno Camenisch]], [[Göri Klainguti]] und [[Tresa Rüthers-Seeli]].
+
+== Siehe auch ==
+{{Portal|Graubünden}}
+
+== Literatur ==
+* {{HLS|7391|''Graubünden''|Autor=Georg Jäger, Florian Hitz}}.
+* Achim Walder: ''Graubünden entdecken, mit [[Rhätische Bahn|Rhätischer Bahn]] und [[PostAuto]].'' Walder, Kreuztal 2005. ISBN 3-936575-26-6
+* Myriam Engler: ''Graubünden erleben und lieben'', Verlag [[Terra Grischuna]], Chur 2013. ISBN 978-3-7298-1183-6.
+
+== Weblinks ==
+{{Commonscat|Canton of Graubünden|Kanton Graubünden}}
+{{Wikivoyage|Graubünden|Kanton Graubünden}}
+{{Wikisource}}
+* [http://www.gr.ch/ Website des Kantons Graubünden]
+* [http://www.bfs.admin.ch/bfs/portal/de/index/regionen/kantone/gr/key.html Offizielle Statistik]
+* [http://www.graubuenden.ch/ Website von Graubünden Ferien (GRF)]
+* [http://www.link-gr.ch/ Portal zu Graubünden]
+* {{dmoz|World/Deutsch/Regional/Europa/Schweiz/Graub%c3%bcnden/|Kanton Graubünden}}
+
+== Einzelnachweise ==
+<references />
+
+{{Navigationsleiste Schweizer Kantone}}
+
+{{Coordinate|NS=46.727|EW=9.607|type=adm1st|region=CH}}
+
+{{Normdaten|TYP=g|GND=4021881-8}}
+
+{{SORTIERUNG:Kanton Graubunden}}
+[[Kategorie:Kanton Graubünden| ]]
+[[Kategorie:Kanton (Schweiz)|Graubunden]]

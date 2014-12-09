@@ -1,0 +1,98 @@
+{{Dieser Artikel|erläutert den juristischen Begriff ''Eid'', zu anderen Bedeutungen siehe [[Eid (Begriffsklärung)]].}}
+[[Datei:US President Barack Obama taking his Oath of Office - 2009Jan20.jpg|miniatur|[[Barack Obama]] bei der Ablegung des Eides zum Amtsantritt als 44. US-Präsident am 20. Januar 2009<!-- noch als [[Senator (Vereinigte Staaten)|Senator-->]]
+
+Der '''Eid''' (auch '''leiblicher Eid''' genannt) dient der persönlichen Bekräftigung einer Aussage.
+
+Er verpflichtet zur [[Wahrheit]] (z.&nbsp;B. in [[Gericht]]sverfahren) und zum Tragen der Konsequenzen (z.&nbsp;B. beim [[Fahneneid]]) der Eidaussage. Der Eid wird oft als bedingte Selbstverfluchung bezeichnet, da bei einem Eid mit religiöser Beteuerung eine Gottheit als [[Eideshelfer]] und als Rächer der Unwahrheit angerufen wird. Eide gibt es nicht nur in der europäischen Rechtstradition (z.&nbsp;B. bei den [[Griechen]], [[Römisches Reich|Römern]] und [[Kelten]]), sondern auch in [[Kaiserreich China|China]], im alten Israel und bei zahlreichen ethnologisch untersuchten [[Indigene Völker|indigenen Völkern]]. Der altgriechische [[Eid des Hippokrates]] verpflichtete [[Arzt|Ärzte]] zur Einhaltung ihrer Berufspflichten und ethischer Prinzipien (u.&nbsp;a. die Kranken vor Schaden bewahren, die Pflicht zur Verschwiegenheit beachten).
+== Geschichte ==
+=== Alter Orient ===
+Im Alten Orient waren Eide in Staatsverträgen wichtig. Gewöhnlich wurden eine Reihe von Göttern angerufen, um die Eidbrüchigen zu bestrafen.<ref>Rykle Borger: Assyrische Staatsverträge. Freudenstadt 1982, 755-745</ref> In dem Vasallenvertrag zwischen [[Assurhaddon]] und den Königen der [[Medien (Land)|Meder]] etwa sollen die Eidbrüchigen kein hohes Alter erreichen, [[Anu]] soll sie mit Schlaflosigkeit, Trübsal und Krankheit schlagen, [[Sin (Gottheit)|Sin]] soll sie mit [[Aussatz]] schlagen, [[Šamaš]] soll sie blenden, [[Ninurta]] soll sie mit seinen Pfeilen niederstrecken, ihr Blut soll die Steppe füllen, ein Fremder soll den Schoß ihrer Frauen besitzen, ihre Söhne sollen sie nicht beerben und [[Adad]], der Deichgraf des Himmels soll ihr Land überfluten. [[Išḫara]], eine Unterweltsgottheit, beschützte den Eid (in dem [[Šuppiluliuma I.|Šuppiluliuma]]-[[Šattiwazza]]-Vertrag, [[KBO|KBo]] I, Nr 1 und 2 wird sie in der Fluchformel ausdrücklich als „Herrin des Eides“ genannt).<ref>[[Daniel David Luckenbill|D. D. Luckenbill]]: ''Hittite Treaties and Letters.'' In: ''The American Journal of Semitic Languages and Literatures.'' 37/3, 1921, 169 ([http://www.jstor.org/stable/528149 JSTOR]).</ref> In Persien war [[Mithras|Mithra]] der Beschützer des Eides und der Gerechtigkeit.
+
+=== Altes Testament ===
+Im [[Altes Testament|Alten Testament]] schwört Gott bei sich selbst ([[1. Mose]] 22, 16–17) gegenüber [[Abraham]], dessen Geschlecht zu segnen und es zu mehren wie die Sterne am Himmel. Die Menschen fordert Gott im AT auf ([[3. Mose]] 19, 12), nicht bei seinem Namen falsch zu schwören, ([[4. Mose]] 30, 3) nach einem Eid das Wort nicht zu brechen, sondern alles zu tun, wie es beim Schwur über die Lippen gegangen ist.
+=== Christentum ===
+Im [[Neues Testament|NT]] verlangt Jesus in der [[Bergpredigt]] ([[Evangelium nach Matthäus|Matth.]] 5, 33–37), überhaupt nicht zu schwören, sondern sein Wort auch ohne eidliche Bekräftigung zu halten.
+Ob [[Christen]] einen Eid schwören dürfen, war daher in der [[Christentumsgeschichte|Kirchengeschichte]] oft umstritten. Einige [[Kirchenväter]] der Spätantike verwarfen den Eid völlig, das für die spätere katholische Doktrin maßgebliche [[Kanonisches Recht|kanonische Recht]] aber ließ ihn zu und meinte, er sei jedermann zumutbar. Auch die größeren protestantischen Kirchen billigen den Eid, während die [[Mennoniten]] und [[Quäker]] ihn unter Berufung auf die [[Bergpredigt]] bis heute ablehnen.
+
+=== Germanische Wurzeln ===
+{{Quelle}}
+[[Datei:BadFredeburg-Gerichtsmuseum2-Asio.JPG|miniatur|Schwurkreuze im [[Gerichtsmuseum Bad Fredeburg]]]]
+Der Eid des heutigen mitteleuropäischen Rechts entstammt der [[Germanische Stammesrechte|germanischen Rechtskultur]], etwa auch die Praxis des [[Reinigungseid]]es. Die [[Eidesformel]] verlangte die Berührung eines Gegenstandes, bei dem geschworen wurde. Erst durch diese Berührung wurde nach Auffassung der [[Germanen]] der [[Magie|Zauber]] des Eides erzeugt und die Verbindung mit den übersinnlichen Eidmächten hergestellt. Der [[Brauch]] der Germanen, auf ihr [[Schwert]] zu schwören, ist heute noch mit dem Schwur auf die [[Waffe]] oder andere Gegenstände, z.&nbsp;B. [[Fahne]]n, in vielen [[Militär|Armeen]] erhalten.
+
+== Eid in der Philosophie ==
+Da David Hume die Ableitbarkeit eines ''Sein'' vom ''Sollen'' in Frage stellte (vgl. [[Humes Gesetz]]), machte [[John Searle]] den Vorschlag, ein ''Sollen'' durch ein Versprechen vom ''Sein'' abzuleiten.<ref>[http://www.scribd.com/doc/31199505/Searle-How-to-derive-Ought-From-Is John Searle: How to derive Ought from Is (englisch)]</ref> Dies entspricht der Idee der Vertragstreue (vgl. [[Pacta sunt servanda]]), weshalb ein Eid als eine Art [[Vertrag]] verstanden werden kann, bei der als die letzte Beurteilungsinstanz der Vertragserfüllung jene gesehen werden kann, auf die sich der Eid bezieht (Bsp. ein Eid vor Gott).
+
+== Deutsches Recht der Gegenwart ==
+
+=== Eide vor Gericht ===
+Durch einen Richter vereidigt werden können [[Zeuge]]n, [[Gerichtssachverständiger|Gerichtssachverständige]] und [[Gerichtsdolmetscher]]. Wird im [[Zivilprozessrecht (Deutschland)|Zivilprozess]] auf das [[Beweismittel]] der [[Parteivernehmung]] zurückgegriffen, so ist es auch möglich, die [[Partei (Recht)|Partei]] zu vereidigen. Auch [[Ehrenamtlicher Richter|Schöffen]] werden vor der ersten Mitwirkung an einer Verhandlung von einem Richter vereidigt.
+
+==== Fälle der Vereidigung ====
+Vor dem [[Erstes Justizmodernisierungsgesetz|ersten Justizmodernisierungsgesetz]] vom 24.&nbsp;August 2004 war vor Gericht stets ein Eid darüber abzuleisten, dass die [[Zeuge]]n[[Vernehmung|aussage]] oder das Gutachten eines Sachverständigen nach bestem Wissen und Gewissen abgegeben worden sei. Von der Vereidigung konnte nur abgesehen werden, wenn alle Beteiligten auf die Vereidigung verzichteten. Der Verzicht entsprach allgemeiner Übung. Seit dem Justizmodernisierungsgesetz ist ein Zeuge oder ein Sachverständiger nur noch zu vereidigen, wenn die Parteien auf die Beeidigung nicht verzichten und das Gericht mit Rücksicht auf die Bedeutung der Sache oder zur Herbeiführung einer wahrheitsgemäßen Aussage einen Eid für geboten erachtet ({{§|391|zpo|juris}} [[Zivilprozessordnung (Deutschland)|ZPO]]; {{§|59|stpo|juris}} [[Strafprozessordnung (Deutschland)|StPO]]). Einem Sachverständigen gleich zu behandeln ist der [[Urkundenübersetzer]]. Im Gegensatz zum Zeugen und zum Sachverständigen muss der [[Gerichtsdolmetscher]] vor Gericht jedoch stets einen Eid dahingehend ableisten, dass er treu und gewissenhaft übertragen werde ({{§|189|gvg|juris}} [[Gerichtsverfassungsgesetz|GVG]]). Vor Gericht darf eine Vereidigung des Dolmetschers nur unterbleiben, wenn er im Rahmen eines Verfahrens der freiwilligen Gerichtsbarkeit herangezogen wurde ({{§|9|fgg|juris}} [[Gesetz über die Angelegenheiten der freiwilligen Gerichtsbarkeit|FGG]]) oder wenn als Dolmetscher der [[Urkundsbeamter|Urkundsbeamte]] der Geschäftsstelle verwandt wurde ({{§|190|gvg|juris}} [[Gerichtsverfassungsgesetz|GVG]]). Aus Erwägungen der Verfahrensvereinfachung besteht für Sachverständige und Dolmetscher die Möglichkeit, dass ihnen im Voraus von der [[Justizverwaltung]] ein Eid abgenommen wird („öffentlich bestellter und beeidigter Dolmetscher“).<ref>[http://www.vbdu.de/Service-Allgemein.htm Informationsseite des Vereins beeid. Dolmetscher und Übersetzer in Bayern]</ref> Auf diesen Eid können sich Sachverständige und Dolmetscher in der Hauptverhandlung wegen {{§|189|gvg|juris}} Abs. 2 [[Gerichtsverfassungsgesetz|GVG]] berufen.
+
+==== Voreid und Nacheid ====
+Zu unterscheiden ist zwischen Voreiden und Nacheiden. Die Verfahrensordnungen sehen vor, dass erst nach Abgabe der Zeugenaussage oder nach Erstattung des Gutachtens der Eid abzuleisten ist. Vor Abgabe der Aussage oder Erstattung des Gutachtens ist der Zeuge oder der Sachverständige lediglich darüber zu belehren, dass er vereidigt werden könnte. Im Zivilverfahren kann der Richter einem Sachverständigen statt eines Nacheides jedoch auch einen Voreid abverlangen. Dolmetscher müssen stets einen Voreid leisten.
+
+==== Eidesfähigkeit (Eidesmündigkeit) ====
+Eine Vereidigung ist nur möglich, wenn die Eidesperson eidesfähig ist. Jugendliche unter 18 Jahren, geistig Behinderte und Zeugen, die selbst Verdächtige sind, dürfen nicht vereidigt werden ({{§|60|StPO|dejure}} StPO).
+
+==== Strafbarkeit ====
+Der falsche Eid vor Gericht ist der [[Meineid]] ({{§|154|StGB|juris}} [[StGB]]), der als [[Verbrechen]] bestraft wird, unabhängig vor welchem Gericht oder vor welchem [[Richter]] er abgegeben wurde. Auch der fahrlässige Falscheid ist strafbar.
+
+Auf die Vereidigung wird meist verzichtet, weil das menschliche Gedächtnis unzuverlässig ist, zu bezeugende Geschehnisse häufig lange zurückliegen und auch zur wahrheitsgemäßen Aussage bereite Zeugen sich oft falsch erinnern. Nur bei starker Vermutung, dass jemand wissentlich falsch aussagt, droht man mit dem Eid oder lässt ihn tatsächlich ablegen.
+
+Der Eid vor einem [[Untersuchungsausschuss]] der [[Gesetzgebungsorgan]]e des Bundes oder der Länder (seit dem [[26. Juni]] [[2001]]), der Eid vor einem deutschen [[Konsul]], vor Prüfungsstellen und Patentabteilungen des Patentamts und vor dem Untersuchungsführer im Disziplinarverfahren steht einem Eid vor einem Richter gleich.
+
+=== Vor Behörden ===
+Behörden sind zur Abnahme von Eiden im Sinne des {{§|153|StGB|dejure}} StGB nicht befugt (Ausnahmen: deutscher [[Konsul]], Patentamt). Zeugen, Sachverständige oder Dolmetscher, die durch eine Behörde vernommen werden, leisten ihre Aussage, ihr Gutachten oder ihre Sprachübertragung stets uneidlich. Dolmetscher oder Sachverständige können sich auch nicht auf ihre allgemeine Beeidigung vor einer Behörde berufen. Lügen vor Behörden ist daher straflos. Eine Ausnahme ist nur die Erstattung einer vorsätzlich falschen Strafanzeige vor einer Behörde, die zur Entgegennahme von Anzeigen befugt ist.
+
+==== Versicherung an Eides statt ====
+In bestimmten Fällen ist eine Wahrheitspflicht jedoch tunlich. In den von dem Gesetz vorgesehenen Fällen können Behörden eine [[Eidesstattliche Versicherung|Versicherung an Eides statt]] abverlangen. Die Abgabe einer [[Falsche Versicherung an Eides Statt|falschen Versicherung an Eides statt]] ist ebenfalls strafbar.
+
+==== Amtseid ====
+Von den Eiden im Sinne des §153 StGB ist der [[Amtseid]] zu unterscheiden.
+Im [[Öffentliches Recht|öffentlichen Recht]] stellt der Amtseid der [[Beamtentum|Beamten]], [[Richter]] und [[Soldat|Zeit- und Berufssoldaten]] sowie der gewählten hohen Repräsentanten des Staates, wie [[Bundespräsident (Deutschland)|Bundespräsident]], [[Bundeskanzler (Deutschland)|Bundeskanzler]] eine Amtspflicht dar. Die Eidesleistung ist nicht Voraussetzung für die Übernahme des Amtes, sondern lediglich eine Folge dessen. Amtsbegründend (konstitutiv) ist die Übergabe der Ernennungsurkunde, bzw. im Falle des Bundespräsidenten die Erklärung der Annahme der Wahl, sofern die Amtszeit des Vorgängers bereits endete. Die Eidesleistung ist ein rein deklaratorischer Akt, der nach außen hin die Übernahme der neuen Aufgabe ausdrückt. Diese Vereidigung auf die [[Verfassung]] wird nicht von einem Richter oder einem Gericht abgenommen und ist daher beim Bruch des Eides nicht als Meineid strafbar.
+
+== Schweiz ==
+=== Eide vor Gericht ===
+In der Schweiz wird vor Gericht nicht geschworen. Zeugen, Sachverständige, Übersetzer und Dolmetscher sind Kraft ihrer Funktion zur wahrheitsgetreuen Aussage verpflichtet, willentlich falsche Zeugenaussage, Falschübersetzung etc. sind Vergehen und von Amtes wegen zu verfolgen. Personen in diesen Funktionen sind vom Richter über diese Rechtslage zu belehren, eine spezielle Vereidigung findet nicht statt. (Zeugen dürfen unter gewissen Umständen die Aussage verweigern, falsch aussagen dürfen sie aber nicht. Einzig der Angeklagte im Strafprozess darf lügen.)
+
+Ebenso wenig wird in der Schweiz vor anderen Behörden geschworen, und es gibt in der Schweiz auch keine eidesstattliche Versicherung.
+
+=== Amtseid ===
+Von manchen Amtsträgern wird vor dem Antritt des Amts ein Amtseid verlangt, worin der Amtsträger bekräftigt, das ihm übertragene Amt gesetzeskonform auszuüben. Jeder Person steht es frei, anstatt des Eides ein [[Gelübde]] ohne religiöse Konnotation abzulegen. Eid und Gelübde sind rechtlich gleichwertig. Siehe auch [[Vereidigung (Schweiz)]].
+
+== Literatur ==
+* Hans-Werner Gensichen, Horst Seebaß, Nico Oswald, [[Gerhard Dautzenberg]], Peter Landau u.&nbsp;a.: ''Eid I. Religionsgeschichtlich II. Altes Testament III. Judentum IV. Neues Testament V. Historisch VI. Ethisch VII. Praktisch-theologisch''. In: [[Theologische Realenzyklopädie]] 9 (1982), S. 373–399 (Überblick mit Lit.)
+* E. Friesenhahn: ''Der politische Eid''. Bonn/Darmstadt 1979 (Erstauflage 1928).
+* {{Literatur|Titel=Eid|Autor=[[Heinrich Beck (Jurist)|Heinrich Beck]], [[Gerhard Köbler]]|Sammelwerk=[[Reallexikon der Germanischen Altertumskunde]]|Verlag=de Gruyter|Nummer=6|Ort=Berlin/New York|Jahr=1986|Seiten=537-542|ISBN=3-11-010468-7}}
+
+== Einzelnachweise ==
+<references />
+
+== Spezifische Formen des Eids ==
+* [[Abgeordneteneid]]
+* [[Amtseid]]
+* [[Führereid]]
+* [[Offenbarungseid]]
+* [[Schwur]]
+* [[Supremateid]]
+* [[Treueid]]
+
+== Siehe auch ==
+* [[Eidesformel]]
+* [[Eidesstattliche Versicherung]]
+* [[Falschaussage]]
+* [[Gelöbnis]]
+* [[Hippokrates von Kos]]
+* [[Vereidigung]]
+
+== Weblinks ==
+{{Commonscat|Oaths|{{PAGENAME}}}}
+
+{{Wiktionary|Eid}}
+{{Staatslastig|DE}}
+{{Rechtshinweis}}
+
+[[Kategorie:Eid| ]]
+[[Kategorie:Gerichtsorganisation]]
