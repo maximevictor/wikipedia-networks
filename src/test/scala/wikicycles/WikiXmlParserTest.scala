@@ -42,18 +42,5 @@ class WikiXmlParserTest extends FunSuite {
     assert(result.size() === 36)
   }
 
-  test("Parse XML using Java StAX") {
-
-    val factory = XMLInputFactory.newInstance()
-    val streamReader = factory.createXMLStreamReader(testFile)
-    while (streamReader.hasNext) {
-      streamReader.next()
-      if(streamReader.getEventType() == XMLStreamConstants.START_ELEMENT){
-        println(streamReader.getLocalName())
-      }
-
-    }
-
-  }
 
 }

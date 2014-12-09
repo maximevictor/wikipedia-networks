@@ -10,9 +10,11 @@ import info.bliki.wiki.model.WikiModel
  */
 object FirstLinkExtractor {
 
-  def extractFirstLinkFromArticle(articleSource: String): Option[String] = {
+  def extractFirstLinksFromArticle(articleSource: String): Option[PageLinks] = {
     val sections = splitIntoSections(articleSource)
     val model = new WikiModelWithoutTemplates()
+
+    var found: Option[PageLinks] = None
 
     for ((section, index) <- sections.zipWithIndex) {
       var parsed = model.render(new WikiToTextWithLinksConverter(), section)
@@ -20,27 +22,55 @@ object FirstLinkExtractor {
         // The parser does not return redirects - use the unparsed version instead
         parsed = section
       }
-      for (link <- extractFirstLink(parsed)) {
-        return Some(link)
+
+      found match {
+        case None =>
+          for (extracted <- extractFirstLinks(parsed)) {
+            if (extracted.secondLink.isDefined) {
+              return Some(extracted)
+            } else {
+              found = Some(extracted)
+            }
+          }
+        case Some(firstLink) =>
+          for (second <- extractSecondLink(parsed)) {
+            return Some(firstLink.copy(secondLink = Some(second)))
+          }
       }
     }
 
-    None
+    found
   }
 
   val linkPattern = Pattern.compile("(?m)(?s)\\[\\[([^|#\\]]*).*?\\]\\]")
-  private[wikicycles] def extractFirstLink(source: String): Option[String] = {
+  private[wikicycles] def extractFirstLinks(source: String): Option[PageLinks] = {
     val matcher = linkPattern.matcher(source)
+    var firstLink: Option[String] = None
+
     while (matcher.find()) {
-      if (!isWithinParentheses(source, matcher.start(), matcher.end())) {
-        return Some(matcher.group(1))
+      firstLink match {
+        case None =>
+          if (!isWithinParentheses(source, matcher.start())) {
+            firstLink = Some(matcher.group(1))
+          }
+        case Some(link) =>
+          return Some(PageLinks(link, Some(matcher.group(1))))
       }
     }
 
-    None
+    firstLink.map(l => PageLinks(l, None))
   }
 
-  private def isWithinParentheses(source: String, start: Int, end: Int): Boolean = {
+  private[wikicycles] def extractSecondLink(source: String): Option[String] = {
+    val matcher = linkPattern.matcher(source)
+    if (matcher.find()) {
+      Some(matcher.group(1))
+    } else {
+      None
+    }
+  }
+
+  private def isWithinParentheses(source: String, start: Int): Boolean = {
     val before = source.substring(0, start)
     val openParens = before.count(_ == '(')
     val closedParens = before.count(_ == ')')

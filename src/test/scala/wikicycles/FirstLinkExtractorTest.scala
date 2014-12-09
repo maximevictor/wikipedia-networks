@@ -48,34 +48,34 @@ class FirstLinkExtractorTest extends FunSuite {
 
 
   test("Extract first link") {
-    assert(FirstLinkExtractor.extractFirstLink("Hey [[Hallo#Super|Jo]] dishfisd [[Second Link]]") === Some("Hallo"))
-    assert(FirstLinkExtractor.extractFirstLink("ihfdsj [[Yes]] idshfids [[Second Link|A Link]]") === Some("Yes"))
-    assert(FirstLinkExtractor.extractFirstLink("[[Yes|Good]] idshfids") === Some("Yes"))
-    assert(FirstLinkExtractor.extractFirstLink("[[Yes#Good]]") === Some("Yes"))
-    assert(FirstLinkExtractor.extractFirstLink("[[James Maxwell (Offizier)]]") === Some("James Maxwell (Offizier)"))
+    assert(FirstLinkExtractor.extractFirstLinks("Hey [[Hallo#Super|Jo]] dishfisd [[Second Link]]") === Some(PageLinks("Hallo", "Second Link")))
+    assert(FirstLinkExtractor.extractFirstLinks("ihfdsj [[Yes]] idshfids [[Second Link|A Link]]") === Some(PageLinks("Yes", "Second Link")))
+    assert(FirstLinkExtractor.extractFirstLinks("[[Yes|Good]] idshfids") === Some(PageLinks("Yes")))
+    assert(FirstLinkExtractor.extractFirstLinks("[[Yes#Good]]") === Some(PageLinks("Yes")))
+    assert(FirstLinkExtractor.extractFirstLinks("[[James Maxwell (Offizier)]]") === Some(PageLinks("James Maxwell (Offizier)")))
   }
 
   test("Extract first link from article") {
-    check("Jazz", Some("Jazz"))
-    check("Schäl Sick", Some("Rheinland"))
-    check("www", Some("World Wide Web"))
-    check("Kanton Graubuenden", Some("Kanton (Schweiz)"))
-    check("Scala", Some("Funktionale Programmiersprache"))
-    check("Quelltext", Some("Informatik"))
-    check("Source Code", Some("science fiction film"))
-    check("Biologie_fr", Some("science"))
-    check("Ricarda Roggan", Some("Hochschule für Grafik und Buchkunst Leipzig"))
-    check("Eid", Some("Wahrheit"))
-    check("Sparparadoxon", Some("Konkurrenzparadoxon"))
+    check("Jazz", Some(PageLinks("Jazz")))
+    check("Schäl Sick", Some(PageLinks("Rheinland", "Rhein")))
+    check("www", Some(PageLinks("World Wide Web", "Third-Level-Domain")))
+    check("Kanton Graubuenden", Some(PageLinks("Kanton (Schweiz)", "Schweiz")))
+    check("Scala", Some(PageLinks("Funktionale Programmiersprache", "Objektorientierte Programmiersprache")))
+    check("Quelltext", Some(PageLinks("Informatik", "Menschenlesbar")))
+    check("Source Code", Some(PageLinks("science fiction film", "Duncan Jones")))
+    check("Biologie_fr", Some(PageLinks("science", "Vie")))
+    check("Ricarda Roggan", Some(PageLinks("Hochschule für Grafik und Buchkunst Leipzig", "Timm Rautert")))
+    check("Eid", Some(PageLinks("Wahrheit", "Gericht")))
+    check("Sparparadoxon", Some(PageLinks("Konkurrenzparadoxon", "John Maynard Keynes")))
     check("Mister-Lady", None)
-    check("Linards Zemelis", Some("Biathlon"))
-    check("James Maxwell", Some("James Maxwell (Offizier)"))
-    check("Carl Barks", Some("Vereinigte Staaten"))
+    check("Linards Zemelis", Some(PageLinks("Biathlon", "Olympische Jugend-Winterspiele 2012")))
+    check("James Maxwell", Some(PageLinks("James Maxwell (Offizier)", "James Maxwell (Schauspieler)")))
+    check("Carl Barks", Some(PageLinks("Vereinigte Staaten", "Comic")))
     //check("12. Oberste Volksversammlung", Some("Nordkorea")) // --> does not work, badly nested tags
   }
 
-  private def check(file: String, expectedResult: Option[String]): Unit = {
-    assert(FirstLinkExtractor.extractFirstLinkFromArticle(wikiText(file)) === expectedResult, "First link of article " + file + " should be " + expectedResult)
+  private def check(file: String, expectedResult: Option[PageLinks]): Unit = {
+    assert(FirstLinkExtractor.extractFirstLinksFromArticle(wikiText(file)) === expectedResult, "First links of article " + file + " should be " + expectedResult)
   }
 
   private def wikiText(name: String): String = {
