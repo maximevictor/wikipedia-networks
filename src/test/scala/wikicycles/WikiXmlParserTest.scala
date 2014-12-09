@@ -39,7 +39,7 @@ class WikiXmlParserTest extends FunSuite {
 
     //println(result.asScala)
 
-    assert(result.size() === 33)
+    assert(result.size() === 36)
   }
 
   test("Parse XML using Java StAX") {

@@ -1,17 +1,18 @@
 package wikicycles
 
 import java.io.InputStream
+import javax.xml.stream.XMLInputFactory
 
-import scala.io.Source
 import scala.util.control.NonFatal
-import scala.xml.pull._
+import javax.xml.stream.{XMLStreamConstants => C}
 
 /**
  * Created by mg on 07.12.14.
  */
 class WikiXmlParser(val file: InputStream, val maxArticles: Option[Int]) {
 
-  private val reader = new XMLEventReader(Source.fromInputStream(file, "UTF-8"))
+  val factory = XMLInputFactory.newInstance()
+  val reader = factory.createXMLStreamReader(file)
 
   private var articlesRead = 0
 
@@ -32,48 +33,43 @@ class WikiXmlParser(val file: InputStream, val maxArticles: Option[Int]) {
 
         while (reader.hasNext) {
           reader.next() match {
-            case EvElemStart(_, "page", _, _) =>
-              inPage = true
-            case EvElemEnd(_, "page") =>
-              inPage = false
-              title = None
-              wikiSource.clear()
-            case EvElemStart(_, "title", _, _) =>
-              if (inPage)
-                inTitle = true
-            case EvElemEnd(_, "title") =>
-              if (inPage)
-                inTitle = false
-            case EvElemStart(_, "text", _, _) =>
-              if (inPage)
-                inText = true
-            case EvElemEnd(_, "text") =>
-              if (inPage) {
-                inText = false
-                if (!title.isEmpty && isValidArticle(title.get)) {
-                  articlesRead += 1
-                  return Some(WikiArticle(title.get, wikiSource.toString()))
-                }
+            case C.START_ELEMENT =>
+              reader.getLocalName match {
+                case "page" => inPage = true
+                case "title" => if (inPage) inTitle = true
+                case "text" => if (inPage) inText = true
+                case _ => // ignore
               }
-            case EvEntityRef(entity) =>
-              if (inText) {
-                entity match {
-                  case "gt" => wikiSource.append(">")
-                  case "lt" => wikiSource.append("<")
-                  case "amp" => wikiSource.append("&")
-                  case "quot" => wikiSource.append("\"")
-                  case _ => throw new IllegalArgumentException("Found unknown entity: " + entity)
-                }
+            case C.END_ELEMENT =>
+              reader.getLocalName match {
+                case "page" =>
+                  inPage = false
+                  title = None
+                  wikiSource.clear()
+                case "title" =>
+                  if (inPage)
+                    inTitle = false
+                case "text" =>
+                  if (inPage) {
+                    inText = false
+                    if (!title.isEmpty && isValidArticle(title.get)) {
+                      articlesRead += 1
+                      return Some(WikiArticle(title.get, wikiSource.toString()))
+                    }
+                  }
+                case _ => // ignore
               }
-
-            case EvText(text) =>
+            case C.ENTITY_REFERENCE =>
               if (inText) {
-                wikiSource.append(text)
+                wikiSource.append(reader.getText)
+              }
+            case C.CHARACTERS =>
+              if (inText) {
+                wikiSource.append(reader.getText())
               } else if (inTitle) {
-                title = Some(text)
+                title = Some(reader.getText())
               }
-
-            case _ => // Nothing to do
+            case _ => // ignore
           }
         }
 
@@ -88,7 +84,7 @@ class WikiXmlParser(val file: InputStream, val maxArticles: Option[Int]) {
 
   def shutdown(): Unit = {
     synchronized {
-      //reader.stop()
+      reader.close()
       file.close()
     }
   }

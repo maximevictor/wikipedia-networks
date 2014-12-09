@@ -41,7 +41,7 @@ object WikiXmlConverter {
     try {
       val futures = (0 until numThreads).map { i =>
         Future[Unit] {
-          val collector = new ResultCollector(result, i, processed, before, true)
+          val collector = new ResultCollector(result, i, processed, before, false)
           fetchArticlesAndConvert(parser, collector)
         }
       }
@@ -53,12 +53,12 @@ object WikiXmlConverter {
 
       result
     } finally {
-      println("Parser shutdown")
+      //println("Parser shutdown")
       parser.shutdown()
-      println("ExecutionContext shutdown")
+      //println("ExecutionContext shutdown")
       executionContext.shutdown()
       executionContext.awaitTermination(1, TimeUnit.SECONDS)
-      println("ExecutionContext terminated: " + executionContext.isTerminated + ", shutdown: " + executionContext.isShutdown())
+      //println("ExecutionContext terminated: " + executionContext.isTerminated + ", shutdown: " + executionContext.isShutdown())
     }
   }
 
@@ -128,9 +128,9 @@ object WikiXmlConverter {
       for (firstLink <- optFirstLink) {
         result.put(title, firstLink)
       }
-      if (optFirstLink.isEmpty) {
+      /*if (optFirstLink.isEmpty) {
         result.put(title, "[Kein Link]")
-      }
+      }*/
 
       val currentProcessed = processed.incrementAndGet()
       if (currentProcessed % 1000 == 0) {
