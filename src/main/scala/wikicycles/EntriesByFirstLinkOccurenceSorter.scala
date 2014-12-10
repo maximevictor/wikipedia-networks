@@ -5,48 +5,46 @@ import java.io.{FileWriter, FileInputStream, File}
 /**
  * Created by mg on 10.12.14.
  */
-object EntriesByFirstLinkOccurenceSorter {
+object EntriesByFirstLinkOccurenceSorter extends LoggingUtil {
 
   def main(args: Array[String]): Unit = {
     val file = new File(args(0))
 
     val before = System.currentTimeMillis()
-    println("Reading file " + file.getName + "...")
+    log("Reading file " + file.getName + "...")
 
-    val map = PageInfo.loadFromFile(file)
+    val map = logExecutionTime {
+      PageInfo.loadFromFile(file)
+    }(m => "File with " + m.size + " entries read.")
 
-    println("File read in " + (System.currentTimeMillis() - before) + " ms with " + map.size + " entries.")
-
-    println("Calculating first link counts...")
+    log("Calculating first link counts...")
     val firstLinkCounts = getFirstLinkCountForPages(map)
 
-    println("Sorting results...")
+    log("Sorting results...")
     val sortedCounts = firstLinkCounts.toList.sortBy(item => item._2 * -1)
 
-    println("Writing result to file...")
     val fileName = file.getName.substring(0, file.getName.lastIndexOf(".")) + "-sorted.csv"
-
-    println("Writing result to file " + fileName + "...")
+    log("Writing result to file " + fileName + "...")
     writeResultToFile(new File(file.getParent, fileName), map, sortedCounts)
 
-    println("Result completely written. Lasted " + (System.currentTimeMillis() - before) + " ms overall.")
+    log("Result completely written. Lasted " + (System.currentTimeMillis() - before) + " ms overall.")
 
   }
 
-  private def getFirstLinkCountForPages(map: Map[String, PageInfo]): Map[String, Integer] = {
-    val result = collection.mutable.Map[String, Integer]()
+  private def getFirstLinkCountForPages(map: Map[String, PageInfo]): Map[String, Int] = {
+    val result = collection.mutable.Map[String, Int]()
 
     for (entry <- map) {
       val page = entry._2
       val firstLink = PageInfo.normalizePageName(page.links.firstLink)
-      val newValue = result.get(firstLink).getOrElse(0.asInstanceOf[Integer]) + 1
+      val newValue = result.get(firstLink).getOrElse(0) + 1
       result.put(firstLink, newValue)
     }
 
     result.toMap
   }
 
-  private def writeResultToFile(file: File, map: Map[String, PageInfo], counts: List[(String, Integer)]): Unit = {
+  private def writeResultToFile(file: File, map: Map[String, PageInfo], counts: List[(String, Int)]): Unit = {
     val out = new FileWriter(file)
     try {
       for (item <- counts) {

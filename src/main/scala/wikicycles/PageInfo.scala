@@ -3,6 +3,8 @@ package wikicycles
 import java.io.{BufferedReader, FileReader, FileWriter, File}
 import java.util.Locale
 
+import org.apache.commons.lang3.StringUtils
+
 /**
  * Created by mg on 10.12.14.
  */
@@ -15,7 +17,7 @@ case class PageInfo(pageName: String, links: PageLinks) {
 object PageInfo {
 
   def normalizePageName(pageName: String): String = {
-    val lower = pageName.toLowerCase(Locale.ENGLISH)
+    val lower = StringUtils.capitalize(pageName)
     lower.replaceAll("\\s*", " ")
   }
 
