@@ -3,6 +3,7 @@ package wikicycles
 import java.io.{FileWriter, FileOutputStream, FileInputStream, InputStream}
 import java.util.concurrent.atomic.{AtomicInteger, AtomicBoolean}
 import java.util.concurrent.{TimeUnit, ConcurrentHashMap, Executors}
+import scala.collection.mutable.ListBuffer
 import scala.concurrent._
 
 import scala.concurrent.ExecutionContext
@@ -28,12 +29,11 @@ object WikiXmlConverter {
     writeResultToFile(sourceFile, map, limit)
   }
 
-  def convertFile(stream: InputStream, maxArticles: Option[Int]): java.util.Map[String, PageLinks] = {
+  def convertFile(stream: InputStream, maxArticles: Option[Int]): Seq[PageInfo] = {
     val threadPool = Executors.newFixedThreadPool(numThreads)
     implicit val executionContext = ExecutionContext.fromExecutorService(threadPool)
 
     val before = System.currentTimeMillis()
-    val result = new ConcurrentHashMap[String, PageLinks]()
     val processed = new AtomicInteger(0)
     val secondLinks = new AtomicInteger(0)
 
@@ -41,16 +41,17 @@ object WikiXmlConverter {
 
     try {
       val futures = (0 until numThreads).map { i =>
-        Future[Unit] {
-          val collector = new ResultCollector(result, i, processed, before, secondLinks, false)
+        Future[List[PageInfo]] {
+          val collector = new ResultCollector(i, processed, before, secondLinks, false)
           fetchArticlesAndConvert(parser, collector)
+          collector.getResult()
         }
       }
 
-      Await.result(Future.sequence(futures), Duration.Inf)
+      val result = Await.result(Future.sequence(futures), Duration.Inf).flatten
 
       println("Processing of " + processed.get() + " articles finished in " + (System.currentTimeMillis() - before) +
-        " ms. Result contains " + result.size() + " pages with first links and " + secondLinks.get() + " pages with second links.")
+        " ms. Result contains " + result.size + " pages with first links and " + secondLinks.get() + " pages with second links.")
 
       result
     } finally {
@@ -63,29 +64,14 @@ object WikiXmlConverter {
     }
   }
 
-  def writeResultToFile(sourceFile: File, result: java.util.Map[String, PageLinks], limit: Option[Int]): Unit = {
+  def writeResultToFile(sourceFile: File, result: Seq[PageInfo], limit: Option[Int]): Unit = {
 
     val fileName = sourceFile.getName.substring(0, sourceFile.getName.lastIndexOf(".")) +
       limit.fold("")(l => "-" + l) + "-pagelinks.csv"
 
     println("Writing result to file " + fileName + "...")
-
-    val out = new FileWriter(new File(sourceFile.getParent, fileName))
-    try {
-      val it = result.entrySet().iterator()
-      while (it.hasNext) {
-        val entry = it.next()
-        out.append(entry.getKey + "|" + entry.getValue.firstLink)
-        for (second <- entry.getValue.secondLink) {
-          out.append("|" + second)
-        }
-        out.append("\n")
-      }
-    } finally {
-      out.flush()
-      out.close()
-      println("Result file written completely.")
-    }
+    PageInfo.writeToFile(result, new File(sourceFile.getParent, fileName))
+    println("Result file written completely.")
 
   }
 
@@ -114,9 +100,10 @@ object WikiXmlConverter {
     resultCollector.noMoreArticles()
   }
 
-  case class ResultCollector(result: ConcurrentHashMap[String, PageLinks],
-                             threadNumber: Int, processed: AtomicInteger,
+  case class ResultCollector(threadNumber: Int, processed: AtomicInteger,
                              processStarted: Long, secondLinks: AtomicInteger, writeDebugLog: Boolean) {
+
+    private val result = ListBuffer[PageInfo]()
 
     val out = if (writeDebugLog) {
       Some(new FileWriter("/tmp/thread-" + threadNumber + ".log"))
@@ -131,7 +118,7 @@ object WikiXmlConverter {
 
     def addResult(title: String, optPageLinks: Option[PageLinks]): Unit = {
       for (links <- optPageLinks) {
-        result.put(title, links)
+        result += PageInfo(title, links)
 
         if (links.secondLink.isDefined) {
           secondLinks.incrementAndGet()
@@ -152,6 +139,8 @@ object WikiXmlConverter {
         o.close()
       }
     }
+
+    def getResult() = result.toList
 
 
   }

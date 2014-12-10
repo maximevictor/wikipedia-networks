@@ -51,20 +51,28 @@ object FirstLinkExtractor {
       firstLink match {
         case None =>
           if (!isWithinParentheses(source, matcher.start())) {
-            firstLink = Some(matcher.group(1))
+            firstLink = Some(normalize(matcher.group(1)))
           }
         case Some(link) =>
-          return Some(PageLinks(link, Some(matcher.group(1))))
+          return Some(PageLinks(link, Some(normalize(matcher.group(1)))))
       }
     }
 
     firstLink.map(l => PageLinks(l, None))
   }
 
+  /**
+   * Remove newlines from links
+   * @param link
+   */
+  private def normalize(link: String): String = {
+    link.replace('\n', ' ')
+  }
+
   private[wikicycles] def extractSecondLink(source: String): Option[String] = {
     val matcher = linkPattern.matcher(source)
     if (matcher.find()) {
-      Some(matcher.group(1))
+      Some(normalize(matcher.group(1)))
     } else {
       None
     }

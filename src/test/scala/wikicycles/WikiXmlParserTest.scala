@@ -39,7 +39,7 @@ class WikiXmlParserTest extends FunSuite {
 
     //println(result.asScala)
 
-    assert(result.size() === 36)
+    assert(result.size === 36)
   }
 
 

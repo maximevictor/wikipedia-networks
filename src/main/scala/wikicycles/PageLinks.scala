@@ -5,6 +5,9 @@ package wikicycles
  */
 case class PageLinks(firstLink: String, secondLink: Option[String]) {
 
+  lazy val firstLinkNormalized = PageInfo.normalizePageName(firstLink)
+  lazy val secondLinkNormalized = secondLink.map(l => PageInfo.normalizePageName(l))
+
 }
 
 object PageLinks {
