@@ -13,26 +13,15 @@ object CycleFinder extends AnalysisBase {
 
   val minIncomingLinks = 10
 
-  def main(args: Array[String]): Unit = {
-    val file = new File(args(0))
-    findCycles(file)
-  }
-
-  def findCycles(file: File): File = {
-    val before = System.currentTimeMillis()
-
-    val map = loadSourceFile(file)
-
+  override def process(pages: Map[String, PageInfo], resultFileWithExtension: String => File): File = {
     log("Calculating cycles...")
     val cycles = logExecutionTime {
-      calculateCycles(map)
+      calculateCycles(pages)
     }(c => "Found " + c.size + " cycles with more than " + minIncomingLinks + " incoming links.")
 
-    val resultFile = extractResultFile(file, "cycles")
+    val resultFile = resultFileWithExtension("cycles")
     log("Writing result to file " + resultFile.getName() + "...")
-    writeResultToFile(resultFile, map, cycles)
-
-    log("Result completely written. Lasted " + (System.currentTimeMillis() - before) + " ms overall.")
+    writeResultToFile(resultFile, pages, cycles)
 
     resultFile
   }

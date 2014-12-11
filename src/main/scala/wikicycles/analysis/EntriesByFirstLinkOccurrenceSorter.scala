@@ -9,27 +9,16 @@ import wikicycles.util.LoggingUtil
  */
 object EntriesByFirstLinkOccurrenceSorter extends AnalysisBase {
 
-  def main(args: Array[String]): Unit = {
-    val file = new File(args(0))
-    sortEntriesByFirstLinkOccurrence(file)
-  }
-
-  def sortEntriesByFirstLinkOccurrence(file: File): File = {
-    val before = System.currentTimeMillis()
-
-    val map = loadSourceFile(file)
-
+  def process(pages: Map[String, PageInfo], resultFileWithExtension: String => File): File = {
     log("Calculating first link counts...")
-    val firstLinkCounts = getFirstLinkCountForPages(map)
+    val firstLinkCounts = getFirstLinkCountForPages(pages)
 
     log("Sorting results...")
     val sortedCounts = firstLinkCounts.toList.sortBy(item => item._2 * -1)
 
-    val resultFile = extractResultFile(file, "sorted")
+    val resultFile = resultFileWithExtension("sorted")
     log("Writing result to file " + resultFile.getName + "...")
-    writeResultToFile(resultFile, map, sortedCounts)
-
-    log("Result completely written. Lasted " + (System.currentTimeMillis() - before) + " ms overall.")
+    writeResultToFile(resultFile, pages, sortedCounts)
 
     resultFile
   }
