@@ -2,6 +2,7 @@ package wikicycles
 
 import java.io.{BufferedReader, FileReader, FileWriter, File}
 import java.util.Locale
+import java.util.regex.Pattern
 
 import org.apache.commons.lang3.StringUtils
 
@@ -10,15 +11,15 @@ import org.apache.commons.lang3.StringUtils
  */
 case class PageInfo(pageName: String, links: PageLinks) {
 
-  lazy val normalizedPageName = PageInfo.normalizePageName(pageName)
-
 }
 
 object PageInfo {
 
+  private val replaceWhitespacePattern = Pattern.compile("\\s+")
+
   def normalizePageName(pageName: String): String = {
     val lower = StringUtils.capitalize(pageName)
-    lower.replaceAll("\\s*", " ")
+    replaceWhitespacePattern.matcher(lower).replaceAll(" ")
   }
 
   def writeToFile(list: Seq[PageInfo], file: File): Unit = {
@@ -49,7 +50,7 @@ object PageInfo {
         val firstLink = elems(1)
         val secondLink = if (elems.length >= 3) Some(elems(2)) else None
         val pageInfo = PageInfo(pageName, PageLinks(firstLink, secondLink))
-        result.put(normalizePageName(pageName), pageInfo)
+        result.put(pageName, pageInfo)
       }
 
       line = in.readLine()

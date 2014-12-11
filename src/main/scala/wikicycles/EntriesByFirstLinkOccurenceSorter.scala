@@ -36,7 +36,7 @@ object EntriesByFirstLinkOccurenceSorter extends LoggingUtil {
 
     for (entry <- map) {
       val page = entry._2
-      val firstLink = PageInfo.normalizePageName(page.links.firstLink)
+      val firstLink = page.links.firstLink
       val newValue = result.get(firstLink).getOrElse(0) + 1
       result.put(firstLink, newValue)
     }

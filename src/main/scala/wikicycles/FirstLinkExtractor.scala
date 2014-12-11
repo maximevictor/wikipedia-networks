@@ -66,7 +66,7 @@ object FirstLinkExtractor {
    * @param link
    */
   private def normalize(link: String): String = {
-    link.replace('\n', ' ')
+    PageInfo.normalizePageName(link)
   }
 
   private[wikicycles] def extractSecondLink(source: String): Option[String] = {

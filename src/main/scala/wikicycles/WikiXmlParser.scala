@@ -26,7 +26,7 @@ class WikiXmlParser(val file: InputStream, val maxArticles: Option[Int]) {
       var inPage = false
       var inTitle = false
       var inText = false
-      var title: Option[String] = None
+      var title = new StringBuilder()
       val wikiSource = new StringBuilder()
 
       try {
@@ -44,7 +44,7 @@ class WikiXmlParser(val file: InputStream, val maxArticles: Option[Int]) {
               reader.getLocalName match {
                 case "page" =>
                   inPage = false
-                  title = None
+                  title.clear()
                   wikiSource.clear()
                 case "title" =>
                   if (inPage)
@@ -52,9 +52,9 @@ class WikiXmlParser(val file: InputStream, val maxArticles: Option[Int]) {
                 case "text" =>
                   if (inPage) {
                     inText = false
-                    if (!title.isEmpty && isValidArticle(title.get)) {
+                    if (!title.isEmpty && isValidArticle(title.toString)) {
                       articlesRead += 1
-                      return Some(WikiArticle(title.get, wikiSource.toString()))
+                      return Some(WikiArticle(title.toString, wikiSource.toString()))
                     }
                   }
                 case _ => // ignore
@@ -62,12 +62,14 @@ class WikiXmlParser(val file: InputStream, val maxArticles: Option[Int]) {
             case C.ENTITY_REFERENCE =>
               if (inText) {
                 wikiSource.append(reader.getText)
+              } else if (inTitle) {
+                title.append(reader.getText)
               }
             case C.CHARACTERS =>
               if (inText) {
                 wikiSource.append(reader.getText())
               } else if (inTitle) {
-                title = Some(reader.getText())
+                title.append(reader.getText())
               }
             case _ => // ignore
           }

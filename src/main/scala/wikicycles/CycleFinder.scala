@@ -51,7 +51,7 @@ object CycleFinder extends LoggingUtil {
         } else {
           cycles += cycle
           for (member <- cycle.members) {
-            cyclesByNode.put(member.page.normalizedPageName, cycle)
+            cyclesByNode.put(member.page.pageName, cycle)
           }
         }
       }
@@ -61,8 +61,8 @@ object CycleFinder extends LoggingUtil {
   }
 
   private def findCycle(link: PageLinks, path: List[PageInfo], map: Map[String, PageInfo], cyclesBefore: collection.mutable.Map[String, Cycle]): Option[(PageInfo, Cycle, Boolean)] = {
-    map.get(link.firstLinkNormalized).flatMap { page =>
-      cyclesBefore.get(page.normalizedPageName) match {
+    map.get(link.firstLink).flatMap { page =>
+      cyclesBefore.get(page.pageName) match {
         case Some(cycle) =>
           // This node was already found as part of a cycle before
           Some((page, cycle, true))
