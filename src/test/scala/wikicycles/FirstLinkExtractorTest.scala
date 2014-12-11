@@ -56,6 +56,7 @@ class FirstLinkExtractorTest extends FunSuite {
   }
 
   test("Extract first link from article") {
+    check("Philologie", Some(PageLinks("Sprachwissenschaft", "Literaturwissenschaft")))
     check("Jazz", Some(PageLinks("Jazz")))
     check("Schäl Sick", Some(PageLinks("Rheinland", "Rhein")))
     check("www", Some(PageLinks("World Wide Web", "Third-Level-Domain")))

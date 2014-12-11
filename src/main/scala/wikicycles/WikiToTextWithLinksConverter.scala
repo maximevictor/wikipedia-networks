@@ -5,7 +5,7 @@ import java.util.List
 import info.bliki.htmlcleaner.{TagNode, Utils, ContentToken}
 import info.bliki.wiki.filter.{WPTable, WPList, ITextConverter}
 import info.bliki.wiki.model.{ImageFormat, Configuration, IWikiModel}
-import info.bliki.wiki.tags.WPATag
+import info.bliki.wiki.tags.{RefTag, WPATag}
 
 /**
  * Created by mg on 08.12.14.
@@ -30,6 +30,8 @@ class WikiToTextWithLinksConverter extends ITextConverter {
             } else if (item.isInstanceOf[ContentToken]) {
               val contentToken: ContentToken = item.asInstanceOf[ContentToken]
               resultBuffer.append(contentToken.getContent)
+            } else if (item.isInstanceOf[RefTag]) {
+              // Ignore ref tags
             } else if (item.isInstanceOf[WPList]) {
               item.asInstanceOf[WPList].renderPlainText(this, resultBuffer, model)
             } else if (item.isInstanceOf[WPTable]) {
@@ -54,6 +56,8 @@ class WikiToTextWithLinksConverter extends ITextConverter {
           buf.append("[[" + link + "]]")
         }
       }
+    } else if (node.isInstanceOf[RefTag]) {
+      // Ignore ref tags
     } else {
       val children = node.getChildren
       var i = 0

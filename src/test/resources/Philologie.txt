@@ -1,0 +1,87 @@
+'''Philologie''' ([[Griechische Sprache|griech.]]
+{{lang|ELSalt|φιλολογία}} ''philología'', [[Latein|lat.]] ''philologia'', wörtlich „Liebe zur Sprache“)<ref name="GEMOLL">Vgl. [[Wilhelm Gemoll]]: ''Griechisch-Deutsches Schul- und Handwörterbuch''. G. Freytag Verlag/Hölder-Pichler-Tempsky, München/Wien 1965.</ref> ist die zusammenfassende Bezeichnung für die [[Sprachwissenschaft|Sprach-]] und [[Literaturwissenschaft]] einer [[Sprache]] oder eines Sprachzweiges. Gelegentlich bezeichnet der Begriff ausschließlich die Sprachwissenschaft oder ausschließlich die wissenschaftliche Beschäftigung mit einem [[Autor]] und dessen literarischem Werk.
+
+== Entwicklung ==
+Ursprüngliche Aufgabe der Philologie war die [[Textkritik]], also die Herstellung eines möglichst authentischen Textes, der aus verschiedenen voneinander abweichenden [[Manuskript|Handschriften]] erschlossen wurde. Diese [[Editionsphilologie]] ist heute nur noch ein Teilbereich der Philologie.
+
+Als älteste Philologie ist die [[Klassische Philologie]] zu betrachten. Diese nennt sich klassisch, da sie sich mit dem als klassisch verstandenen griechischen und römischen Altertum befasst und sich aus ihr die meisten anderen Philologien entwickelten.
+Die sogenannten [[Neuphilologie]]n, zu denen die  [[Anglistik]], die  [[Germanistik]], die  [[Slavistik]] und die [[Romanistik]] gehören, entwickelten sich vor allem während der [[Aufklärung]] und der [[Romantik]] und bildeten die Grundlage zur Herausbildung weiterer Ableger, zum Beispiel [[Lusitanistik]] und [[Rumänistik]].
+
+Im Rahmen der [[Orientalistik]] entstanden zahlreiche kleine Philologien, die heute an verschiedenen Hochschulstandorten als [[Orchideenfach|Orchideenfächer]] fortexistieren, deren Bestand jedoch gefährdet ist. Die Tendenz der Aufspaltung einer größeren Philologie in viele Teilphilologien bezeichnet man auch als Orchideisierung.
+
+== Fachgebiete (Auswahl) ==
+[[Klassische Philologie|Altphilologie]] (Klassische Philologie)
+* [[Gräzistik]]
+* [[Latinistik]]
+
+
+[[Neuphilologie]] – Europa
+* [[Anglistik]], einschließlich [[Amerikanistik]]
+* [[Baltistik]]
+* [[Bohemistik]]
+* [[Finno-Ugristik]] (vor allem [[Hungarologie]] und [[Fennistik]])
+* [[Germanistik]]
+* [[Keltologie]]
+* [[Neogräzistik]]
+* [[Romanistik]] (u. a. [[Hispanistik]], [[Lusitanistik]], [[Katalanistik]]), einschließlich [[Lateinamerikanistik]]
+* [[Skandinavistik]]
+* [[Slawistik]] (u. a. [[Russistik]], [[Polonistik]], [[Serbokroatistik]])
+
+
+Philologien – Naher Osten, Asien
+* [[Arabistik]]
+* [[Austronesische Sprachen|Austronesistik]]
+* [[Dravidistik]]
+* [[Hebraistik]]
+* [[Indologie]]
+* [[Iranistik]]
+* [[Japanologie|Japanistik]]
+* [[Koreanistik]]
+* [[Mongolistik]]
+* [[Sinologie]]
+* [[Thaiistik]]
+* [[Tibetologie]]
+* [[Turkologie]]
+* [[Vietnamistik]]
+
+Philologien – Afrika
+* [[Ägyptologie]]
+* [[Äthiopistik]]
+<!--
+Philologien – Amerika
+* [[Altamerikanistik]] / zu allgemein, weil interdisziplinär. Wenn, dann unter Übergreifende Philologien -->
+
+Übergreifende Philologien
+* [[Afrikanistik]]
+* [[Altorientalistik]] (u.&nbsp;a. [[Assyriologie]], [[Elamistik]])
+* [[Indogermanistik]]
+* [[Kaukasische Sprachen|Kaukasistik]]
+* [[Semitistik]]
+* [[Vergleichende Sprachwissenschaft]]
+
+== Philologische Programmschriften ==
+* [[Friedrich Schlegel]]: ''Zur Philologie. I und II.'' In: ''Kritische Friedrich Schlegel-Ausgabe.'' Hrsg. von [[Ernst Behler]]. 2.&nbsp;Abteilung. Bd.&nbsp;16: ''Fragmente zur Poesie und Literatur.'' 1.&nbsp;Teil. Schöningh, Paderborn, München, Wien 1981, S.&nbsp;33–81.
+* [[Friedrich Nietzsche]]: ''Wir Philologen.'' In: Friedrich Nietzsche: ''Werke.'' Hrsg. von [[Karl Schlechta (Philosoph)|Karl Schlechta]]. Bd.&nbsp;3, 6., durchgesehene Auflage, Hanser, München 1969, S.&nbsp;323–332 – [http://www.nietzschesource.org/#eKGWB/NF-1875,3 ''Notizen zu „Wir Philologen“''] i.R. der [http://www.nietzschesource.org/ ''Digitalen Faksimile Gesamtausgabe.'' Hrsg. von Paolo D'Iorio].
+* [[August Boeckh]]: ''Encyklopädie und Methodologie der philologischen Wissenschaften.'' Hrsg. von Ernst Bratuschek. B.G. Teubner, Leipzig 1877 – [http://www.archive.org/stream/encyklopdieund00bcuoft#page/n3/mode/2up Digitalisat] auf ''[[Open Library]].''
+* [[Peter Szondi]]: ''Über philologische Erkenntnis.'' In: Peter Szondi: ''Hölderlin-Studien. Mit einem Traktat über philologische Erkenntnis.'' Suhrkamp, Frankfurt am Main 1967, ISBN 3-518-10379-2, S.&nbsp;9–34.
+* [[Heinz Schlaffer]]: ''Poesie und Wissen. Die Entstehung des ästhetischen Bewußtseins und der philologischen Erkenntnis.'' Suhrkamp, Frankfurt am Main 1990, ISBN 3-518-58023-X.
+* Jan Ziolkowski: ''„What is Philology?“ Introduction.'' In: ''[[Comparative Literature Studies]]'' 27,1: ''Special-focus issue „What is Philology?“'' 1990, S.&nbsp;1–12.
+* [[Nikolaus Wegmann]]: ''Was heißt einen ‚klassischen Text‘ lesen? Philologische Selbstreflexion zwischen Wissenschaft und Bildung.'' In: Jürgen Fohrmann, Wilhelm Voßkamp (Hrsg.): ''Wissenschaftsgeschichte der Germanistik im 19. Jahrhundert.'' Metzler, Stuttgart, Weimar 1994, ISBN 3-476-00990-4, S.&nbsp;334–450.
+* Thomas Schestag: ''Philologie, Erkenntnis.'' In: ''[[Neue Rundschau]]'' 119,3 (2008), S.&nbsp;128–143.
+* Jerome McGann: ''Philology in a New Key.'' In: ''[[Critical Inquiry]]'' 39,2 (Winter 2013), S.&nbsp;327–346.
+
+== Weblinks ==
+{{Wikisource|Klassische Philologie}}
+{{Wikisource|Zeitschriften (Philologie)}}
+{{Wiktionary|Philologie}}
+{{commonscat|Philology}}
+* [http://www.fu-berlin.de/phin/ PhiN. Philologie im Netz] (Zeitschrift der FU Berlin)
+* [[Dieter Borchmeyer]]: [http://www.zeit.de/2005/09/ST-Philologie ''Vom Nutzen der Philologie - Zwei Liebeserklärungen an eine bemitleidenswerte Wissenschaft''] (In: ''Die Zeit.'' Nr. 9/2005)
+* [http://www.computerphilologie.de/ Forum Computerphilologie] (Uni München)
+* José Ángel García Landa: [http://www.unizar.es/departamentos/filologia_inglesa/garciala/bibliography.html A Bibliography of Literary Theory, Criticism and Philology], 13. A. 2008
+* Informationen zu dem Projekt [http://www.zfl.gwz-berlin.de/forschung/projekte-bis-2007/philologie/ Philologie als Kulturwissenschaft] des [[Zentrum für Literatur- und Kulturforschung|Zentrums für Literatur- und Kulturforschung Berlin]]
+
+== Einzelnachweise ==
+<references />
+
+[[Kategorie:Philologie| ]]
