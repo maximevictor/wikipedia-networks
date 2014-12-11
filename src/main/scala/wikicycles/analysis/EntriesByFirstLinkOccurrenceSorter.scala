@@ -1,21 +1,23 @@
-package wikicycles
+package wikicycles.analysis
 
-import java.io.{FileWriter, FileInputStream, File}
+import java.io.{File, FileWriter}
+import wikicycles.model.PageInfo
+import wikicycles.util.LoggingUtil
 
 /**
  * Created by mg on 10.12.14.
  */
-object EntriesByFirstLinkOccurenceSorter extends LoggingUtil {
+object EntriesByFirstLinkOccurrenceSorter extends AnalysisBase {
 
   def main(args: Array[String]): Unit = {
     val file = new File(args(0))
+    sortEntriesByFirstLinkOccurrence(file)
+  }
 
+  def sortEntriesByFirstLinkOccurrence(file: File): File = {
     val before = System.currentTimeMillis()
-    log("Reading file " + file.getName + "...")
 
-    val map = logExecutionTime {
-      PageInfo.loadFromFile(file)
-    }(m => "File with " + m.size + " entries read.")
+    val map = loadSourceFile(file)
 
     log("Calculating first link counts...")
     val firstLinkCounts = getFirstLinkCountForPages(map)
@@ -23,13 +25,15 @@ object EntriesByFirstLinkOccurenceSorter extends LoggingUtil {
     log("Sorting results...")
     val sortedCounts = firstLinkCounts.toList.sortBy(item => item._2 * -1)
 
-    val fileName = file.getName.substring(0, file.getName.lastIndexOf(".")) + "-sorted.csv"
-    log("Writing result to file " + fileName + "...")
-    writeResultToFile(new File(file.getParent, fileName), map, sortedCounts)
+    val resultFile = extractResultFile(file, "sorted")
+    log("Writing result to file " + resultFile.getName + "...")
+    writeResultToFile(resultFile, map, sortedCounts)
 
     log("Result completely written. Lasted " + (System.currentTimeMillis() - before) + " ms overall.")
 
+    resultFile
   }
+
 
   private def getFirstLinkCountForPages(map: Map[String, PageInfo]): Map[String, Int] = {
     val result = collection.mutable.Map[String, Int]()

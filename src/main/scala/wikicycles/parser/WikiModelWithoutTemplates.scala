@@ -1,4 +1,4 @@
-package wikicycles
+package wikicycles.parser
 
 import java.util
 

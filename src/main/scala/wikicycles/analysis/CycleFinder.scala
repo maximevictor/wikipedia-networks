@@ -1,37 +1,40 @@
-package wikicycles
+package wikicycles.analysis
 
-import java.io.{FileWriter, File}
+import java.io.{File, FileWriter}
+import wikicycles.model.{PageInfo, PageLinks}
+import wikicycles.util.LoggingUtil
 
 import scala.collection.mutable.ListBuffer
 
 /**
  * Created by mg on 10.12.14.
  */
-object CycleFinder extends LoggingUtil {
+object CycleFinder extends AnalysisBase {
 
   val minIncomingLinks = 10
 
   def main(args: Array[String]): Unit = {
     val file = new File(args(0))
+    findCycles(file)
+  }
 
+  def findCycles(file: File): File = {
     val before = System.currentTimeMillis()
-    log("Reading file " + file.getName + "...")
 
-    val map = logExecutionTime {
-      PageInfo.loadFromFile(file)
-    }(m => "File with " + m.size + " entries read.")
+    val map = loadSourceFile(file)
 
     log("Calculating cycles...")
     val cycles = logExecutionTime {
       calculateCycles(map)
     }(c => "Found " + c.size + " cycles with more than " + minIncomingLinks + " incoming links.")
 
-    val fileName = file.getName.substring(0, file.getName.lastIndexOf(".")) + "-cyles.csv"
-    log("Writing result to file " + fileName + "...")
-    writeResultToFile(new File(file.getParent, fileName), map, cycles)
+    val resultFile = extractResultFile(file, "cycles")
+    log("Writing result to file " + resultFile.getName() + "...")
+    writeResultToFile(resultFile, map, cycles)
 
     log("Result completely written. Lasted " + (System.currentTimeMillis() - before) + " ms overall.")
 
+    resultFile
   }
 
   class CycleMember(val page: PageInfo, var incomingLinks: Int)

@@ -1,9 +1,8 @@
-package wikicycles
+package wikicycles.parser
 
-import java.util
 import java.util.regex.Pattern
 
-import info.bliki.wiki.model.WikiModel
+import wikicycles.model.{PageLinks, PageInfo}
 
 /**
  * Created by mg on 07.12.14.

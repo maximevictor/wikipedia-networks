@@ -1,4 +1,4 @@
-package wikicycles
+package wikicycles.util
 
 import org.slf4j.LoggerFactory
 

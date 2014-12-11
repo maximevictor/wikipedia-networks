@@ -1,10 +1,9 @@
-package wikicycles
+package wikicycles.parser
 
 import java.io.InputStream
-import javax.xml.stream.XMLInputFactory
+import javax.xml.stream.{XMLInputFactory, XMLStreamConstants => C}
 
 import scala.util.control.NonFatal
-import javax.xml.stream.{XMLStreamConstants => C}
 
 /**
  * Created by mg on 07.12.14.

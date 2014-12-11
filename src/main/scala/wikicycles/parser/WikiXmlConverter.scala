@@ -1,15 +1,15 @@
-package wikicycles
+package wikicycles.parser
 
-import java.io.{FileWriter, FileOutputStream, FileInputStream, InputStream}
-import java.util.concurrent.atomic.{AtomicInteger, AtomicBoolean}
-import java.util.concurrent.{TimeUnit, ConcurrentHashMap, Executors}
+import java.io.{File, FileInputStream, FileWriter, InputStream}
+import java.util.concurrent.atomic.AtomicInteger
+import java.util.concurrent.{Executors, TimeUnit}
+
+import wikicycles.model.{PageLinks, PageInfo}
+
 import scala.collection.mutable.ListBuffer
-import scala.concurrent._
-
-import scala.concurrent.ExecutionContext
+import scala.concurrent.{ExecutionContext, _}
 import scala.concurrent.duration.Duration
 import scala.util.control.NonFatal
-import java.io.File
 
 /**
  * Created by mg on 07.12.14.

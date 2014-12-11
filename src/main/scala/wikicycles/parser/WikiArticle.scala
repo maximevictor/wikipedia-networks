@@ -1,4 +1,4 @@
-package wikicycles
+package wikicycles.parser
 
 /**
  * Created by mg on 07.12.14.

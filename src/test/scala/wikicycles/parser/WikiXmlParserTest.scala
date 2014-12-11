@@ -1,10 +1,7 @@
-package wikicycles
-
-import javax.xml.stream.{XMLStreamConstants, XMLStreamReader, XMLInputFactory}
+package wikicycles.parser
 
 import org.apache.commons.io.IOUtils
 import org.scalatest.FunSuite
-import collection.JavaConverters._
 
 import scala.collection.mutable.ListBuffer
 

@@ -1,16 +1,8 @@
-package wikicycles
+package wikicycles.parser
 
-import java.io.StringReader
-import java.util
-import java.util.List
-import java.util.regex.Pattern
-
-import info.bliki.htmlcleaner.{Utils, ContentToken, TagNode}
-import info.bliki.wiki.filter._
-import info.bliki.wiki.model.{Configuration, IWikiModel, ImageFormat, WikiModel}
-import info.bliki.wiki.tags.{WPATag, ATag, HTMLTag}
 import org.apache.commons.io.IOUtils
 import org.scalatest.FunSuite
+import wikicycles.model.PageLinks
 
 /**
  * Created by mg on 07.12.14.

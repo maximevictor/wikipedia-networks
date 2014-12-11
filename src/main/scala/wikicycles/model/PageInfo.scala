@@ -1,7 +1,6 @@
-package wikicycles
+package wikicycles.model
 
-import java.io.{BufferedReader, FileReader, FileWriter, File}
-import java.util.Locale
+import java.io.{BufferedReader, File, FileReader, FileWriter}
 import java.util.regex.Pattern
 
 import org.apache.commons.lang3.StringUtils

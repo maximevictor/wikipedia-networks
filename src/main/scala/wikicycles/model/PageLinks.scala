@@ -1,4 +1,4 @@
-package wikicycles
+package wikicycles.model
 
 /**
  * Created by mg on 09.12.14.

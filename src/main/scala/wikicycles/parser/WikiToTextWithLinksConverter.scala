@@ -1,10 +1,8 @@
-package wikicycles
+package wikicycles.parser
 
-import java.util.List
-
-import info.bliki.htmlcleaner.{TagNode, Utils, ContentToken}
-import info.bliki.wiki.filter.{WPTable, WPList, ITextConverter}
-import info.bliki.wiki.model.{ImageFormat, Configuration, IWikiModel}
+import info.bliki.htmlcleaner.{ContentToken, TagNode}
+import info.bliki.wiki.filter.{ITextConverter, WPList, WPTable}
+import info.bliki.wiki.model.{Configuration, IWikiModel, ImageFormat}
 import info.bliki.wiki.tags.{RefTag, WPATag}
 
 /**
