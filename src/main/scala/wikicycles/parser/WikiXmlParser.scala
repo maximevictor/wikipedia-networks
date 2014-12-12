@@ -3,15 +3,17 @@ package wikicycles.parser
 import java.io.InputStream
 import javax.xml.stream.{XMLInputFactory, XMLStreamConstants => C}
 
+import org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream
+
 import scala.util.control.NonFatal
 
 /**
  * Created by mg on 07.12.14.
  */
-class WikiXmlParser(val file: InputStream, val maxArticles: Option[Int]) {
+class WikiXmlParser(val file: InputStream, val compressed: Boolean, val maxArticles: Option[Int]) {
 
   val factory = XMLInputFactory.newInstance()
-  val reader = factory.createXMLStreamReader(file)
+  val reader = factory.createXMLStreamReader(if (compressed) new BZip2CompressorInputStream(file) else file)
 
   private var articlesRead = 0
 

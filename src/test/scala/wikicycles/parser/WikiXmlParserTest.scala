@@ -13,7 +13,7 @@ class WikiXmlParserTest extends FunSuite {
   private def testFile = getClass().getResourceAsStream("/dewiki_10000.xml")
 
   test("Parse test XML") {
-    val parser = new WikiXmlParser(testFile, None)
+    val parser = new WikiXmlParser(testFile, false, None)
 
     val articles = ListBuffer[WikiArticle]()
 
@@ -32,7 +32,7 @@ class WikiXmlParserTest extends FunSuite {
   }
 
   test("Parse XML and extract first links") {
-    val result = WikiXmlConverter.convertFile(testFile, None)
+    val result = WikiXmlConverter.convertFile(testFile, false, None)
 
     //println(result.asScala)
 

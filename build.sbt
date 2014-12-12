@@ -9,6 +9,7 @@ lazy val root = (project in file(".")).
     libraryDependencies ++=  Seq("org.scalatest" %% "scalatest" % "2.2.2" % "test",
                 "info.bliki.wiki" % "bliki-core" % "3.0.19",
                 "ch.qos.logback" % "logback-classic" % "1.1.2",
+                "org.apache.commons" % "commons-compress" % "1.9",
                 "org.apache.commons" % "commons-lang3" % "3.3.2",
                 "commons-io" % "commons-io" % "2.4")
   )

@@ -25,11 +25,11 @@ object WikiXmlConverter {
       Some(args(1).toInt)
     } else None
 
-    val map = convertFile(stream, limit)
+    val map = convertFile(stream, sourceFile.getName.endsWith(".bz2"), limit)
     writeResultToFile(sourceFile, map, limit)
   }
 
-  def convertFile(stream: InputStream, maxArticles: Option[Int]): Seq[PageInfo] = {
+  def convertFile(stream: InputStream, compressed: Boolean, maxArticles: Option[Int]): Seq[PageInfo] = {
     val threadPool = Executors.newFixedThreadPool(numThreads)
     implicit val executionContext = ExecutionContext.fromExecutorService(threadPool)
 
@@ -37,7 +37,7 @@ object WikiXmlConverter {
     val processed = new AtomicInteger(0)
     val secondLinks = new AtomicInteger(0)
 
-    val parser = new WikiXmlParser(stream, maxArticles)
+    val parser = new WikiXmlParser(stream, compressed, maxArticles)
 
     try {
       val futures = (0 until numThreads).map { i =>
@@ -66,7 +66,7 @@ object WikiXmlConverter {
 
   def writeResultToFile(sourceFile: File, result: Seq[PageInfo], limit: Option[Int]): Unit = {
 
-    val fileName = sourceFile.getName.substring(0, sourceFile.getName.lastIndexOf(".")) +
+    val fileName = sourceFile.getName.substring(0, sourceFile.getName.indexOf(".")) +
       limit.fold("")(l => "-" + l) + "-pagelinks.csv"
 
     println("Writing result to file " + fileName + "...")
