@@ -1,0 +1,13 @@
+[[Image:Safrole acsv.svg|thumb|150px|[[Safrole]], un phénylpropène]]
+
+Les '''phenylpropènes''' sont une sous-classe de [[phénylpropanoïde]]s, dont le squelette de base est un noyau benzénique substitué par un groupe propényle.
+
+On compte notamment parmi les phénylpropènes l'[[eugénol]], le [[chavicol]], le [[safrole]] ou encore l'[[estragol]], dérivés des [[monolignol]]s. Ces composés sont parmi les principaux constituants de nombreuses [[huile essentielle|huiles essentielles]].
+
+{{Palette Phénylpropanoïde}}
+{{Palette Phénylpropène}}
+
+{{Portail|chimie|biochimie}}
+
+{{DEFAULTSORT:Phenylpropene}}
+[[Catégorie:Phénylpropène]]

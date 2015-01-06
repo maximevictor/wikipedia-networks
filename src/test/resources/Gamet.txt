@@ -1,0 +1,47 @@
+{{Dieser Artikel|beschreibt Geschlechtszellen. Zur Wettervorhersage für Flüge siehe [[GAMET]]. Zum französischen Toningenieur siehe [[Pierre Gamet]].}}
+[[File:Sperm-egg.jpg|thumb|Zwei menschliche Keimzellen unmittelbar vor der [[Befruchtung]]]]
+'''Gameten''', auch als '''Geschlechtszellen''' oder '''Keimzellen''' bezeichnet, sind [[Haploidie|haploide]] [[Zelle (Biologie)|Zellen]], die von sich [[Geschlechtliche Fortpflanzung|geschlechtlich fortpflanzenden]] [[Lebewesen]] meist in besonderen [[Organ (Biologie)|Organen]] erzeugt werden. Durch Vereinigung zweier Gameten entsteht eine [[Diploidie|diploide]] [[Zygote]], aus der ein neues Individuum entstehen kann. Die Vereinigung der Gameten wird als ''Geschlechtsvorgang'' oder ''Gametogamie'' bezeichnet.
+
+== Vorteil der geschlechtlichen Fortpflanzung ==
+Der Vorteil der geschlechtlichen Fortpflanzung besteht in einer Neukombination verschiedener [[Genom]]e und der damit verbundenen Vergrößerung der genetischen Vielfalt der Angehörigen einer Art. Dieser Effekt ist dann besonders groß, wenn verhindert wird, dass Gameten desselben Individuums miteinander verschmelzen. Dies wird erreicht, indem die Gameten-bildenden Individuen einer Art und die von ihnen gebildeten Gameten verschiedenen ''Paarungstypen'' angehören und Gameten desselben Paarungstyps nicht miteinander verschmelzen können. Paarungstypen unterscheiden sich also in ihren physiologischen Eigenschaften; oft unterscheiden sie sich auch in ihrer Gestalt. Bei den meisten Arten gibt es zwei Paarungstypen, es gibt aber auch Arten mit mehr als zwei Paarungstypen.
+
+== Gametentypen ==
+Bei Lebewesen wie den [[Einzeller|einzelligen]] [[Flagellaten]] sehen die Gameten wie normale Zellen aus und die verschmelzenden Gameten unterscheiden sich nicht in ihrer Gestalt. Auch bei einigen mehrzelligen [[Algen]] sind die Gameten, die miteinander verschmelzen, äußerlich nicht voneinander zu unterscheiden. Man bezeichnet solche Gameten als ''Isogameten'', die Bildung von Isogameten als ''Isogametie'' und die Verschmelzung von Isogameten als ''Isogamie''. Da sich Isogameten aber physiologisch unterscheiden, nämlich verschiedenen Paarungstypen angehören, bezeichnet man die miteinander verschmelzenden Zellen als ''+Gameten'' und ''-Gameten''.
+
+Bei den meisten Lebewesen unterscheiden sich die Gameten jedoch auch in ihrer Gestalt. Man spricht dann von ''Anisogameten'', ''Anisogametie'' und ''Anisogamie''. Bei vielen Lebewesen lassen sich kleinere, sich aktiv bewegende ''Mikrogameten'' von größeren ''Makrogameten'' ohne aktive Bewegung differenzieren. In diesem Fall werden die beiden Paarungstypen auch als ''männlich'' (Mikrogameten) und ''weiblich'' (Makrogameten) bezeichnet. Im Extremfall ist die weibliche Geschlechtszelle viel größer als die Mikrogameten und völlig unbeweglich und wird ''[[Eizelle]]'' genannt und die viel kleineren meist sich lebhaft bewegenden männlichen Geschlechtszellen werden als ''Spermatozoiden'', ''Spermatozoen'' oder kurz ''[[Spermium|Spermien]]'' bezeichnet. Die Verschmelzung von Eizellen und Spermien wird als ''[[Oogamie]]'' bezeichnet. Es gibt bei einigen Organismen (Rotalgen) aber auch unbewegliche Spermazellen, die dann ''Spermatien'' genannt werden.<ref>Vgl. [http://www.duden.de/rechtschreibung/Spermatium Spermatium] bei Duden online</ref>
+
+Bei allen höheren [[Tiere|tierischen]] Lebewesen einschließlich des Menschen werden die Gameten der Weibchen Eizellen oder kurz Eier genannt, die der Männchen Spermatozoen oder Spermien.
+
+== Kernphasenwechsel ==
+{{Hauptartikel|Kernphasenwechsel}}
+
+Man unterscheidet drei verschiedene Gruppen von Arten, je nachdem, ob es sich um [[Einzeller]], [[Pflanze|Pflanzen]] oder [[Tier|Tiere]] handelt.
+
+Bei Arten mit [[Diploidie|diploidem]] (doppelten) Chromosomensatz enthalten die Gameten jeweils nur einen Satz [[Chromosomen]], damit die durch die Verschmelzung entstehende Zelle wieder den üblichen diploiden Chromosomensatz enthält. Das bedeutet, die  Gameten sind [[Haploidie|haploid]], es muss also während ihrer Entstehung zu einer Reduktionsteilung ([[Meiose]]) gekommen sein, weshalb solche Gameten auch ''Meiogameten'' genannt werden.
+
+Wenn sich zwei Gameten bei der [[Befruchtung]] vereinigen, bilden sie zusammen eine [[Zygote]]. Aus dieser diploiden Zelle entwickelt sich meistens durch [[Mitose|mitotische]] [[Zellteilung|Teilungen]] und nachfolgende [[Spezialisierung#Spezialisierung in der Biologie|Spezialisierung]] der aus ihr entstandenen diploiden Zellen zunächst ein [[Embryo]] und letztlich ein ausgewachsenes Individuum.
+
+Es kann allerdings auch vorkommen, dass die entstandene Zygote – meist nach einer Ruheperiode – gleich wieder eine Meiose durchmacht und sich in vier haploide Zellen teilt. Dies ist bei sich geschlechtlich fortpflanzenden [[Haplont|haploiden Lebewesen]] der Fall. Im einfachsten Fall (bei manchen Einzellern) entstehen aus diesen Zellen durch einfache Zellteilung ([[Mitose]]) mehrere haploide Tochtergenerationen, deren Mitglieder alle als „Gamet“ fungieren können, das heißt, dass sie durch Verschmelzung mit einer anderen Zelle eine Zygote bilden können. Werden dagegen spezielle Gameten gebildet, so entstehen diese ebenfalls durch Mitose und werden daher ''Mitogameten'' genannt.
+
+Zwischen diesen zwei Extremen liegt der heterophasische [[Generationswechsel]], bei dem sich eine vielzellige haploide und eine vielzellige diploide Generation abwechseln. Deutlich ausgeprägt ist dieser Generationswechsel beispielsweise bei den [[Moose]]n, den [[Farne]]n und bei der Braunalgen-Ordnung [[Laminariales]]. Bei der Meiose im diploiden [[Sporophyt]]en entstehen hier [[Meiospore]]n, die zu haploiden Individuen ([[Gametophyt]]en) heranwachsen, und diese bilden dann durch Mitose Mitogameten.<ref>[[Lehrbuch der Botanik für Hochschulen|Strasburger]], 31. Auflage 1978, S. 210</ref>
+
+== Rekombination der Gene ==
+Normalerweise tragen die [[Somatische Zelle|somatischen Zellen]] (d. h. die normalen Körperzellen) eines diploiden Organismus je einen Satz der Chromosomen des Vaters (der aus dem Spermium stammt) sowie einen der Mutter (der aus der [[Eizelle]] stammt).
+Die Chromosomensätze der Gameten sind jedoch nicht etwa nur das bloße Duplikat eines Chromosomensatzes der somatischen Zellen des gametenproduzierenden Individuums; vielmehr sind sie Hybriden, die durch [[Rekombination]] von Chromosomen bei der Entstehung der Gameten ([[Meiose]]) erzeugt werden (siehe auch [[Crossing-over]], [[Meiotic Drive]]). Diese Hybridisation hat etwas Zufälliges an sich, so dass das [[Genom]] in jedem Gameten, den das Individuum erzeugt, dazu tendiert, einmalig zu sein. Dies führt zu der [[Genetik|genetischen]] Unähnlichkeit von Geschwistern.
+
+== Gametenbildende Organe ==
+Die Organe, in denen die Gameten produziert werden, werden bei [[Tiere]]n [[Gonade]]n, bei [[Pflanzen]] und [[Pilze]]n [[Gametangium|Gametangien]] genannt; bei geschlechtlicher Differenzierung in weiblich und männlich werden die weiblichen Gametangien [[Archegonium|Archegonien]] oder [[Oogon]]ien und die männlichen Gametangien [[Antheridium|Antheridien]] genannt.
+
+== Verwandte Begriffe ==
+Die [[Gametogenese]] beschreibt die Gametenentwicklung. [[Gametopathie]] bezeichnet Fehlbildungen bei der Gametenentwicklung.
+
+== Einzelnachweise ==
+<references />
+
+== Weblinks ==
+{{Wiktionary|Gamet}}
+{{Wiktionary|Keimzelle}}
+
+[[Kategorie:Embryologie]]
+[[Kategorie:Genetik]]
+[[Kategorie:Reproduktionsmedizin]]

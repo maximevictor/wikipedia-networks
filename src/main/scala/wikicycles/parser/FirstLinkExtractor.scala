@@ -16,7 +16,10 @@ object FirstLinkExtractor {
     var found: Option[PageLinks] = None
 
     for ((section, index) <- sections.zipWithIndex) {
-      var parsed = model.render(new WikiToTextWithLinksConverter(), section)
+      // Replace "[[File:" with "[[Datei:", so that special file handling by parser is suppressed
+      val wikiText = section.replaceAllLiterally("[[File:", "[[Datei:").replaceAllLiterally("[[Image:", "[[Datei:")
+
+      var parsed = model.render(new WikiToTextWithLinksConverter(), wikiText)
       if (parsed.isEmpty()) {
         // The parser does not return redirects - use the unparsed version instead
         parsed = section

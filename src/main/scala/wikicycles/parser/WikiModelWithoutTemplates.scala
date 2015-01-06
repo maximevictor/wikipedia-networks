@@ -1,6 +1,7 @@
 package wikicycles.parser
 
 import java.util
+import collection.JavaConversions._
 
 import info.bliki.wiki.model.WikiModel
 
@@ -9,6 +10,10 @@ import info.bliki.wiki.model.WikiModel
  */
 class WikiModelWithoutTemplates extends WikiModel("/", "/") {
   override def substituteTemplateCall(templateName: String, parameterMap: util.Map[String, String], writer: Appendable): Unit = {
-    // Do nothing, ignore templates!
+    if (templateName == "Citation") {
+      writer.append(parameterMap.values().mkString(" "))
+    } else {
+      // Do nothing, ignore templates!
+    }
   }
 }

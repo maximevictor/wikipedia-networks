@@ -2,7 +2,7 @@ package wikicycles.analysis
 
 import java.io.{FileWriter, File}
 
-import wikicycles.model.{PageLinks, PageInfo}
+import wikicycles.model.{PageInfoMap, PageLinks, PageInfo}
 
 /**
  * Created by mg on 11.12.14.
@@ -11,7 +11,7 @@ object IndirectLinkCounter extends AnalysisBase {
 
   val minIndirectLinksCount = 100
 
-  override def process(pages: Map[String, PageInfo], resultFileWithExtension: (String) => File): File = {
+  override def process(pages: PageInfoMap, resultFileWithExtension: (String) => File): File = {
 
     log("Counting indirect links...")
     val result = logExecutionTime {
@@ -28,10 +28,10 @@ object IndirectLinkCounter extends AnalysisBase {
     def averageDepth: Double = depthSum.toDouble / count
   }
 
-  private def countIndirectLinks(pages: Map[String, PageInfo]): List[(String, IndirectLinks)] = {
+  private def countIndirectLinks(pages: PageInfoMap): List[(String, IndirectLinks)] = {
     val result = collection.mutable.Map[String, IndirectLinks]()
 
-    for ((pageName, page) <- pages) {
+    for ((pageName, page) <- pages.map) {
       followLinksAndCount(page.links, Set.empty, pages, { (name, depth) =>
         result.get(name) match {
           case Some(count) =>
@@ -46,8 +46,8 @@ object IndirectLinkCounter extends AnalysisBase {
     result.toList.filter(entry => entry._2.count >= minIndirectLinksCount).sortBy(_._2.count * -1)
   }
 
-  private def followLinksAndCount(link: PageLinks, visitedPages: Set[String], pages: Map[String, PageInfo], incrementCount: (String, Int) => Unit) {
-    for (page <- pages.get(link.firstLink)) {
+  private def followLinksAndCount(link: PageLinks, visitedPages: Set[String], pages: PageInfoMap, incrementCount: (String, Int) => Unit) {
+    for (page <- pages.getFirstOrSecondLink(link)) {
       if (!visitedPages.contains(page.pageName)) {
         incrementCount(page.pageName, visitedPages.size)
         followLinksAndCount(page.links, visitedPages + page.pageName, pages, incrementCount)

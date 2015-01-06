@@ -1,7 +1,7 @@
 package wikicycles.analysis
 
 import java.io.{File, FileWriter}
-import wikicycles.model.PageInfo
+import wikicycles.model.{PageInfoMap, PageInfo}
 import wikicycles.util.LoggingUtil
 
 /**
@@ -9,7 +9,7 @@ import wikicycles.util.LoggingUtil
  */
 object EntriesByFirstLinkOccurrenceSorter extends AnalysisBase {
 
-  def process(pages: Map[String, PageInfo], resultFileWithExtension: String => File): File = {
+  def process(pages: PageInfoMap, resultFileWithExtension: String => File): File = {
     log("Calculating first link counts...")
     val firstLinkCounts = getFirstLinkCountForPages(pages)
 
@@ -24,29 +24,36 @@ object EntriesByFirstLinkOccurrenceSorter extends AnalysisBase {
   }
 
 
-  private def getFirstLinkCountForPages(map: Map[String, PageInfo]): Map[String, Int] = {
+  private def getFirstLinkCountForPages(map: PageInfoMap): Map[String, Int] = {
     val result = collection.mutable.Map[String, Int]()
 
-    for (entry <- map) {
+    for (entry <- map.map) {
       val page = entry._2
       val firstLink = page.links.firstLink
-      val newValue = result.get(firstLink).getOrElse(0) + 1
+      val newValue = result.get(firstLink).orElse(page.links.secondLink.flatMap(l => result.get(l))).getOrElse(0) + 1
       result.put(firstLink, newValue)
     }
 
     result.toMap
   }
 
-  private def writeResultToFile(file: File, map: Map[String, PageInfo], counts: List[(String, Int)]): Unit = {
+  private def writeResultToFile(file: File, map: PageInfoMap, counts: List[(String, Int)]): Unit = {
     val out = new FileWriter(file)
     try {
       for (item <- counts) {
         for (info <- map.get(item._1)) {
-          out.append(info.pageName + "|" + info.links.firstLink + "|" + item._2)
-          for (second <- info.links.secondLink) {
-            out.append("|" + second)
+          val firstLinkNonExistent = map.get(info.links.firstLink).isEmpty
+          if (!firstLinkNonExistent || map.get(info.links.secondLink).isDefined) {
+            val firstLink = if (firstLinkNonExistent) info.links.secondLink.get else info.links.firstLink
+
+            out.append(info.pageName + "|" + firstLink + "|" + item._2)
+            if (!firstLinkNonExistent) {
+              for (second <- info.links.secondLink) {
+                out.append("|" + second)
+              }
+            }
+            out.append("\n")
           }
-          out.append("\n")
         }
       }
     } finally {

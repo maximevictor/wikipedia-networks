@@ -1,7 +1,7 @@
 package wikicycles.analysis
 
 import java.io.{File, FileWriter}
-import wikicycles.model.{PageInfo, PageLinks}
+import wikicycles.model.{PageInfoMap, PageInfo, PageLinks}
 import wikicycles.util.LoggingUtil
 
 import scala.collection.mutable.ListBuffer
@@ -13,7 +13,7 @@ object CycleFinder extends AnalysisBase {
 
   val minIncomingLinks = 10
 
-  override def process(pages: Map[String, PageInfo], resultFileWithExtension: String => File): File = {
+  override def process(pages: PageInfoMap, resultFileWithExtension: String => File): File = {
     log("Calculating cycles...")
     val cycles = logExecutionTime {
       calculateCycles(pages)
@@ -29,11 +29,11 @@ object CycleFinder extends AnalysisBase {
   class CycleMember(val page: PageInfo, var incomingLinks: Int)
   class Cycle(val members: List[CycleMember], var incomingLinks: Int)
 
-  private def calculateCycles(map: Map[String, PageInfo]): Seq[Cycle] = {
+  private def calculateCycles(map: PageInfoMap): Seq[Cycle] = {
     val cycles = ListBuffer[Cycle]()
     val cyclesByNode = collection.mutable.Map[String, Cycle]()
 
-    for (entry <- map) {
+    for (entry <- map.map) {
       for ((page, cycle, oldCycle) <- findCycle(entry._2.links, Nil, map, cyclesByNode)) {
         if (oldCycle) {
           cycle.incomingLinks += 1
@@ -52,8 +52,8 @@ object CycleFinder extends AnalysisBase {
     cycles.filter(_.incomingLinks >= minIncomingLinks).sortBy(_.incomingLinks * -1)
   }
 
-  private def findCycle(link: PageLinks, path: List[PageInfo], map: Map[String, PageInfo], cyclesBefore: collection.mutable.Map[String, Cycle]): Option[(PageInfo, Cycle, Boolean)] = {
-    map.get(link.firstLink).flatMap { page =>
+  private def findCycle(link: PageLinks, path: List[PageInfo], map: PageInfoMap, cyclesBefore: collection.mutable.Map[String, Cycle]): Option[(PageInfo, Cycle, Boolean)] = {
+    map.getFirstOrSecondLink(link).flatMap { page =>
       cyclesBefore.get(page.pageName) match {
         case Some(cycle) =>
           // This node was already found as part of a cycle before
@@ -69,7 +69,7 @@ object CycleFinder extends AnalysisBase {
     }
   }
 
-  private def writeResultToFile(file: File, map: Map[String, PageInfo], cycles: Seq[Cycle]): Unit = {
+  private def writeResultToFile(file: File, map: PageInfoMap, cycles: Seq[Cycle]): Unit = {
     val out = new FileWriter(file)
     try {
       for (cycle <- cycles) {
