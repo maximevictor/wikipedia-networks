@@ -72,7 +72,8 @@ class FirstLinkExtractorTest extends FunSuite {
   }
 
   private def check(file: String, expectedResult: Option[PageLinks]): Unit = {
-    assert(FirstLinkExtractor.extractFirstLinksFromArticle(wikiText(file)) === expectedResult, "First links of article " + file + " should be " + expectedResult)
+    val extracted = FirstLinkExtractor.extractFirstLinksFromArticle(wikiText(file))
+    assert(extracted.map(_._1) === expectedResult, "First links of article " + file + " should be " + expectedResult)
   }
 
   private def wikiText(name: String): String = {

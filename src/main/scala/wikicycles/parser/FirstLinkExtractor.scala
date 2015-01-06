@@ -9,39 +9,44 @@ import wikicycles.model.{PageLinks, PageInfo}
  */
 object FirstLinkExtractor {
 
-  def extractFirstLinksFromArticle(articleSource: String): Option[PageLinks] = {
+  def extractFirstLinksFromArticle(articleSource: String): Option[(PageLinks, Boolean)] = {
     val sections = splitIntoSections(articleSource)
     val model = new WikiModelWithoutTemplates()
 
     var found: Option[PageLinks] = None
+    var redirectPage = false
 
     for ((section, index) <- sections.zipWithIndex) {
       // Replace "[[File:" with "[[Datei:", so that special file handling by parser is suppressed
       val wikiText = section.replaceAllLiterally("[[File:", "[[Datei:").replaceAllLiterally("[[Image:", "[[Datei:")
 
       var parsed = model.render(new WikiToTextWithLinksConverter(), wikiText)
+
       if (parsed.isEmpty()) {
         // The parser does not return redirects - use the unparsed version instead
         parsed = section
+        if (index == 0) {
+          redirectPage = true
+        }
       }
 
       found match {
         case None =>
           for (extracted <- extractFirstLinks(parsed)) {
             if (extracted.secondLink.isDefined) {
-              return Some(extracted)
+              return Some((extracted, redirectPage))
             } else {
               found = Some(extracted)
             }
           }
         case Some(firstLink) =>
           for (second <- extractSecondLink(parsed)) {
-            return Some(firstLink.copy(secondLink = Some(second)))
+            return Some((firstLink.copy(secondLink = Some(second)), redirectPage))
           }
       }
     }
 
-    found
+    found.map(f => (f, redirectPage))
   }
 
   val linkPattern = Pattern.compile("(?m)(?s)\\[\\[([^|#\\]]*).*?\\]\\]")

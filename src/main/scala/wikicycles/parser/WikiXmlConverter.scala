@@ -116,11 +116,11 @@ object WikiXmlConverter {
       }
     }
 
-    def addResult(title: String, optPageLinks: Option[PageLinks]): Unit = {
+    def addResult(title: String, optPageLinks: Option[(PageLinks, Boolean)]): Unit = {
       for (links <- optPageLinks) {
-        result += PageInfo(PageInfo.normalizePageName(title), links)
+        result += PageInfo(PageInfo.normalizePageName(title), links._2, links._1)
 
-        if (links.secondLink.isDefined) {
+        if (links._1.secondLink.isDefined) {
           secondLinks.incrementAndGet()
         }
       }
