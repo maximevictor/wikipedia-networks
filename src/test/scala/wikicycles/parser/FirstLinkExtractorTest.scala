@@ -48,6 +48,8 @@ class FirstLinkExtractorTest extends FunSuite {
   }
 
   test("Extract first link from article") {
+    check("IKV", Some(PageLinks("Institut für Kunststoffverarbeitung", "Internationale Kartographische Vereinigung")))
+    check("Darmstadt-Dieburg", Some(PageLinks("Landkreis Darmstadt-Dieburg")))
     check("Science", Some(PageLinks("Vrai", "Méthode scientifique")))
     check("Phenylpropene", Some(PageLinks("Phénylpropanoïde", "Eugénol")))
     check("Lebensstil", Some(PageLinks("Umgangssprache", "Lebensführung")))
