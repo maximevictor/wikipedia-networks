@@ -9,7 +9,9 @@ import scala.collection.mutable.ListBuffer
 /**
  * Created by mg on 06.01.15.
  */
-object FullPathCreator extends AnalysisBase {
+abstract class BaseFullPathCreator extends AnalysisBase {
+
+  val fileExtension = "fullpaths"
 
   /**
    * Processes the source file and return a file to which the result were written.
@@ -24,7 +26,7 @@ object FullPathCreator extends AnalysisBase {
       calculatePaths(pages)
     }(c => "Found " + c.size + " paths (not including redirect pages)")
 
-    val resultFile = resultFileWithExtension("fullpaths")
+    val resultFile = resultFileWithExtension(fileExtension)
     log("Writing result to file " + resultFile.getName() + "...")
     writeResultToFile(resultFile, pages, paths)
 
@@ -71,3 +73,5 @@ object FullPathCreator extends AnalysisBase {
   }
 
 }
+
+object FullPathCreator extends BaseFullPathCreator
