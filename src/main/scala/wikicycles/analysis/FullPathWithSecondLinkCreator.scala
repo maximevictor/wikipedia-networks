@@ -16,28 +16,28 @@ object FullPathWithSecondLinkCreator extends BaseFullPathCreator {
 
     for (page <- pages.map.values) {
       if (!page.redirectPage) {
-        result.append(findPath(page.links, List(page), false, pages))
+        result.append(findPath(pages.getFirstOrSecondLink(page.links), List(page), false, pages))
       }
     }
 
     result
   }
 
-  private def findPath(link: PageLinks, path: List[PageInfo], firstCycleFound: Boolean, pages: PageInfoMap): Seq[PageInfo] = {
-    pages.getFirstOrSecondLink(link) match {
+  private def findPath(optPage: Option[PageInfo], path: List[PageInfo], firstCycleFound: Boolean, pages: PageInfoMap): Seq[PageInfo] = {
+    optPage match {
       case Some(page) =>
         val newPath = if (page.redirectPage) path else page :: path
 
         if (path.contains(page)) {
-          val secondLink = pages.getSecondLinkIfDifferentFromFirstLink(page, link)
+          val secondLink = pages.getSecondLinkIfDifferentFromFirstLink(page.links)
           if (firstCycleFound || secondLink.isEmpty) {
             (page :: path).reverse
           } else {
             // This is the first cycle. Try to find a second cycle using the second link here:
-            findPath(secondLink.get.links, newPath, true, pages)
+            findPath(secondLink, newPath, true, pages)
           }
         } else {
-          findPath(page.links, newPath, firstCycleFound, pages)
+          findPath(pages.getFirstOrSecondLink(page.links), newPath, firstCycleFound, pages)
         }
       case None =>
         path.reverse

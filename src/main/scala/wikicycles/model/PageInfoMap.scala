@@ -19,9 +19,9 @@ case class PageInfoMap(map: Map[String, PageInfo]) {
     get(pageLinks.firstLink).orElse(pageLinks.secondLink.flatMap(l => get(l)))
   }
 
-  def getSecondLinkIfDifferentFromFirstLink(firstLink: PageInfo, pageLinks: PageLinks): Option[PageInfo] = {
+  def getSecondLinkIfDifferentFromFirstLink(pageLinks: PageLinks): Option[PageInfo] = {
     val secondLink = pageLinks.secondLink.flatMap(l => get(l))
-    secondLink.filterNot(_ == firstLink)
+    secondLink.filterNot(sl => Some(sl) == get(pageLinks.firstLink))
   }
 
 }
