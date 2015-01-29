@@ -12,32 +12,38 @@ object FullPathWithSecondLinkCreator extends BaseFullPathCreator {
   override val fileExtension = "fullpaths-with-second-links"
 
   override def calculatePaths(pages: PageInfoMap): Seq[Seq[PageInfo]] = {
+    log("Calculating fundamental cycle...")
+
+    val fundamentalCycle = logExecutionTime {
+      CycleFinder.calculateCycles(pages).head.members.map(_.page).toSet
+    }(cycle => "Found fundamental cycle: " + cycle.map(_.pageName).mkString(" -> "))
+
     val result = ListBuffer[Seq[PageInfo]]()
 
     for (page <- pages.map.values) {
       if (!page.redirectPage) {
-        result.append(findPath(pages.getFirstOrSecondLink(page.links), List(page), false, pages))
+        result.append(findPath(pages.getFirstOrSecondLink(page.links), List(page), Set.empty, pages, fundamentalCycle))
       }
     }
 
     result
   }
 
-  private def findPath(optPage: Option[PageInfo], path: List[PageInfo], firstCycleFound: Boolean, pages: PageInfoMap): Seq[PageInfo] = {
+  private def findPath(optPage: Option[PageInfo], path: List[PageInfo], pagesWithCycle: Set[PageInfo], pages: PageInfoMap, fundamentalCycle: Set[PageInfo]): Seq[PageInfo] = {
     optPage match {
       case Some(page) =>
         val newPath = if (page.redirectPage) path else page :: path
 
         if (path.contains(page)) {
           val secondLink = pages.getSecondLinkIfDifferentFromFirstLink(page.links)
-          if (firstCycleFound || secondLink.isEmpty) {
+          if (fundamentalCycle.contains(page) || pagesWithCycle.contains(page) || secondLink.isEmpty) {
             (page :: path).reverse
           } else {
-            // This is the first cycle. Try to find a second cycle using the second link here:
-            findPath(secondLink, newPath, true, pages)
+            // This is a cycle that can possibly be avoided using the second link. Try it:
+            findPath(secondLink, newPath, pagesWithCycle + page, pages, fundamentalCycle)
           }
         } else {
-          findPath(pages.getFirstOrSecondLink(page.links), newPath, firstCycleFound, pages)
+          findPath(pages.getFirstOrSecondLink(page.links), newPath, pagesWithCycle, pages, fundamentalCycle)
         }
       case None =>
         path.reverse

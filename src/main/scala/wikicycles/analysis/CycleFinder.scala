@@ -29,7 +29,7 @@ object CycleFinder extends AnalysisBase {
   class CycleMember(val page: PageInfo, var incomingLinks: Int)
   class Cycle(val members: List[CycleMember], var incomingLinks: Int)
 
-  private def calculateCycles(map: PageInfoMap): Seq[Cycle] = {
+  def calculateCycles(map: PageInfoMap): Seq[Cycle] = {
     val cycles = ListBuffer[Cycle]()
     val cyclesByNode = collection.mutable.Map[String, Cycle]()
 
