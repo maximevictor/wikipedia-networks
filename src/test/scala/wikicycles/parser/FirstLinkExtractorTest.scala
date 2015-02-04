@@ -40,22 +40,23 @@ class FirstLinkExtractorTest extends FunSuite {
 
 
   test("Extract first link") {
-    assert(FirstLinkExtractor.extractFirstLinks("Hey [[Hallo#Super|Jo]] dishfisd [[Second Link]]") === Some(PageLinks("Hallo", "Second Link")))
-    assert(FirstLinkExtractor.extractFirstLinks("ihfdsj [[Yes]] idshfids [[Second Link|A Link]]") === Some(PageLinks("Yes", "Second Link")))
-    assert(FirstLinkExtractor.extractFirstLinks("[[Yes|Good]] idshfids") === Some(PageLinks("Yes")))
-    assert(FirstLinkExtractor.extractFirstLinks("[[Yes#Good]]") === Some(PageLinks("Yes")))
-    assert(FirstLinkExtractor.extractFirstLinks("[[James Maxwell (Offizier)]]") === Some(PageLinks("James Maxwell (Offizier)")))
+    assert(FirstLinkExtractor.extractFirstLinks("Hey [[Hallo#Super|Jo]] dishfisd [[Second Link]]", "") === Some(PageLinks("Hallo", "Second Link")))
+    assert(FirstLinkExtractor.extractFirstLinks("ihfdsj [[Yes]] idshfids [[Second Link|A Link]]", "Yes") === Some(PageLinks("Second Link")))
+    assert(FirstLinkExtractor.extractFirstLinks("[[Yes|Good]] idshfids", "No") === Some(PageLinks("Yes")))
+    assert(FirstLinkExtractor.extractFirstLinks("[[Yes#Good]]", "No") === Some(PageLinks("Yes")))
+    assert(FirstLinkExtractor.extractFirstLinks("[[James Maxwell (Offizier)]]", "") === Some(PageLinks("James Maxwell (Offizier)")))
   }
 
   test("Extract first link from article") {
+    check("GerardChouchan", "Gérard Chouchan", Some(PageLinks("IDHEC", "Jean Prat")))
     check("IKV", Some(PageLinks("Institut für Kunststoffverarbeitung", "Internationale Kartographische Vereinigung")))
-    check("Darmstadt-Dieburg", Some(PageLinks("Landkreis Darmstadt-Dieburg")))
+    check("Darmstadt-Dieburg", "", Some(PageLinks("Landkreis Darmstadt-Dieburg")), Some(true))
     check("Science", Some(PageLinks("Vrai", "Méthode scientifique")))
     check("Phenylpropene", Some(PageLinks("Phénylpropanoïde", "Eugénol")))
     check("Lebensstil", Some(PageLinks("Umgangssprache", "Lebensführung")))
     check("Gamet", Some(PageLinks("Haploidie", "Zelle (Biologie)")))
     check("Philologie", Some(PageLinks("Sprachwissenschaft", "Literaturwissenschaft")))
-    check("Jazz", Some(PageLinks("Jazz")))
+    check("Jazz", "", Some(PageLinks("Jazz")), Some(true))
     check("Schäl Sick", Some(PageLinks("Rheinland", "Rhein")))
     check("www", Some(PageLinks("World Wide Web", "Third-Level-Domain")))
     check("Kanton Graubuenden", Some(PageLinks("Kanton (Schweiz)", "Schweiz")))
@@ -66,7 +67,7 @@ class FirstLinkExtractorTest extends FunSuite {
     check("Ricarda Roggan", Some(PageLinks("Hochschule für Grafik und Buchkunst Leipzig", "Timm Rautert")))
     check("Eid", Some(PageLinks("Wahrheit", "Gericht")))
     check("Sparparadoxon", Some(PageLinks("Konkurrenzparadoxon", "John Maynard Keynes")))
-    check("Mister-Lady", None)
+    check("Mister-Lady", "", None, None)
     check("Linards Zemelis", Some(PageLinks("Biathlon", "Olympische Jugend-Winterspiele 2012")))
     check("James Maxwell", Some(PageLinks("James Maxwell (Offizier)", "James Maxwell (Schauspieler)")))
     check("Carl Barks", Some(PageLinks("Vereinigte Staaten", "Comic")))
@@ -74,8 +75,13 @@ class FirstLinkExtractorTest extends FunSuite {
   }
 
   private def check(file: String, expectedResult: Option[PageLinks]): Unit = {
-    val extracted = FirstLinkExtractor.extractFirstLinksFromArticle(wikiText(file))
+    check(file, "", expectedResult)
+  }
+
+  private def check(file: String, articleName: String, expectedResult: Option[PageLinks], redirectPage: Option[Boolean] = Some(false)): Unit = {
+    val extracted = FirstLinkExtractor.extractFirstLinksFromArticle(wikiText(file), articleName)
     assert(extracted.map(_._1) === expectedResult, "First links of article " + file + " should be " + expectedResult)
+    assert(extracted.map(_._2) === redirectPage, "Article " + file + " redirect page state is wrong.")
   }
 
   private def wikiText(name: String): String = {

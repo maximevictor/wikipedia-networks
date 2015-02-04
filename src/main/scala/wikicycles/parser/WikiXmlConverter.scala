@@ -84,7 +84,7 @@ object WikiXmlConverter {
 
       try {
         resultCollector.addResult(article.get.title,
-          FirstLinkExtractor.extractFirstLinksFromArticle(article.get.wikiSource))
+          FirstLinkExtractor.extractFirstLinksFromArticle(article.get.wikiSource, PageInfo.normalizePageName(article.get.title)))
       } catch {
         case e: StackOverflowError =>
           e.printStackTrace()

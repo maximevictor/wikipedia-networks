@@ -2,6 +2,7 @@ package wikicycles.parser
 
 import java.util.regex.Pattern
 
+import org.apache.commons.lang3.StringUtils
 import wikicycles.model.{PageLinks, PageInfo}
 
 /**
@@ -9,7 +10,7 @@ import wikicycles.model.{PageLinks, PageInfo}
  */
 object FirstLinkExtractor {
 
-  def extractFirstLinksFromArticle(articleSource: String): Option[(PageLinks, Boolean)] = {
+  def extractFirstLinksFromArticle(articleSource: String, articleName: String): Option[(PageLinks, Boolean)] = {
     val sections = splitIntoSections(articleSource)
     val model = new WikiModelWithoutTemplates()
 
@@ -19,30 +20,30 @@ object FirstLinkExtractor {
     for ((section, index) <- sections.zipWithIndex) {
       // Replace "[[File:" with "[[Datei:", so that special file handling by parser is suppressed
       val wikiText = section.replaceAllLiterally("[[File:", "[[Datei:").replaceAllLiterally("[[Image:", "[[Datei:")
-
-      var parsed = model.render(new WikiToTextWithLinksConverter(), wikiText)
-
-      if (parsed.isEmpty()) {
-        // The parser does not return redirects - use the unparsed version instead
-        parsed = section
-        if (index == 0) {
-          redirectPage = true
+      if (!StringUtils.isBlank(wikiText)) {
+        var parsed = model.render(new WikiToTextWithLinksConverter(), wikiText)
+        if (parsed.isEmpty()) {
+          // The parser does not return redirects - use the unparsed version instead
+          parsed = section
+          if (index == 0) {
+            redirectPage = true
+          }
         }
-      }
 
-      found match {
-        case None =>
-          for (extracted <- extractFirstLinks(parsed)) {
-            if (extracted.secondLink.isDefined) {
-              return Some((extracted, redirectPage))
-            } else {
-              found = Some(extracted)
+        found match {
+          case None =>
+            for (extracted <- extractFirstLinks(parsed, articleName)) {
+              if (extracted.secondLink.isDefined) {
+                return Some((extracted, redirectPage))
+              } else {
+                found = Some(extracted)
+              }
             }
-          }
-        case Some(firstLink) =>
-          for (second <- extractSecondLink(parsed)) {
-            return Some((firstLink.copy(secondLink = Some(second)), redirectPage))
-          }
+          case Some(firstLink) =>
+            for (second <- extractSecondLink(parsed, articleName)) {
+              return Some((firstLink.copy(secondLink = Some(second)), redirectPage))
+            }
+        }
       }
     }
 
@@ -50,18 +51,21 @@ object FirstLinkExtractor {
   }
 
   val linkPattern = Pattern.compile("(?m)(?s)\\[\\[([^|#\\]]*).*?\\]\\]")
-  private[wikicycles] def extractFirstLinks(source: String): Option[PageLinks] = {
+  private[wikicycles] def extractFirstLinks(source: String, articleName: String): Option[PageLinks] = {
     val matcher = linkPattern.matcher(source)
     var firstLink: Option[String] = None
 
     while (matcher.find()) {
-      firstLink match {
-        case None =>
-          if (!isWithinParentheses(source, matcher.start())) {
-            firstLink = Some(normalize(matcher.group(1)))
-          }
-        case Some(link) =>
-          return Some(PageLinks(link, Some(normalize(matcher.group(1)))))
+      val link = normalize(matcher.group(1))
+      if (link != articleName) {
+        firstLink match {
+          case None =>
+            if (!isWithinParentheses(source, matcher.start())) {
+              firstLink = Some(link)
+            }
+          case Some(l) =>
+            return Some(PageLinks(l, Some(link)))
+        }
       }
     }
 
@@ -76,13 +80,15 @@ object FirstLinkExtractor {
     PageInfo.normalizePageName(link)
   }
 
-  private[wikicycles] def extractSecondLink(source: String): Option[String] = {
+  private[wikicycles] def extractSecondLink(source: String, articleName: String): Option[String] = {
     val matcher = linkPattern.matcher(source)
-    if (matcher.find()) {
-      Some(normalize(matcher.group(1)))
-    } else {
-      None
+    while (matcher.find()) {
+      val link = normalize(matcher.group(1))
+      if (link != articleName) {
+        return Some(link)
+      }
     }
+    None
   }
 
   private def isWithinParentheses(source: String, start: Int): Boolean = {

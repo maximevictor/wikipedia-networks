@@ -38,6 +38,7 @@ abstract class BaseFullPathCreator extends AnalysisBase {
 
     for (page <- pages.map.values) {
       if (!page.redirectPage) {
+        println("Finding page for " + page.pageName + "...")
         result.append(findPath(page.links, List(page), pages))
       }
     }
