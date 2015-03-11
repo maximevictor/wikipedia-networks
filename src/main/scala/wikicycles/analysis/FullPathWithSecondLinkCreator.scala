@@ -40,7 +40,9 @@ object FullPathWithSecondLinkCreator extends BaseFullPathCreator {
             (page :: path).reverse
           } else {
             // This is a cycle that can possibly be avoided using the second link. Try it:
-            findPath(secondLink, newPath, pagesWithCycle + page, pages, fundamentalCycle)
+            // Cut the path off after the first occurrence of this page
+            val cutOffPath = page :: newPath.reverse.takeWhile(_ != page).reverse
+            findPath(secondLink, cutOffPath, pagesWithCycle + page, pages, fundamentalCycle)
           }
         } else {
           findPath(pages.getFirstOrSecondLink(page.links), newPath, pagesWithCycle, pages, fundamentalCycle)
