@@ -3,7 +3,7 @@ package wikicycles.parser
 import info.bliki.htmlcleaner.{ContentToken, TagNode}
 import info.bliki.wiki.filter.{ITextConverter, WPList, WPTable}
 import info.bliki.wiki.model.{Configuration, IWikiModel, ImageFormat}
-import info.bliki.wiki.tags.{RefTag, WPATag}
+import info.bliki.wiki.tags.{RefTag, WPATag, WPTag}
 
 /**
  * Created by mg on 08.12.14.
@@ -22,20 +22,18 @@ class WikiToTextWithLinksConverter extends ITextConverter {
         while (childrenIt.hasNext) {
           val item = childrenIt.next
           if (item != null) {
-            if (item.isInstanceOf[java.util.List[_]]) {
-              val list = item.asInstanceOf[java.util.List[_]]
-              nodesToText(list, resultBuffer, model)
-            } else if (item.isInstanceOf[ContentToken]) {
-              val contentToken: ContentToken = item.asInstanceOf[ContentToken]
-              resultBuffer.append(contentToken.getContent)
-            } else if (item.isInstanceOf[RefTag]) {
-              // Ignore ref tags
-            } else if (item.isInstanceOf[WPList]) {
-              item.asInstanceOf[WPList].renderPlainText(this, resultBuffer, model)
-            } else if (item.isInstanceOf[WPTable]) {
-              item.asInstanceOf[WPTable].renderPlainText(this, resultBuffer, model)
-            } else if (item.isInstanceOf[TagNode]) {
-              getBodyString(item.asInstanceOf[TagNode], resultBuffer)
+            item match {
+              case list: java.util.List[_] =>
+                nodesToText(list, resultBuffer, model)
+              case contentToken: ContentToken =>
+                resultBuffer.append(contentToken.getContent)
+              case _: RefTag => // Ignore ref tags
+              case list: WPList =>
+                list.renderPlainText(this, resultBuffer, model)
+              case _: WPTable => // Ignore tables
+              case tagNode: TagNode =>
+                appendBodyString(tagNode, resultBuffer)
+              case _ => // Ignore everything else
             }
           }
         }
@@ -46,28 +44,28 @@ class WikiToTextWithLinksConverter extends ITextConverter {
     }
   }
 
-  private def getBodyString(node: TagNode, buf: Appendable): Unit = {
-    if (node.isInstanceOf[WPATag]) {
-      val link = node.asInstanceOf[WPATag].getAttributes.get("title")
-      if (link != null) {
-        if (!link.contains(":")) {
-          buf.append("[[" + link + "]]")
+  private def appendBodyString(node: TagNode, buf: Appendable): Unit = {
+    node match {
+      case n: WPATag =>
+        val link = node.asInstanceOf[WPATag].getAttributes.get("title")
+        if (link != null) {
+          if (!link.contains(":")) {
+            buf.append("[[" + link + "]]")
+          }
         }
-      }
-    } else if (node.isInstanceOf[RefTag]) {
-      // Ignore ref tags
-    } else {
-      val children = node.getChildren
-      var i = 0
-      while (i < children.size) {
-        val child = children.get(i)
-        if (child.isInstanceOf[ContentToken]) {
-          buf.append((child.asInstanceOf[ContentToken]).getContent)
-        } else if (child.isInstanceOf[TagNode]) {
-          getBodyString(child.asInstanceOf[TagNode], buf)
+      case n: RefTag => // Ignore ref tags
+      case _ =>
+        val children = node.getChildren
+        var i = 0
+        while (i < children.size) {
+          children.get(i) match {
+            case child: ContentToken =>
+              buf.append(child.getContent)
+            case child: TagNode => appendBodyString(child, buf)
+            case _ => // Do nothing
+          }
+          i += 1
         }
-        i += 1
-      }
     }
   }
 

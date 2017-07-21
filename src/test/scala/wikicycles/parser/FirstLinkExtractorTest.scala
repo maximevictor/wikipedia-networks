@@ -48,6 +48,8 @@ class FirstLinkExtractorTest extends FunSuite {
   }
 
   test("Extract first link from article") {
+    check("Planet_en", Some(PageLinks("Astronomical body", "Orbit")))
+    check("Biology", Some(PageLinks("Natural science", "Life")))
     check("GerardChouchan", "Gérard Chouchan", Some(PageLinks("IDHEC", "Jean Prat")))
     check("IKV", Some(PageLinks("Institut für Kunststoffverarbeitung", "Internationale Kartographische Vereinigung")))
     check("Darmstadt-Dieburg", "", Some(PageLinks("Landkreis Darmstadt-Dieburg")), Some(true))
