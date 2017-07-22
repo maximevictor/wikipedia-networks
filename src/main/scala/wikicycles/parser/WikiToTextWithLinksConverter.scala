@@ -29,7 +29,11 @@ class WikiToTextWithLinksConverter extends ITextConverter {
                 resultBuffer.append(contentToken.getContent)
               case _: RefTag => // Ignore ref tags
               case list: WPList =>
-                list.renderPlainText(this, resultBuffer, model)
+                val listString = list.toString
+                // Ignore definition lists
+                if (!listString.startsWith(WPList.DL_DD_CHAR.toString) && !listString.startsWith(WPList.DL_DT_CHAR.toString)) {
+                  list.renderPlainText(this, resultBuffer, model)
+                }
               case _: WPTable => // Ignore tables
               case tagNode: TagNode =>
                 appendBodyString(tagNode, resultBuffer)

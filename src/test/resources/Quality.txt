@@ -1,0 +1,113 @@
+:''For the Talib Kweli album [[Quality (album)]]''
+
+'''Quality''' can refer to
+
+'''a'''. a specific characteristic of an object (''the qualities of ice'' - i.e. its properties).
+
+'''b'''. the achievement or excellence of an object (''good quality ice'' - i.e. not of inferior grade).
+
+'''c'''. the essence of an object (''the quality of ice'' - i.e. "iceness").
+
+'''d'''. the meaning of excellence itself.
+
+The first meaning is technical, the second practical, the third artistic and the fourth metaphysical. All four meanings, and therefore the meaning of ''quality'', are synonymous with ''good''.
+
+[[Philosophy]] and common sense tend to see quality as related either to subjective feelings or to objective facts. The subject-object in question might be a concrete and functional (e.g. Arisotelian) value to be learnt and applied (''a and b''), or a psychic (e.g. platonic) ideal to be apprehended and represented (''c''). A third view tends to see quality not as a secondary value that something has, rather a primary truth which comprises apparent subjects and objects (''d'').
+
+So the quality of something depends on the criteria being applied to it. Something might be good because it is useful, because it is beautiful, or simply because it exists. Determining or finding quality therefore involves an understanding of use, beauty and existence - what is useful, what is beautiful and what exists.
+
+==In Business==
+{{expert}}
+
+<!-- Note difference between 7 Aug and 16 Aug 05 revisions -->
+
+Many different techniques and concepts have evolved to improve product or service quality, including [[Statistical process control|SPC]], [[Zero Defects]], [[Six Sigma]], [[quality circle]]s, [[TQM]], [[Theory of Constraints]](TOC),[[Quality Management System|Quality Management Systems]] ([[ISO 9000]] and others) and [[continuous improvement]].
+
+The meaning for the term '''quality''' has developed over time. Various interpretations are given below:
+
+# "degree to which a set of inherent characteristic fulfils requirements" as [[ISO 9000]]
+# "Conformance to requirements" ([[Philip B. Crosby]] in the [[1980s]]). The difficulty with this is that the requirements may not fully represent what the [[customer]] wants; Crosby treats this as a separate problem.
+# "Fitness for use" ([[Dr. Joseph Moses Juran|Joseph M. Juran]]). Fitness is defined by the customer.
+# A two-dimensional model of quality ([[Noriaki Kano]] and others). The quality has two dimensions: "must-be quality" and "attractive quality". The former is near to the "fitness for use" and the latter is what the customer would love, but has not yet thought about. Supporters characterise this model more succinctly as: "[[Product (business)|Products]] and [[service]]s that meet or exceed customers' expectations". One writer believes (without citation) that this is today the most used interpretation for the term '''quality'''.
+# "Value to some person" ([[Gerald M. Weinberg]])
+# ([[W. Edwards Deming]]), "Costs go down and productivity goes up, as improvement of quality is accomplished by better management of design, engineering, testing and by improvement of processes. Better quality at lower price has a chance to capture a market. Cutting costs without improvement of quality is futile." "Quality and the Required Style of Management" 1988 See http://www.deming.org/
+# "The loss a product imposes on society after it is shipped" ([[Genichi Taguchi]]).  Taguchi's definition of quality is based on a more comprehensive view of the production system.
+# [[Energy quality]], associated with both the energy engineering of industrial systems and the qualitative differences in the trophic levels of an ecosystem.
+# One key distinction to make is there are two common applications of the term Quality as form of activity or function within a business. One is Quality Assurance which is the "prevention of defects", such as the deployment of a Quality Management System and preventative activities like FMEA. The other is Quality Control which is the "detection of defects", most commonly associated with testing which takes place withn a Quality Management System typically referred to as Verification and Validation.
+
+However, the [[American Society for Quality]] defines "quality" as "a subjective term for which each person has his or her own definition." Source: http://www.asq.org/glossary/q.html
+
+==In Engineering and Manufacturing==
+The Quality of a product or service refers to the perception of the degree to which the product or service meets the customer's expectations.  Quality has no specific meaning unless related to a specific function and/or object.  Quality is a perceptual, conditional and somewhat subjective attribute.
+
+The dimensions of quality refer to the attributes that quality achieves in Operations Management
+  Quality supports dependability
+  Dependability supports Speed
+  Speed supports Flexibility
+  Flexibility supports Cost.
+
+       Quality <-> Dependability <-> Speed <-> Flexibility <-> Cost
+
+In the manufacturing industry it is commonly stated that “Quality drives productivity”.  Improved productivity is a source of greater revenues, employment opportunities and technological advances.
+
+==In music==
+In [[music]] '''quality''' refers primarily to the [[timbre]], but also [[dynamics (music)|dynamics]] and [[musical texture]], of a section or piece.
+
+==In phonetics==
+In [[phonetics]] '''quality''' refers to the [[articulation|articulatory]] features that distinguish [[vowel]]s and to their [[acoustics|acoustic]] correspondent. Vowel quality is opposed to [[vowel length|vowel quantity]].
+
+==In philosophy==
+[[Robert M. Pirsig]], in his book ''[[Zen and the Art of Motorcycle Maintenance]]'', studies the [[Metaphysics of Quality|philosophical aspects of Quality]], and examines the distinctions and relationship between [[classicism|classical]] and [[Romanticism|romantic]] quality, seeking to reconcile the two views and understand how they stand in relationship to each other.
+
+In this context the two aspects of classical object-oriented and romantic subject-oriented quality roughly parallel [[aesthetics|aesthetic]] quality and functional quality. The resolution of the book points to a view of quality which relegates this subject-object dualism to a product of a non-dualistic Absolute.
+
+==See also==
+* [[Quality Management System]]
+* [[Quality time]]
+* [[Quality control]]
+* [[W. Edwards Deming]]
+* [[Six Sigma]]
+* [[Total Quality Management]]
+* [[Theory of Constraints]]
+* [[ISO 9000]]
+* [[Metaphysics of Quality]] from [[Zen and the Art of Motorcycle Maintenance]] and [[Lila: An Inquiry into Morals]] by [[Robert M. Pirsig]]
+* [[Software quality]]
+* [[Video quality]]
+* [[Energy quality]]
+
+==Finding related topics==
+* [[list of economics topics]]
+* [[list of information technology management topics]]
+* [[list of production topics]]
+
+==External links==
+* [http://www.bin.co.uk/qw_SOAPBOX_0805.pdf A proposed universal definition of 'quality']
+* [http://www.docquality.info DocQuality Document references on quality theme]
+* [http://www.compulegal.demon.nl/files/qm.htm Quality Management links]
+
+[[Category:Production and manufacturing]]
+[[Category:Product management]]
+[[Category:Management]]
+[[Category:Services management and marketing]]
+[[Category:Marketing]]
+[[Category:Quality| ]]
+[[Category:Evaluation]]
+
+[[da:Kvalitet]]
+[[de:Qualit?t]]
+[[es:Calidad]]
+[[fa:?????]]
+[[fr:Qualité]]
+[[it:Qualit?]]
+[[he:איכות]]
+[[hu:Min?s?g]]
+[[mk:????????]]
+[[nl:Kwaliteit (eigenschap)]]
+[[no:Kvalitet]]
+[[nn:Kvalitet]]
+[[pl:Jakość]]
+[[pt:Qualidade]]
+[[ru:????????]]
+[[fi:Laatu]]
+[[sv:Kvalitet]]
+[[uk:??????]]

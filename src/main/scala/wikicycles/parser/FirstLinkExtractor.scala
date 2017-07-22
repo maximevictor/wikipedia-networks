@@ -99,28 +99,10 @@ object FirstLinkExtractor {
     openParens > closedParens
   }
 
-  val sectionPattern = Pattern.compile("(?m)^==.*$")
+  private val sectionPattern = Pattern.compile("(?m)^==.*$")
   private[wikicycles] def splitIntoSections(source: String): Array[String] = {
     val result = sectionPattern.split(source)
     //println("Was split into sections")
-    result
-  }
-
-  val infoBoxPattern = Pattern.compile("(?m)(?s)\\{\\{(.*?)\\}\\}") // ?m for multiline mode, ?s for * matches even linebreaks
-  private[wikicycles] def removeInfoBoxes(source: String): String = {
-    infoBoxPattern.matcher(source).replaceAll("")
-  }
-
-  val removeCommentsPattern = Pattern.compile("(?m)(?s)<\\!--.*?-->")
-  private[wikicycles] def removeComments(source: String): String = {
-    removeCommentsPattern.matcher(source).replaceAll("")
-  }
-
-  val specialLinksPattern = Pattern.compile("(?m)(?s)(\\[\\[[^|\\]]*?:(.*?(\\[\\[.*?\\]\\])?)*?\\]\\])") // There can also be links inside of special links...
-  private[wikicycles] def removeSpecialLinks(source: String): String = {
-    //println("Removing special links...")// (from: " + source)
-    val result = specialLinksPattern.matcher(source).replaceAll("")
-    //println("Special links removed.")
     result
   }
 

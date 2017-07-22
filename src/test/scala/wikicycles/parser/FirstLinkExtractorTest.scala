@@ -14,31 +14,6 @@ class FirstLinkExtractorTest extends FunSuite {
     assert(sections.length === 30)
   }
 
-  test("Remove info boxes") {
-    assert(FirstLinkExtractor.removeInfoBoxes("test{{dfhdsfhd\nshfdsiufh}}\nsecond") === "test\nsecond")
-  }
-
-  test("Remove special links") {
-    assert(FirstLinkExtractor.removeSpecialLinks("Hey! [[Datei:Geany_0.14_de.png|mini|hochkant=1.3|Screenshot der [[Integrierte Entwicklungsumgebung|IDE]] [[Geany]] mit [[Python (Programmiersprache)|Python]]-Quelltext]] [[Informatik]]")
-      === "Hey!  [[Informatik]]")
-
-    assert(FirstLinkExtractor.removeSpecialLinks("[[Datei:US President Barack Obama taking his Oath of Office - 2009Jan20.jpg|miniatur|[[Barack Obama]] bei der Ablegung des Eides zum " +
-      "Amtsantritt als 44. US-Präsident am 20. Januar 2009<!-- noch als [[Senator (Vereinigte Staaten)|Senator-->]]") === "")
-
-    val text = "Er verpflichtet zur [[Wahrheit]] (z.&nbsp;B. in [[Gericht]]sverfahren) und zum Tragen der " +
-      "Konsequenzen (z.&nbsp;B. beim [[Fahneneid]]) der Eidaussage. Der Eid wird oft als bedingte Selbstverfluchung " +
-      "bezeichnet, da bei einem Eid mit religiöser Beteuerung eine Gottheit als [[Eideshelfer]] und als Rächer der " +
-      "Unwahrheit angerufen wird. Eide gibt es nicht nur in der europäischen Rechtstradition (z.&nbsp;B. " +
-      "bei den [[Griechen]], [[Römisches Reich|Römern]] und [[Kelten]]), sondern auch in [[Kaiserreich China|China]], im alten " +
-      "Israel und bei zahlreichen ethnologisch untersuchten [[Indigene Völker|indigenen Völkern]]. Der altgriechische [[Eid des Hippokrates]] " +
-      "verpflichtete [[Arzt|Ärzte]] zur Einhaltung ihrer Berufspflichten und ethischer Prinzipien (u.&nbsp;a. die Kranken vor " +
-      "Schaden bewahren, die Pflicht zur Verschwiegenheit beachten)."
-
-    assert(FirstLinkExtractor.removeSpecialLinks(text) === text)
-
-  }
-
-
   test("Extract first link") {
     assert(FirstLinkExtractor.extractFirstLinks("Hey [[Hallo#Super|Jo]] dishfisd [[Second Link]]", "") === Some(PageLinks("Hallo", "Second Link")))
     assert(FirstLinkExtractor.extractFirstLinks("ihfdsj [[Yes]] idshfids [[Second Link|A Link]]", "Yes") === Some(PageLinks("Second Link")))
@@ -48,6 +23,7 @@ class FirstLinkExtractorTest extends FunSuite {
   }
 
   test("Extract first link from article") {
+    check("Quality", Some(PageLinks("Philosophy", "Statistical process control")))
     check("Planet_en", Some(PageLinks("Astronomical body", "Orbit")))
     check("Biology", Some(PageLinks("Natural science", "Life")))
     check("GerardChouchan", "Gérard Chouchan", Some(PageLinks("IDHEC", "Jean Prat")))
