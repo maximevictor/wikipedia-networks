@@ -39,21 +39,21 @@ abstract class BaseFullPathCreator extends AnalysisBase {
     for (page <- pages.map.values) {
       if (!page.redirectPage) {
         println("Finding page for " + page.pageName + "...")
-        result.append(findPath(page.links, List(page), pages))
+        result.append(findPath(page.links, List(page), List(page), pages))
       }
     }
 
     result
   }
 
-  private def findPath(link: PageLinks, path: List[PageInfo], pages: PageInfoMap): Seq[PageInfo] = {
+  private def findPath(link: PageLinks, path: List[PageInfo], pathWithRedirects: List[PageInfo], pages: PageInfoMap): Seq[PageInfo] = {
     pages.getFirstOrSecondLink(link) match {
       case Some(page) =>
-        if (path.contains(page)) {
+        if (pathWithRedirects.contains(page)) {
           (page :: path).reverse
         } else {
           val newPath = if (page.redirectPage) path else page :: path
-          findPath(page.links, newPath, pages)
+          findPath(page.links, newPath, page :: pathWithRedirects, pages)
         }
       case None =>
         path.reverse
