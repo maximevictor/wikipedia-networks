@@ -1,0 +1,112 @@
+{{Automatic Taxobox
+| taxon= Actinopterygii
+| authority = Klein, 1885
+| display_parents=5
+| name = 輻鰭魚
+| fossil_range ={{Geological range|晚志留纪|現代|earliest=晚奧陶紀|latest=0}} <small>[[志留纪]]晚期至現代</small>
+| image = Herring2.jpg
+| image_width = 200px
+| image_caption = [[大西洋鯡]]
+| subdivision_ranks = [[綱]]及[[亞綱]]
+| subdivision =
+* [[腕鰭魚綱]] Cladistia
+* [[輻鰭魚綱]] Actinopteri
+** [[軟骨硬鱗附類|軟質亞綱]] Chondrostei
+** [[新鰭亞綱]] Neopterygii
+
+'''目'''分類請見本文。
+}}
+
+'''輻鰭魚'''（[[學名]]：{{lang|la|''Actinopterygii''}}）又名'''条鳍鱼'''，是一类[[鰭]]呈[[放射狀]]的[[硬骨魚]]。輻鰭魚是[[脊椎動物]]中最具優勢的種類，种数几乎占现生3万多种鱼类的99%，遍及[[淡水]]及[[海水]]環境。
+
+在不同的[[分类系统]]中，辐鳍鱼的[[分类级别|分类层级]]从下纲、亚纲、纲到总纲不等。基本上，广义的辐鳍鱼（{{lang|la|Actinopterygii}}）包含了[[腕鳍鱼]]，而狭义的辐鳍鱼（{{lang|la|Actinopteri}}）则成为腕鳍鱼的[[姐妹群]]。
+
+== 分類 ==
+
+傳統上，輻鰭魚分為三個類群：[[軟骨硬鱗附類]]、[[全骨附類]]和[[真骨附類]]。一些形態學上的證據認為第二類為[[併系群]]，所以應該廢除；然而，最近從完整粒線體基因中來分析DNA序列的研究卻傾向支持第二類的存在。幾乎所有現存的硬骨魚類皆為[[真骨附類]]。
+
+以下是輻鰭魚綱分類的列表，各階層的排列順序均依演化順序排列：
+
+===[[軟骨硬鱗亞綱]] Chondrostei===
+*[[多鰭魚目]] Polypteriformes
+*[[鱘形目]] Acipenseriformes
+===[[新鰭亞綱]] Neopterygii===
+====[[全骨下綱]] Holostei====
+*[[雀鱔目]] Lepisosteiformes
+*[[弓鰭魚目]] Amiiformes
+====[[真骨下綱]] Teleostei====
+[[File:銀龍001.JPG|thumb|[[銀龍魚]]]]
+===== [[骨舌魚總目]] Osteoglossomorpha=====
+*[[骨舌魚目]] Osteoglossiformes
+*[[月眼魚目]] Hiodontiformes
+
+=====[[海鰱總目]] Elopomorpha=====
+*[[海鰱目]] Elopiformes
+*[[北梭魚目]] Albuliformes
+*[[鰻鱺目]] Anguilliformes
+*[[囊鰓鰻目]] Saccopharyngiformes
+=====[[鯡形總目]] Clupeomorpha=====
+*[[鯡形目]] Clupeiformes
+=====[[骨鰾總目]] Ostariophysi=====
+*[[鼠鱚目]] Gonorynchiformes
+*[[鯉形目]] Cypriniformes
+*[[脂鯉目]] Characiformes
+*[[電鰻目]] Gymnotiformes
+*[[鯰形目]] Siluriformes
+
+=====[[原棘鰭總目]] Protacanthopterygii=====
+*[[鮭形目]] Salmoniformes
+*[[狗魚目]] Esociformes
+*[[水珍魚目]]Actinopterygii
+*[[胡瓜魚目]] Osmeriformes
+====={{le|巨口魚總目|Stenopterygii}} Stenopterygii=====
+*[[辮魚目]] Ateleopodiformes
+*[[巨口魚目]] Stomiiformes
+
+=====[[圓鱗總目]] Cyclosquamata=====
+*[[仙女魚目]] Aulopiformes
+=====[[燈籠魚總目]] Scopelomorpha=====
+*[[燈籠魚目]] Myctophiformes
+=====[[月魚總目]] Lampridiomorpha=====
+*[[月魚目]] Lampriformes
+
+=====[[鬚鰃總目]] Polymyxiomorpha=====
+*[[鬚鰃目]] Polymixiiformes
+=====[[副棘鰭總目]] Paracanthopterygii=====
+*[[鮭鱸目]] Percopsiformes
+*[[蟾魚目]] Batrachoidiformes
+*[[鮟鱇目]] Lophiiformes
+*[[鱈形目]] Gadiformes
+*[[鼬魚目]] Ophidiiformes
+=====[[棘鰭總目]] Acanthopterygii=====
+*[[鯔形目]] Mugiliformes
+*[[銀漢魚目]] Atheriniformes
+*[[鶴鱵目]] Beloniformes
+*[[鯉齒目]] Cyprinodontiformes
+*[[奇鯛目]] Stephanoberyciformes
+*[[鯨頭魚目]] Cetomimiformes
+*[[金眼鯛目]] Beryciformes
+*[[背棘鱼目]]Notacanthiformes
+*[[海魴目]] Zeiformes
+*[[刺魚目]] Gasterosteiformes
+*[[合鰓目]] Synbranchiformes
+*[[魨形目]] Tetraodontiformes
+*[[鰈形目]] Pleuronectiformes
+*[[鮋形目]] Scorpaeniformes
+*[[鱸形目]] Perciformes
+注：[[鱸形目]]是輻鰭魚綱中最多種的目，佔大約40%。
+== 参考文献 ==
+{{Reflist}}
+
+== 外部連結 ==
+{{Wikispecies}}
+* [http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?name=actinopterygii NCBI分類學輻鰭魚綱入口]
+* [http://fishdb.sinica.edu.tw/ 臺灣魚類資料庫]
+* [http://www.ngensis.com/pscies.htm 延陵魚類志]
+* [http://fishbase.sinica.edu.tw/search.php?lang=Chinese FishBase]
+
+{{-}}
+{{脊索動物}}
+{{輻鰭魚}}
+
+[[Category:輻鰭魚綱| ]]

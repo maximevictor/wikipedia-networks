@@ -23,6 +23,7 @@ class FirstLinkExtractorTest extends FunSuite {
   }
 
   test("Extract first link from article") {
+    check("Strahlenflosser_cn", Some(PageLinks("鰭", "放射狀")))
     check("Quality", Some(PageLinks("Philosophy", "Statistical process control")))
     check("Planet_en", Some(PageLinks("Astronomical body", "Orbit")))
     check("Biology", Some(PageLinks("Natural science", "Life")))

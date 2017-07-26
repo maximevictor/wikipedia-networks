@@ -91,11 +91,13 @@ object FirstLinkExtractor {
     None
   }
 
+  val openParenChars = Set('(', '（')
+  val closedParenChars = Set(')', '）')
+
   private def isWithinParentheses(source: String, start: Int): Boolean = {
     val before = source.substring(0, start)
-    val openParens = before.count(_ == '(')
-    val closedParens = before.count(_ == ')')
-
+    val openParens = before.count(char => openParenChars.contains(char))
+    val closedParens = before.count(char => closedParenChars.contains(char))
     openParens > closedParens
   }
 
