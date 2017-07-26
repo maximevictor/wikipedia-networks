@@ -5,7 +5,7 @@ lazy val root = (project in file(".")).
     scalaVersion := "2.11.4",
     fork in run := true,
     outputStrategy :=  Some(StdoutOutput),
-    javaOptions in run += "-Xmx8G",
+    javaOptions in run += "-Xmx16G",
     libraryDependencies ++=  Seq("org.scalatest" %% "scalatest" % "2.2.2" % "test",
                 "info.bliki.wiki" % "bliki-core" % "3.0.19",
                 "ch.qos.logback" % "logback-classic" % "1.1.2",
