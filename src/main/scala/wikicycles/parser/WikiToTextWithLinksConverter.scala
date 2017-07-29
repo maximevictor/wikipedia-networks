@@ -31,7 +31,7 @@ class WikiToTextWithLinksConverter extends ITextConverter {
               case list: WPList =>
                 val listString = list.toString
                 // Ignore definition lists
-                if (!listString.startsWith(WPList.DL_DD_CHAR.toString) && !listString.startsWith(WPList.DL_DT_CHAR.toString)) {
+                if (!listString.startsWith(WPList.DL_DD_CHAR.toString)) {
                   list.renderPlainText(this, resultBuffer, model)
                 }
               case _: WPTable => // Ignore tables
