@@ -23,7 +23,7 @@ class FirstLinkExtractorTest extends FunSuite {
   }
 
   test("Extract first link from article") {
-    check("Papier_cn", Some(PageLinks("纖維", "打印紙")))
+    check("Papier_cn", Some(PageLinks("纤维", "打印紙")))
     check("Regeln_cn", Some(PageLinks("規則", "規制")))
     check("Strahlenflosser_cn", Some(PageLinks("鰭", "放射狀")))
     check("Quality", Some(PageLinks("Philosophy", "Statistical process control")))

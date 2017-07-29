@@ -19,6 +19,10 @@ object PageInfo {
 
   private val replaceWhitespacePattern = Pattern.compile("\\s+")
 
+  // Necessary for chinese Wikipedia where there are sometimes words with same symbols that are
+  // somehow internally mapped to a single symbol
+  final val Synonyms = Map("纖維" -> "纤维")
+
   def normalizePageName(pageName: String): String = {
     val lower = StringUtils.capitalize(pageName)
     val withoutWhitespace = replaceWhitespacePattern.matcher(lower).replaceAll(" ")
@@ -35,7 +39,7 @@ object PageInfo {
       withoutUnderscores
     }
 
-    urlDecoded
+    Synonyms.getOrElse(urlDecoded, urlDecoded)
   }
 
   def writeToFile(list: Seq[PageInfo], file: File): Unit = {
