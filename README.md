@@ -5,7 +5,7 @@ Scala and Mathematica programs to construct networks of first links from Wikiped
 
 ## Instructions
 
-In terminal, open relevant folder and compile with Simple Build Tool:
+In terminal, compile Scala program with Simple Build Tool:
 
 $ sbt
 
