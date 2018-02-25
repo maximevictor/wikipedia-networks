@@ -2,19 +2,27 @@
 
 Scala and Mathematica programs to construct networks of first links from Wikipedia dumps.
 
+## Reference
+
+"Structures of Knowledge from Wikipedia Networks," Maxime Gabella, https://arxiv.org/abs/1708.05368
+
 
 ## Instructions
 
-In terminal, compile Scala program with Simple Build Tool:
+1.  Choose a Wikipedia backup dump from https://dumps.wikimedia.org and download the file with a name of the form "enwiki-20180220-pages-articles.xml.bz2" (see for example https://dumps.wikimedia.org/enwiki/).
 
-$ sbt
+2.  In a terminal, compile Scala program with Simple Build Tool:
 
-Extract first (and second) links for every article from a Wikipedia dump:
+    $ sbt
 
-$ runMain wikicycles.parser.WikiXmlConverter dewiki-latest-pages-articles.xml.bz2
+    Extract first and second links for every article from the Wikipedia dump:
 
-Create paths of first links:
+    $ runMain wikicycles.parser.WikiXmlConverter WIKI_DUMP/enwiki-20180220-pages-articles.xml.bz2
+    
+    where WIKI_DUMP is the directory in which you saved the Wikipedia dump. The result is written to a file enwiki-20180220-pages-articles-pagelinks.csv.
 
-$ runMain wikicycles.analysis.FullPathCreator ../wikidata/dewiki-latest-pages-articles-pagelinks.csv
+    Create a path of first links starting from every article and ending at the first repetition (if a first link is invalid, the second link is used):
 
-You can then use the Mathematica notebook to construct networks of first links.
+    $ runMain wikicycles.analysis.FullPathCreator WIKI_DUMP/enwiki-20180220-pages-articles-pagelinks.csv
+
+3.  The resulting file enwiki-20180220-pages-articles-pagelinks-fullpaths.csv can then be imported with the Mathematica notebook WikiNets.nb to construct and analyse Wikipedia networks of first links.
