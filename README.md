@@ -19,10 +19,10 @@ Scala and Mathematica programs to construct networks of first links from Wikiped
 
     $ runMain wikicycles.parser.WikiXmlConverter WIKI_DUMP/enwiki-20180220-pages-articles.xml.bz2
     
-    where WIKI_DUMP is the directory in which you saved the Wikipedia dump. The result is written to a file enwiki-20180220-pages-articles-pagelinks.csv.
+    where "WIKI_DUMP" is the directory in which you saved the Wikipedia dump. The result is written to a file "enwiki-20180220-pages-articles-pagelinks.csv".
 
     Create a path of first links starting from every article and ending at the first repetition (if a first link is invalid, the second link is used):
 
     $ runMain wikicycles.analysis.FullPathCreator WIKI_DUMP/enwiki-20180220-pages-articles-pagelinks.csv
 
-3.  The resulting file enwiki-20180220-pages-articles-pagelinks-fullpaths.csv can then be imported with the Mathematica notebook WikiNets.nb to construct and analyse Wikipedia networks of first links.
+3.  The resulting file "enwiki-20180220-pages-articles-pagelinks-fullpaths.csv" can then be imported with the Mathematica notebook WikiNets.nb to construct and analyse Wikipedia networks of first links.
