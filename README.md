@@ -11,7 +11,7 @@ Scala and Mathematica programs to construct networks of first links from Wikiped
 
 1.  Choose a Wikipedia backup dump from https://dumps.wikimedia.org and download the file with a name of the form "enwiki-20180220-pages-articles.xml.bz2" (see for example https://dumps.wikimedia.org/enwiki/).
 
-2.  In a terminal, compile Scala program with Simple Build Tool:
+2.  In a terminal, compile the Scala program with Simple Build Tool:
 
     $ sbt
 
